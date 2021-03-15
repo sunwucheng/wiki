@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2021-03-15T08:56:10.759Z</updated>
+  <updated>2021-03-15T09:57:06.266Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Document Records</title>
-    <link href="https://sunwucheng.com/wiki/Previous%20note%20records/index/"/>
-    <id>https://sunwucheng.com/wiki/Previous%20note%20records/index/</id>
+    <title>Note Records</title>
+    <link href="https://sunwucheng.com/wiki/202103151200/"/>
+    <id>https://sunwucheng.com/wiki/202103151200/</id>
     <published>2021-03-15T04:00:00.000Z</published>
-    <updated>2021-03-15T08:56:10.759Z</updated>
+    <updated>2021-03-15T09:57:06.266Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th align="center">File</th><th align="center">Word</th><th align="center">PDF (preview)</th></tr></thead><tbody><tr><td align="center">C</td><td align="center"><a href="/wiki/files/C.docx">download</a></td><td align="center"><a href="/wiki/files/C.pdf">preview</a></td></tr><tr><td align="center">Python</td><td align="center"><a href="/wiki/files/Python.docx">download</a></td><td align="center"><a href="/wiki/files/Python.pdf">preview</a></td></tr><tr><td align="center">English Pronunciation</td><td align="center"><a href="/wiki/files/%E8%8B%B1%E8%AF%AD%E5%8F%91%E9%9F%B3.docx">download</a></td><td align="center"><a href="/wiki/files/%E8%8B%B1%E8%AF%AD%E5%8F%91%E9%9F%B3.pdf">preview</a></td></tr><tr><td align="center">English Grammar</td><td align="center"><a href="/wiki/files/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95.docx">download</a></td><td align="center"><a href="/wiki/files/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95.pdf">preview</a></td></tr><tr><td align="center">Mathematics Content</td><td align="center"><a href="/wiki/files/%E6%95%B0%E5%AD%A6%E5%86%85%E5%AE%B9.docx">download</a></td><td align="center"><a href="/wiki/files/%E6%95%B0%E5%AD%A6%E5%86%85%E5%AE%B9.pdf">preview</a></td></tr><tr><td align="center">Diamond Tools</td><td align="center"><a href="/wiki/files/%E9%87%91%E5%88%9A%E7%9F%B3%E5%B7%A5%E5%85%B7.docx">download</a></td><td align="center"><a href="/wiki/files/%E9%87%91%E5%88%9A%E7%9F%B3%E5%B7%A5%E5%85%B7.pdf">preview</a></td></tr><tr><td align="center">Drilling Fluids</td><td align="center"><a href="/wiki/files/%E9%92%BB%E4%BA%95%E6%B6%B2.docx">download</a></td><td align="center"><a href="/wiki/files/%E9%92%BB%E4%BA%95%E6%B6%B2.pdf">preview</a></td></tr><tr><td align="center">Friction and Wear</td><td align="center"><a href="/wiki/files/%E6%91%A9%E6%93%A6%E7%A3%A8%E6%8D%9F.docx">download</a></td><td align="center"><a href="/wiki/files/%E6%91%A9%E6%93%A6%E7%A3%A8%E6%8D%9F.pdf">preview</a></td></tr><tr><td align="center">Undergraduate Thesis</td><td align="center"><a href="/wiki/files/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87.docx">download</a></td><td align="center"><a href="/wiki/files/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87.pdf">preview</a></td></tr><tr><td align="center">Practice Report</td><td align="center"><a href="/wiki/files/%E4%BC%81%E4%B8%9A%E5%AE%9E%E4%B9%A0.docx">download</a></td><td align="center"><a href="/wiki/files/%E4%BC%81%E4%B8%9A%E5%AE%9E%E4%B9%A0.pdf">preview</a></td></tr></tbody></table>]]></content>
     
@@ -41,15 +41,15 @@
     
     
     
-    <category term="Previous note records" scheme="https://sunwucheng.com/wiki/categories/Previous-note-records/"/>
+    <category term="Note Records" scheme="https://sunwucheng.com/wiki/categories/Note-Records/"/>
     
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/3.%20Diamond%20Tool%20Design%20and%20Composition/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/3.%20Diamond%20Tool%20Design%20and%20Composition/</id>
+    <link href="https://sunwucheng.com/wiki/202103142146/"/>
+    <id>https://sunwucheng.com/wiki/202103142146/</id>
     <published>2021-03-14T13:46:01.000Z</published>
     <updated>2021-03-14T13:46:01.000Z</updated>
     
@@ -63,17 +63,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>8. Main Application Areas and Operating Guidelines for Diamond-Impregnated Tools</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/8.%20Main%20Application%20Areas%20and%20Operating%20Guidelines%20for%20Diamond-Impregnated%20Tools/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/8.%20Main%20Application%20Areas%20and%20Operating%20Guidelines%20for%20Diamond-Impregnated%20Tools/</id>
+    <link href="https://sunwucheng.com/wiki/202103121800/"/>
+    <id>https://sunwucheng.com/wiki/202103121800/</id>
     <published>2021-03-12T10:00:00.000Z</published>
     <updated>2021-03-15T07:22:50.000Z</updated>
     
@@ -87,17 +87,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>7. Wear Properties of the Matrix</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/7.%20Wear%20Properties%20of%20the%20Matrix/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/7.%20Wear%20Properties%20of%20the%20Matrix/</id>
+    <link href="https://sunwucheng.com/wiki/202103121700/"/>
+    <id>https://sunwucheng.com/wiki/202103121700/</id>
     <published>2021-03-12T09:00:00.000Z</published>
     <updated>2021-03-15T07:11:47.000Z</updated>
     
@@ -111,17 +111,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>6. Mechanical Properties of the Matrix</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/6.%20Mechanical%20Properties%20of%20the%20Matrix/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/6.%20Mechanical%20Properties%20of%20the%20Matrix/</id>
+    <link href="https://sunwucheng.com/wiki/202103121600/"/>
+    <id>https://sunwucheng.com/wiki/202103121600/</id>
     <published>2021-03-12T08:00:00.000Z</published>
     <updated>2021-03-15T06:44:55.000Z</updated>
     
@@ -135,17 +135,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>5. Microstructure of the Matrix</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/5.%20Microstructure%20of%20the%20Matrix/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/5.%20Microstructure%20of%20the%20Matrix/</id>
+    <link href="https://sunwucheng.com/wiki/202103121500/"/>
+    <id>https://sunwucheng.com/wiki/202103121500/</id>
     <published>2021-03-12T07:00:00.000Z</published>
     <updated>2021-03-15T06:33:52.000Z</updated>
     
@@ -159,17 +159,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>4. Diamond Tool Fabrication</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/4.%20Diamond%20Tool%20Fabrication/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Powder%20Metallurgy%20Diamond%20Tools/4.%20Diamond%20Tool%20Fabrication/</id>
+    <link href="https://sunwucheng.com/wiki/202103121400/"/>
+    <id>https://sunwucheng.com/wiki/202103121400/</id>
     <published>2021-03-12T06:00:00.000Z</published>
     <updated>2021-03-15T02:50:25.000Z</updated>
     
@@ -183,17 +183,17 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
-    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/Powder-Metallurgy-Diamond-Tools/"/>
+    <category term="Powder Metallurgy Diamond Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>Introduction to this personal wiki site</title>
-    <link href="https://sunwucheng.com/wiki/index/"/>
-    <id>https://sunwucheng.com/wiki/index/</id>
+    <link href="https://sunwucheng.com/wiki/202103061200/"/>
+    <id>https://sunwucheng.com/wiki/202103061200/</id>
     <published>2021-03-06T04:00:00.000Z</published>
     <updated>2021-03-06T03:17:27.086Z</updated>
     
@@ -213,8 +213,8 @@
   
   <entry>
     <title>Script</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Script/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Script/</id>
+    <link href="https://sunwucheng.com/wiki/202012161217/"/>
+    <id>https://sunwucheng.com/wiki/202012161217/</id>
     <published>2020-12-16T04:17:36.000Z</published>
     <updated>2021-03-06T03:07:47.519Z</updated>
     
@@ -228,15 +228,15 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
   
   <entry>
     <title>RaspberryPi</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/RaspberryPi/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/RaspberryPi/</id>
+    <link href="https://sunwucheng.com/wiki/202012161205/"/>
+    <id>https://sunwucheng.com/wiki/202012161205/</id>
     <published>2020-12-16T04:05:36.000Z</published>
     <updated>2021-03-06T03:07:40.345Z</updated>
     
@@ -250,17 +250,17 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
   
   <entry>
-    <title>Scientific Journals</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Scientific%20Journals/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Scientific%20Journals/</id>
+    <title>ScientificJournals</title>
+    <link href="https://sunwucheng.com/wiki/202007240940/"/>
+    <id>https://sunwucheng.com/wiki/202007240940/</id>
     <published>2020-07-24T01:40:39.000Z</published>
-    <updated>2021-03-06T03:07:05.115Z</updated>
+    <updated>2021-03-15T09:54:45.220Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th align="center">Rank(2018)</th><th align="center">IF(2019)</th><th align="center">5yIF(2019)</th><th align="center">Journal</th></tr></thead><tbody><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T1</td><td align="center">8.019</td><td align="center">7.844</td><td align="center">International Journal of Machine Tools and Manufacture</td></tr><tr><td align="center">T1</td><td align="center">7.656</td><td align="center">7.826</td><td align="center">Acta Materialia</td></tr><tr><td align="center">T1</td><td align="center">6.479</td><td align="center">6.894</td><td align="center">Corrosion Science</td></tr><tr><td align="center">T1</td><td align="center">4.140</td><td align="center">5.252</td><td align="center"><strong>Rock Mechanics and Rock Engineering</strong></td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T2</td><td align="center">6.289</td><td align="center">6.214</td><td align="center">Materials &amp; Design</td></tr><tr><td align="center">T2</td><td align="center">6.182</td><td align="center">5.141</td><td align="center">Applied Surface Science</td></tr><tr><td align="center">T2</td><td align="center">5.138</td><td align="center">5.169</td><td align="center">Composite Structures</td></tr><tr><td align="center">T2</td><td align="center">4.725</td><td align="center">4.514</td><td align="center">Applied Thermal Engineering</td></tr><tr><td align="center">T2</td><td align="center">4.669</td><td align="center">4.799</td><td align="center">Journal of Materials Processing Technology</td></tr><tr><td align="center">T2</td><td align="center">4.650</td><td align="center">4.082</td><td align="center">Journal of Alloys and Compounds</td></tr><tr><td align="center">T2</td><td align="center">4.450</td><td align="center">4.761</td><td align="center">Tunnelling and Underground Space Technology</td></tr><tr><td align="center">T2</td><td align="center">4.271</td><td align="center">4.191</td><td align="center">Tribology International</td></tr><tr><td align="center">T2</td><td align="center">4.151</td><td align="center">4.856</td><td align="center"><strong>International Journal of Rock Mechanics and Mining Sciences</strong></td></tr><tr><td align="center">T2</td><td align="center">3.841</td><td align="center">4.090</td><td align="center">Journal of Natural Gas Science and Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.830</td><td align="center">3.513</td><td align="center">Ceramics International</td></tr><tr><td align="center">T2</td><td align="center">3.818</td><td align="center">4.146</td><td align="center">Computers and Geotechnics</td></tr><tr><td align="center">T2</td><td align="center">3.706</td><td align="center">3.770</td><td align="center">Journal of Petroleum Science and Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.642</td><td align="center">4.122</td><td align="center">International Journal of Impact Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.407</td><td align="center">3.414</td><td align="center">International Journal of Refractory Metals and Hard Materials</td></tr><tr><td align="center">T2</td><td align="center">2.991</td><td align="center">3.339</td><td align="center">Computers &amp; Geosciences</td></tr><tr><td align="center">T2</td><td align="center">2.814</td><td align="center">2.957</td><td align="center">International Journal for Numerical and Analytical Methods in Geomechanics</td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T3</td><td align="center">6.155</td><td align="center">5.275</td><td align="center">Journal of Materials Science &amp; Technology</td></tr><tr><td align="center">T3</td><td align="center">5.289</td><td align="center">5.707</td><td align="center">Journal of Materials Research and Technology</td></tr><tr><td align="center">T3</td><td align="center">4.142</td><td align="center">3.849</td><td align="center">Powder Technology</td></tr><tr><td align="center">T3</td><td align="center">4.108</td><td align="center">4.169</td><td align="center">Wear</td></tr><tr><td align="center">T3</td><td align="center">2.650</td><td align="center">2.699</td><td align="center">Diamond and Related Materials</td></tr><tr><td align="center">T3</td><td align="center">2.566</td><td align="center">2.576</td><td align="center">Tribology Letters</td></tr></tbody></table>]]></content>
     
@@ -278,15 +278,15 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
     
   </entry>
   
   <entry>
     <title>CATTI</title>
-    <link href="https://sunwucheng.com/wiki/English%20Learning/CATTI/"/>
-    <id>https://sunwucheng.com/wiki/English%20Learning/CATTI/</id>
+    <link href="https://sunwucheng.com/wiki/202005291114/"/>
+    <id>https://sunwucheng.com/wiki/202005291114/</id>
     <published>2020-05-29T03:14:13.000Z</published>
     <updated>2021-03-06T03:12:45.977Z</updated>
     
@@ -307,10 +307,10 @@
   
   <entry>
     <title>Complex Sentences</title>
-    <link href="https://sunwucheng.com/wiki/English%20Learning/Complex%20Sentences/"/>
-    <id>https://sunwucheng.com/wiki/English%20Learning/Complex%20Sentences/</id>
+    <link href="https://sunwucheng.com/wiki/202005290859/"/>
+    <id>https://sunwucheng.com/wiki/202005290859/</id>
     <published>2020-05-29T00:59:00.000Z</published>
-    <updated>2021-03-06T03:08:03.806Z</updated>
+    <updated>2021-03-15T09:55:57.985Z</updated>
     
     <content type="html"><![CDATA[<p><strong>来源: 长难句 - 虫洞Vivian</strong></p><p><a href="https://mp.weixin.qq.com/s/V8Yy_XIL1bpcgCSNBo6LyQ">长难句第1句</a><br><em>The hightened alert followed an emergency meeting with flue experts in Geneva that convened after a sharp rise in cases in Australia, and rising numbers in Britain, Japan, Chile and elsewhere.</em><br><a href="https://mp.weixin.qq.com/s/yAbS5RUy-XLQKOiJxblsUA">长难句第2句</a><br><em>But the epidemic is ‘moderate’ in severity, according to Magret Chan, the organization’s director general, with the overwhelming majority of patients experiencing only mild symptoms and full recovery, often in the absence of any medical treatment.</em><br><a href="https://mp.weixin.qq.com/s/6oq_SSlnHc-_zyS_IZNiVA">长难句第3句</a><br><em>But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.</em><br><a href="https://mp.weixin.qq.com/s/mXXpJrOkFstMCj2dDwXeIQ">长难句第4句</a><br><em>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</em><br><a href="https://mp.weixin.qq.com/s/RSMqM1CKhVkEL2qHoCmitg">长难句第5句</a><br><em>Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.</em><br><a href="https://mp.weixin.qq.com/s/psnw-gTlzv7_QMnNnP6qpw">长难句第6句</a><br><em>Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia, the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other anti-discrimination laws.</em><br><a href="https://mp.weixin.qq.com/s/OZmvDDA_33PcaxvaM2KyPg">长难句第7句</a><br><em>In the landmark 1975 decision Taylor vs. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.</em><br><a href="https://mp.weixin.qq.com/s/Y5mansnOCrW6nIjjOjH8lw">长难句第8句</a><br><em>Dr. Kroo and his team modeled what would happen if three passenger jets departing from Los Angeles, San Francisco and Las Vegas were to assemble over Utah, assume an inverted V-formation, occasionally change places so all could have a turn in the most favourable positions, and proceed to London.</em><br><a href="https://mp.weixin.qq.com/s/Tsn03h9dfoJasdStzPQH7Q">长难句第9句</a><br><em>Having endured a painful period of unsustainability in his own life made it clear to him that sustainability-oriented values must be expressed through everyday action and choice.</em><br><a href="https://mp.weixin.qq.com/s/pwHFU_9x2CKziDar5aOGCg">长难句第10句</a><br><em>We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G. I. Bill and lining up at the marriage bureaus.</em><br><a href="https://mp.weixin.qq.com/s/qNkWxnoRdK6RULNyFk020A">长难句第11句</a><br><em>While polls show Britons rate “the countryside” alongside the royal family, Shakespeare and the National Health Service(NHS) as what makes them proudest of their country, this has limited political support.</em><br><a href="https://mp.weixin.qq.com/s/PzQynUUpXMKrZDJv2SAzAg">长难句第12句</a><br><em>In the 1930s Frank Lloyd Wright started building more modest and efficient houses — usually around 1,200 square feet — than the spreading two-story ones he had designed in the 1890s and the early 20th century.</em><br><a href="https://mp.weixin.qq.com/s/YFJ2-s1IcXo05ZeoE_2CbA">长难句第13句</a><br><em>Markets have lost faith  that the euro zone’s economies, weaker or stronger, will one day converge thanks to the discipline of sharing a single currency, which denies uncompetitive members the quick fix of devaluation.</em><br><a href="https://mp.weixin.qq.com/s/vLezEt5leUQJah-_LSlvVw">长难句第14句</a><br><em>The demands follow comments made last week by the health secretary, Andrew Lansley, who insisted the government could not force people to make healthy choices and promised to free businesses from public health regulations.</em><br><a href="https://mp.weixin.qq.com/s/S_DJrIp3UUAesceolRFJZQ">长难句第15句</a><br><em>Unfortunately, L. A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student’s academic grade.</em><br><a href="https://mp.weixin.qq.com/s/SLZe0mm-0IJwDXI08IMTZw">长难句第16句</a><br><em>But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.</em><br><a href="https://mp.weixin.qq.com/s/qaPG-TdzzX3cPVhRohcSmQ">长难句第17句</a><br><em>Many said that unemployment, while extremely painful, had improved them in some ways: they had become less materialistic and more financially prudent; they were more aware of the struggles of others.</em><br><a href="https://mp.weixin.qq.com/s/xsj9oRBGK4J1HEukETsZRw">长难句第18句</a><br><em>In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U. S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.</em><br><a href="https://mp.weixin.qq.com/s/oEPJyJxFJJBQFHmgYZCYcQ">长难句第19句</a><br><em>These are the kind of workers that countries like Britain, Canada and Australia try to attract by using immigration rules that privilege college graduates.</em><br><a href="https://mp.weixin.qq.com/s/OeDrFjSWTMVIit00jt9e1w">长难句第20句</a><br><em>Soon you’ll feel comfortable asking if they’ve any knuckles of ham for soups and stews, or beef bones, chicken carcasses and fish heads for stock which, more often than not, they will let you have for free.</em><br><a href="https://mp.weixin.qq.com/s/I70W1DXn7lgxwmG9MZtfCw">长难句第21句</a><br><em>Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</em><br><a href="https://mp.weixin.qq.com/s/RyttCuJ-x5pWDXJ0HMamhQ">长难句第22句</a><br><em>In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events”.</em><br><a href="https://mp.weixin.qq.com/s/wOt8018kCXJpgfzyU9mkog">长难句第23句</a><br><em>In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events”.</em><br><a href="https://mp.weixin.qq.com/s/OIsnGD1zfzOiWUiZ6sgJAw">长难句第24句</a><br><em>Researchers measured people’s cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.</em><br><a href="https://mp.weixin.qq.com/s/gS1-sP8PTvjJR_NKwFAJJA">长难句第25句</a><br><em>The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.</em><br><a href="https://mp.weixin.qq.com/s/tu1xo4s_bgP6EbczWmEMBg">长难句第26句</a><br><em>These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.</em><br><a href="https://mp.weixin.qq.com/s/wdGjt_XEtvZwJDKqvciOdQ">长难句第27句</a><br><em>So they compared U.S. cities’ average happiness measured by Gallup polling with the investment activity of publicly traded firms in those areas.</em><br><a href="https://mp.weixin.qq.com/s/7A136sb1cdD3VO2TeB5g_w">长难句第28句</a><br><em>To find out, the researchers controlled for various factors that might make firms more likely to invest—like size, industry, and sales—and for indicators that a place was desirable to live in, like growth in wages or population.</em><br><a href="https://mp.weixin.qq.com/s/lEO3MqXIPmmlhIxsC14E9g">长难句第29句</a><br><em>The correlation between happiness and investment was particularly strong for younger firms, which the authors attribute to “less codified decision making process” and the possible presence of “younger and less experienced managers who are more likely to be influenced by sentiment.”</em><br><a href="https://mp.weixin.qq.com/s/nQri4CJDIi_M2MmNfnCQ5Q">长难句第30句</a><br><em>The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.</em><br><a href="https://mp.weixin.qq.com/s/mPLa3ciou27OWJ1-QE4yCg">长难句第31句</a><br><em>Biologists estimate that as many as 2 million lesser prairie chickens — a kind of bird living on stretching grasslands — once lent red to the often gray landscape of the mid-western and southwestern United States.</em><br><a href="https://mp.weixin.qq.com/s/W_7oKCOafOOveJSrj3RKtw">长难句第32句</a><br><em>In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action，and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.</em><br><a href="https://mp.weixin.qq.com/s/aTLkQhDfYgpg-meBkWWRww">长难句第33句</a><br><em>“Carry a book with you at all times” can actually work, too — providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.</em><br><a href="https://mp.weixin.qq.com/s/Y8W5icOmE_vYmWhwf2uTmA">长难句第34句</a><br><em>From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.</em><br><a href="https://mp.weixin.qq.com/s/aICC2DaAGdfS2TB9O7jlww">长难句第35句</a><br><em>After about 40 minutes of shopping, most people stop struggling to be rationally selective, and instead begin shopping emotionally—which is the point at which we accumulate the 50 percent of stuff in our cart that we never intended buying.</em><br><a href="https://mp.weixin.qq.com/s/T1CBIMU5ljjTzMtfpscinQ">长难句第36句</a><br><em>A different and not mutually exclusive prediction holds that the future will be a wasteland of a different sort, one characterized by purposelessness: Without jobs to give their lives meaning, people will simply become lazy and depressed.</em><br><a href="https://mp.weixin.qq.com/s/DeIv9RAb7LhhNO6fydOWOg">长难句第37句</a><br><em>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are black and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</em><br><a href="https://mp.weixin.qq.com/s/mT48qXdQjr4iuWbyYEwQ1Q">长难句第38句</a><br><em>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</em><br><a href="https://mp.weixin.qq.com/s/fSUyRMGYC8TDZjm2vgfWFA">长难句第39句</a><br><em>Calls to disassemble all telescopes on Mauna Kea or to ban future development there ignore the reality that astronomy and Hawaiian culture both seek to answer big questions about who we are, where we come from and where we are going.</em><br><a href="https://mp.weixin.qq.com/s/qz-IfjYoeWpBQEHU_jwBhw">长难句第40句</a><br><em>“So few authors have brains enough or literary gift enough to keep their own end up in journalism,” Newman wrote, “that I am tempted to define ‘journalism’ as ‘a term of contempt applied by writers who are not read to writers who are.’”</em><br><a href="https://mp.weixin.qq.com/s/PY17LwS2mLlIcWecK2MXMw">长难句第41句</a><br><em>Curbs on business-method claims would be a dramatic about-face, because it was the Federal Circuit itself that introduced such patents with its 1998 decision in the so-called State Street Bank case, approving a patent on a way of pooling mutual-fund assets.</em><br><a href="https://mp.weixin.qq.com/s/M7hW04Oivxvkd1I2ExClDg">长难句第42句</a><br><em>The Federal Circuit issued an unusual order stating that the case would be heard by all 12 of the court’s judges, rather than a typical panel of three, and that one issue it wants to evaluate is whether it should “reconsider” its State Street Bank ruling.</em><br><a href="https://mp.weixin.qq.com/s/bhW9ujitJ2EfSi4IJKGKHg">长难句第43句</a><br><em>Marketers have embraced the two-step flow because it suggests that if they can just find and influence the influentials, those selected people will do most of the work for them.</em><br><a href="https://mp.weixin.qq.com/s/Ly42ZTB2GjD8gYprimIpLQ">长难句第44句</a><br><em>If people in the network just two degrees removed from the initial influential prove resistant, for example, the cascade of change won’t propagate very far or affect many people.</em><br><a href="https://mp.weixin.qq.com/s/FFM0eRyzEDi_43bUClbOnA">长难句第45句</a><br><em>They found that the principal requirement for what is called “global cascades”—the widespread propagation of influence through networks—is the presence not of a few influentials but, rather, of a critical mass of easily influenced people.</em><br><a href="https://mp.weixin.qq.com/s/dLytMjZqdXdNqxQo_0Gh0Q">长难句第46句</a><br><em>Consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005.</em><br><a href="https://mp.weixin.qq.com/s/I19evWWX31OSWCYyZD8Vzg">长难句第47句</a><br><em>All in all, this clearly seems to be a market in which big retailers could profitably apply their gigantic scale, existing infrastructure, and proven skills in the management of product ranges, logistics and marketing intelligence.</em><br><a href="https://mp.weixin.qq.com/s/dM_CvJkbd4DBhz0UMllfog">长难句第48句</a><br><em>Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors.</em><br><a href="https://mp.weixin.qq.com/s/n3FupVLONXlnSJ8ItP6wUg">长难句第49句</a><br><em>Scientists jumped to the rescue with some distinctly shaky evidence to the effect that insects would eat us up if birds failed to control them.</em><br><a href="https://mp.weixin.qq.com/s/X1Lcnyq7TbsO0PFwzqQ0GA">长难句第50句</a><br><em>Time was when biologists somewhat overworked the evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species.</em><br><a href="https://mp.weixin.qq.com/s/ilfQghbHsJlhnP29RH9mOA">长难句第51句</a><br><em>In an experiment published in 1988, social psychologist Fritz Strack of the University of Würzburg in Germany asked volunteers to hold a pen either with their teeth—thereby creating an artificial smile—or with their lips, which would produce a disappointed expression.</em><br><a href="https://mp.weixin.qq.com/s/KQ0--sZKu863Rbqa31CHtw">长难句第52句</a><br><em>Those forced to exercise their smiling muscles reacted more enthusiastically to funny cartoons than did those whose mouths were contracted in a frown, suggesting that expressions may influence emotions rather than just the other way around.</em><br><a href="https://mp.weixin.qq.com/s/11qSgvtZ4I8vxjAdizKDzw">长难句第53句</a><br><em>The decision of the New York Philharmonic to hire Alan Gilbert as its next music director has been the talk of the classical-music world ever since the sudden announcement of his appointment in 2009.</em><br><a href="https://mp.weixin.qq.com/s/f84T9ryAQTULwoBdf86_DQ">长难句第54句</a><br><em>McGee says leaving without a position lined up gave him time to reflect on what kind of company he wanted to run.</em><br><a href="https://mp.weixin.qq.com/s/XElJBSu_QAThjTyzMg2Q4w">长难句第55句</a><br><em>Besides generating income, the presence of other marketers makes the site seem objective, gives companies opportunities to learn valuable information about the appeal of other companies’ marketing, and may help expand user traffic for all companies concerned.</em><br><a href="https://mp.weixin.qq.com/s/cqdBQBw7-szi2ZlI5v7jyg">长难句第56句</a><br><em>The same dramatic technological changes that have provided marketers with more (and more diverse) communications choices have also increased the risk that passionate consumers will voice their opinions in quicker, more visible, and much more damaging ways.</em><br><a href="https://mp.weixin.qq.com/s/4YzfkDvMLOYjq2vji-7gqQ">长难句第57句</a><br><em>Toyota Motor, for example, alleviated some of the damage from its recall crisis earlier this year with a relatively quick and well-orchestrated social-media response campaign, which included efforts to engage with consumers directly on sites such as Twitter and the social-news site Digg.</em><br><a href="https://mp.weixin.qq.com/s/hvfE_W11zXW0xBsRLfvoAQ">长难句第58句</a><br><em>It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story, “I love My Children, I Hate My Life,” is arousing much chatter—nothing gets people talking like the suggestion that child rearing is anything less than a completely fulfilling, life-enriching experience.</em><br><a href="https://mp.weixin.qq.com/s/1Z27zyrxQ8POFX4Vd5NqNw">长难句第59句</a><br><em>Unhappy parents rarely are provoked to wonder if they shouldn’t have had kids, but unhappy childless folks are bothered with the message that children are the single most important thing in the world: obviously their misery must be a direct result of the gaping baby-size holes in their lives.</em><br><a href="https://mp.weixin.qq.com/s/YQqEJQNpsXdZcQCCfH4Yxg">长难句第60句</a><br><em>One reason why it is hard to design and teach such courses is that they cut across the insistence by top American universities that liberal-arts education and professional education should be kept separate, taught in different schools.</em></p>]]></content>
     
@@ -330,8 +330,8 @@
   
   <entry>
     <title>Arduino</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Arduino/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Arduino/</id>
+    <link href="https://sunwucheng.com/wiki/202005142207/"/>
+    <id>https://sunwucheng.com/wiki/202005142207/</id>
     <published>2020-05-14T14:07:39.000Z</published>
     <updated>2021-03-06T03:07:15.483Z</updated>
     
@@ -346,17 +346,17 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
   
   <entry>
-    <title>Research Tools</title>
-    <link href="https://sunwucheng.com/wiki/Research&amp;Specialty/Research%20Tools/"/>
-    <id>https://sunwucheng.com/wiki/Research&amp;Specialty/Research%20Tools/</id>
+    <title>ResearchTools</title>
+    <link href="https://sunwucheng.com/wiki/202004301729/"/>
+    <id>https://sunwucheng.com/wiki/202004301729/</id>
     <published>2020-04-30T09:29:27.000Z</published>
-    <updated>2021-03-06T03:06:58.567Z</updated>
+    <updated>2021-03-15T09:54:51.450Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文献管理软件"><a href="#文献管理软件" class="headerlink" title="文献管理软件"></a>文献管理软件</h2><ul><li>免费且开源的<a href="https://www.zotero.org/">Zotero</a><ul><li><a href="https://www.zotero.org/support/zh/start">Zotero官方文档</a></li><li><a href="https://zhuanlan.zhihu.com/zotero">Zotero文献生态</a></li></ul></li></ul><h2 id="文献可视化分析"><a href="#文献可视化分析" class="headerlink" title="文献可视化分析"></a>文献可视化分析</h2><ul><li>网页端<a href="https://bibliometric.com/">文献计量在线分析平台</a><ul><li><a href="https://mp.weixin.qq.com/s/416yyN5wyoEzB01ZAab9mg">如何使用「文献计量在线分析平台」</a></li></ul></li><li>简单的<a href="https://www.vosviewer.com/">VOSviewer</a></li><li>复杂的<a href="http://cluster.cis.drexel.edu/~cchen/citespace/">CiteSpace</a><ul><li><a href="https://www.youtube.com/playlist?list=PLmiSknH78BpQqEqsBT5D7REAyvHkPM7JL">官方使用教程-视频</a></li></ul></li></ul><h2 id="期刊论文推送"><a href="#期刊论文推送" class="headerlink" title="期刊论文推送"></a>期刊论文推送</h2><ul><li>期刊阅读手机软件: <del><a href="https://www.researcher-app.com/">Researcher</a>( 信息密度太低，属实憨憨 )</del></li><li>RSS阅读器: <del><a href="https://feeder.co/">Feeder.co</a>(国内访问歇菜)</del>、<a href="https://nodetics.com/feedbro/">Feedbro</a>(浏览器插件)<br>  期刊官网RSS链接: <ul><li>ScienceDirect: <a href="https://www.sciencedirect.com/journal/international-journal-of-rock-mechanics-and-mining-sciences">International Journal of Rock Mechanics and Mining Sciences</a> 找寻并点击<strong>RSS</strong>图标</li><li>Springer: <a href="https://www.springer.com/journal/603">Rock Mechanics and Rock Engineering</a> 点击页面最上<strong>Search</strong>，跳转到<a href="https://link.springer.com/search?query=&search-within=Journal&facet-journal-id=603">新页面</a>后点击<strong>RSS</strong>图标</li><li>中国知网: <a href="http://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&pykm=YSLX">岩石力学与工程学报</a> 找寻并点击<strong>RSS订阅</strong></li></ul></li></ul><h2 id="文献阅读"><a href="#文献阅读" class="headerlink" title="文献阅读"></a>文献阅读</h2><ul><li>英文AI翻译<a href="https://www.deepl.com/home">DeepL</a>(<a href="https://www.deepl.com/translator">网页端使用</a>，<a href="https://www.deepl.com/app">客户端下载</a>)</li></ul><h2 id="论文书写"><a href="#论文书写" class="headerlink" title="论文书写"></a>论文书写</h2><ul><li>截图转换数学公式<a href="https://mathpix.com/">mathpix</a></li></ul>]]></content>
     
@@ -369,15 +369,15 @@
     
     
     
-    <category term="Research&amp;Specialty" scheme="https://sunwucheng.com/wiki/categories/Research-Specialty/"/>
+    <category term="Specialty&amp;Study" scheme="https://sunwucheng.com/wiki/categories/Specialty-Study/"/>
     
     
   </entry>
   
   <entry>
     <title>Linux</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Linux/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Linux/</id>
+    <link href="https://sunwucheng.com/wiki/202004291234/"/>
+    <id>https://sunwucheng.com/wiki/202004291234/</id>
     <published>2020-04-29T04:34:27.000Z</published>
     <updated>2021-03-06T03:07:33.957Z</updated>
     
@@ -392,15 +392,15 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
   
   <entry>
     <title>C</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/C/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/C/</id>
+    <link href="https://sunwucheng.com/wiki/202004272214/"/>
+    <id>https://sunwucheng.com/wiki/202004272214/</id>
     <published>2020-04-27T14:14:17.000Z</published>
     <updated>2021-03-06T03:07:21.313Z</updated>
     
@@ -415,15 +415,15 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
   
   <entry>
     <title>Git</title>
-    <link href="https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Git/"/>
-    <id>https://sunwucheng.com/wiki/CS&amp;EE%20(Interset&amp;Hobby)/Git/</id>
+    <link href="https://sunwucheng.com/wiki/202004240008/"/>
+    <id>https://sunwucheng.com/wiki/202004240008/</id>
     <published>2020-04-23T16:08:45.000Z</published>
     <updated>2021-03-06T03:07:27.614Z</updated>
     
@@ -438,7 +438,7 @@
     
     
     
-    <category term="CS&amp;EE (Interset&amp;Hobby)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-Interset-Hobby/"/>
+    <category term="CS&amp;EE (interset)" scheme="https://sunwucheng.com/wiki/categories/CS-EE-interset/"/>
     
     
   </entry>
