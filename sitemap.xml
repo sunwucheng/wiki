@@ -2,126 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202103151200/</loc>
+    <loc>https://sunwucheng.com/wiki/index/</loc>
     
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202005290859/</loc>
-    
-    <lastmod>2021-03-15</lastmod>
+    <lastmod>2021-03-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202004301729/</loc>
+    <loc>https://sunwucheng.com/wiki/Specialty/Scientific_Journals/</loc>
     
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202007240940/</loc>
-    
-    <lastmod>2021-03-15</lastmod>
+    <lastmod>2021-03-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202103121800/</loc>
+    <loc>https://sunwucheng.com/wiki/Specialty/Research_Tools/</loc>
     
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202103121700/</loc>
-    
-    <lastmod>2021-03-15</lastmod>
+    <lastmod>2021-03-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202103121600/</loc>
+    <loc>https://sunwucheng.com/wiki/Specialty/Previous_Files/</loc>
     
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202103121500/</loc>
-    
-    <lastmod>2021-03-15</lastmod>
+    <lastmod>2021-03-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202103121400/</loc>
+    <loc>https://sunwucheng.com/wiki/English/Complex_Sentences/</loc>
     
-    <lastmod>2021-03-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202103142146/</loc>
-    
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202103061200/</loc>
+    <loc>https://sunwucheng.com/wiki/English/CATTI/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202005291114/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/Script/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202012161217/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/RaspberryPi/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202012161205/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/Linux/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202004291234/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/Git/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202004240008/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/C/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/202004272214/</loc>
-    
-    <lastmod>2021-03-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/202005142207/</loc>
+    <loc>https://sunwucheng.com/wiki/CS&EE/Arduino/</loc>
     
     <lastmod>2021-03-06</lastmod>
     
@@ -151,7 +109,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2021-03-15</lastmod>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -160,36 +118,22 @@
 
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/CS-EE-interset/</loc>
-    <lastmod>2021-03-15</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/Specialty/</loc>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/Note-Records/</loc>
-    <lastmod>2021-03-15</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/English-Learning/</loc>
-    <lastmod>2021-03-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Specialty-Study/</loc>
-    <lastmod>2021-03-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Specialty-Study/Powder-Metallurgy-Diamond-Tools/</loc>
-    <lastmod>2021-03-15</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
+    <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
