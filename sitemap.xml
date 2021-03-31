@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sunwucheng.com/wiki/Specialty/Research_Tools/</loc>
+    
+    <lastmod>2021-03-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/Specialty/Research_Projects/IDB_matrix_wear/</loc>
+    
+    <lastmod>2021-03-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/Specialty/Previous_Files/</loc>
+    
+    <lastmod>2021-03-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sunwucheng.com/wiki/index/</loc>
     
     <lastmod>2021-03-28</lastmod>
@@ -10,20 +31,6 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/Specialty/Scientific_Journals/</loc>
-    
-    <lastmod>2021-03-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/Specialty/Research_Tools/</loc>
-    
-    <lastmod>2021-03-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/Specialty/Previous_Files/</loc>
     
     <lastmod>2021-03-19</lastmod>
     
@@ -93,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/index.html</loc>
+    <loc>https://sunwucheng.com/wiki/tags/index.html</loc>
     
     <lastmod>2021-02-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/tags/index.html</loc>
+    <loc>https://sunwucheng.com/wiki/categories/index.html</loc>
     
     <lastmod>2021-02-12</lastmod>
     
@@ -109,7 +116,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2021-03-28</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -118,22 +125,29 @@
 
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2021-03-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2021-03-28</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Specialty/</loc>
-    <lastmod>2021-03-28</lastmod>
+    <lastmod>2021-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
+    <lastmod>2021-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/</loc>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
