@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2021-03-28T13:53:56.383Z</updated>
+  <updated>2021-04-02T12:56:39.784Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -21,21 +21,19 @@
     <link href="https://sunwucheng.com/wiki/20210328220000/"/>
     <id>https://sunwucheng.com/wiki/20210328220000/</id>
     <published>2021-03-28T14:00:00.000Z</published>
-    <updated>2021-03-28T13:53:56.383Z</updated>
+    <updated>2021-04-02T12:56:39.784Z</updated>
     
-    <content type="html"><![CDATA[<p>Paper: <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning</a></p><p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0263436821000627-ga1_lrg.jpg" alt="Graphical abstract"></p><p><a href="https://github.com/sunwucheng/IDB_matrix_wear">Code Sources</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Paper: &lt;a href=&quot;https://doi.org/10.1016/j.ijrmhm.2021.105530&quot;&gt;Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM i</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.ijrmhm.2021.105530&quot;&gt;Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image an</summary>
       
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
-    
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
@@ -66,7 +64,7 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
@@ -124,34 +122,6 @@
     
     
     <category term="CS&amp;EE" scheme="https://sunwucheng.com/wiki/categories/CS-EE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Scientific Journals</title>
-    <link href="https://sunwucheng.com/wiki/20200724094039/"/>
-    <id>https://sunwucheng.com/wiki/20200724094039/</id>
-    <published>2020-07-24T01:40:39.000Z</published>
-    <updated>2021-04-01T07:11:10.642Z</updated>
-    
-    <content type="html"><![CDATA[<table><thead><tr><th align="center">Rank(2018)</th><th align="center">IF(2019)</th><th align="center">5yIF(2019)</th><th align="center">Journal</th></tr></thead><tbody><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T1</td><td align="center">8.019</td><td align="center">7.844</td><td align="center">International Journal of Machine Tools and Manufacture</td></tr><tr><td align="center">T1</td><td align="center">7.656</td><td align="center">7.826</td><td align="center">Acta Materialia</td></tr><tr><td align="center">T1</td><td align="center">6.479</td><td align="center">6.894</td><td align="center">Corrosion Science</td></tr><tr><td align="center">T1</td><td align="center">4.140</td><td align="center">5.252</td><td align="center"><strong>Rock Mechanics and Rock Engineering</strong></td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T2</td><td align="center">6.289</td><td align="center">6.214</td><td align="center">Materials &amp; Design</td></tr><tr><td align="center">T2</td><td align="center">6.182</td><td align="center">5.141</td><td align="center">Applied Surface Science</td></tr><tr><td align="center">T2</td><td align="center">5.138</td><td align="center">5.169</td><td align="center">Composite Structures</td></tr><tr><td align="center">T2</td><td align="center">4.725</td><td align="center">4.514</td><td align="center">Applied Thermal Engineering</td></tr><tr><td align="center">T2</td><td align="center">4.669</td><td align="center">4.799</td><td align="center">Journal of Materials Processing Technology</td></tr><tr><td align="center">T2</td><td align="center">4.650</td><td align="center">4.082</td><td align="center">Journal of Alloys and Compounds</td></tr><tr><td align="center">T2</td><td align="center">4.450</td><td align="center">4.761</td><td align="center">Tunnelling and Underground Space Technology</td></tr><tr><td align="center">T2</td><td align="center">4.271</td><td align="center">4.191</td><td align="center">Tribology International</td></tr><tr><td align="center">T2</td><td align="center">4.151</td><td align="center">4.856</td><td align="center"><strong>International Journal of Rock Mechanics and Mining Sciences</strong></td></tr><tr><td align="center">T2</td><td align="center">3.841</td><td align="center">4.090</td><td align="center">Journal of Natural Gas Science and Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.830</td><td align="center">3.513</td><td align="center">Ceramics International</td></tr><tr><td align="center">T2</td><td align="center">3.818</td><td align="center">4.146</td><td align="center">Computers and Geotechnics</td></tr><tr><td align="center">T2</td><td align="center">3.706</td><td align="center">3.770</td><td align="center">Journal of Petroleum Science and Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.642</td><td align="center">4.122</td><td align="center">International Journal of Impact Engineering</td></tr><tr><td align="center">T2</td><td align="center">3.407</td><td align="center">3.414</td><td align="center">International Journal of Refractory Metals and Hard Materials</td></tr><tr><td align="center">T2</td><td align="center">2.991</td><td align="center">3.339</td><td align="center">Computers &amp; Geosciences</td></tr><tr><td align="center">T2</td><td align="center">2.814</td><td align="center">2.957</td><td align="center">International Journal for Numerical and Analytical Methods in Geomechanics</td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">T3</td><td align="center">6.155</td><td align="center">5.275</td><td align="center">Journal of Materials Science &amp; Technology</td></tr><tr><td align="center">T3</td><td align="center">5.289</td><td align="center">5.707</td><td align="center">Journal of Materials Research and Technology</td></tr><tr><td align="center">T3</td><td align="center">4.142</td><td align="center">3.849</td><td align="center">Powder Technology</td></tr><tr><td align="center">T3</td><td align="center">4.108</td><td align="center">4.169</td><td align="center">Wear</td></tr><tr><td align="center">T3</td><td align="center">2.650</td><td align="center">2.699</td><td align="center">Diamond and Related Materials</td></tr><tr><td align="center">T3</td><td align="center">2.566</td><td align="center">2.576</td><td align="center">Tribology Letters</td></tr></tbody></table>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;Rank(2018)&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;IF(2019)&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;5yIF(2019)&lt;/th&gt;
-&lt;th align=&quot;cente</summary>
-      
-    
-    
-    
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
     
   </entry>
@@ -229,9 +199,9 @@
     <link href="https://sunwucheng.com/wiki/20200430172927/"/>
     <id>https://sunwucheng.com/wiki/20200430172927/</id>
     <published>2020-04-30T09:29:27.000Z</published>
-    <updated>2021-04-01T07:11:04.254Z</updated>
+    <updated>2021-04-02T13:06:20.948Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="文献管理软件"><a href="#文献管理软件" class="headerlink" title="文献管理软件"></a>文献管理软件</h2><ul><li>免费且开源的<a href="https://www.zotero.org/">Zotero</a><ul><li><a href="https://www.zotero.org/support/zh/start">Zotero官方文档</a></li><li><a href="https://zhuanlan.zhihu.com/zotero">Zotero文献生态</a></li></ul></li></ul><h2 id="文献可视化分析"><a href="#文献可视化分析" class="headerlink" title="文献可视化分析"></a>文献可视化分析</h2><ul><li>网页端<a href="https://bibliometric.com/">文献计量在线分析平台</a><ul><li><a href="https://mp.weixin.qq.com/s/416yyN5wyoEzB01ZAab9mg">如何使用「文献计量在线分析平台」</a></li></ul></li><li>简单的<a href="https://www.vosviewer.com/">VOSviewer</a></li><li>复杂的<a href="http://cluster.cis.drexel.edu/~cchen/citespace/">CiteSpace</a><ul><li><a href="https://www.youtube.com/playlist?list=PLmiSknH78BpQqEqsBT5D7REAyvHkPM7JL">官方使用教程-视频</a></li></ul></li></ul><h2 id="期刊论文推送"><a href="#期刊论文推送" class="headerlink" title="期刊论文推送"></a>期刊论文推送</h2><ul><li>期刊阅读手机软件: <del><a href="https://www.researcher-app.com/">Researcher</a>( 信息密度太低，属实憨憨 )</del></li><li>RSS阅读器: <del><a href="https://feeder.co/">Feeder.co</a>(国内访问歇菜)</del>、<a href="https://nodetics.com/feedbro/">Feedbro</a>(浏览器插件)<br>  期刊官网RSS链接: <ul><li>ScienceDirect: <a href="https://www.sciencedirect.com/journal/international-journal-of-rock-mechanics-and-mining-sciences">International Journal of Rock Mechanics and Mining Sciences</a> 找寻并点击<strong>RSS</strong>图标</li><li>Springer: <a href="https://www.springer.com/journal/603">Rock Mechanics and Rock Engineering</a> 点击页面最上<strong>Search</strong>，跳转到<a href="https://link.springer.com/search?query=&search-within=Journal&facet-journal-id=603">新页面</a>后点击<strong>RSS</strong>图标</li><li>中国知网: <a href="http://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&pykm=YSLX">岩石力学与工程学报</a> 找寻并点击<strong>RSS订阅</strong></li></ul></li></ul><h2 id="文献阅读"><a href="#文献阅读" class="headerlink" title="文献阅读"></a>文献阅读</h2><ul><li>英文翻译.<a href="https://www.deepl.com/home">DeepL官网</a> (<a href="https://www.deepl.com/translator">网页端使用</a>，<a href="https://www.deepl.com/app">客户端下载</a>)</li><li>英文翻译.<a href="https://fanyi.qukaa.com/">趣卡(PDF)翻译</a></li><li>英文翻译.<a href="https://www.aidatrans.com/translate">金山文档翻译</a></li></ul><h2 id="论文书写"><a href="#论文书写" class="headerlink" title="论文书写"></a>论文书写</h2><ul><li>截图转换数学公式<a href="https://mathpix.com/">mathpix</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="文献管理软件"><a href="#文献管理软件" class="headerlink" title="文献管理软件"></a>文献管理软件</h2><ul><li>免费且开源的<a href="https://www.zotero.org/">Zotero</a><ul><li><a href="https://www.zotero.org/support/zh/start">Zotero官方文档</a></li><li><a href="https://zhuanlan.zhihu.com/zotero">Zotero文献生态</a></li></ul></li></ul><h2 id="文献可视化分析"><a href="#文献可视化分析" class="headerlink" title="文献可视化分析"></a>文献可视化分析</h2><ul><li>网页端<a href="https://bibliometric.com/">文献计量在线分析平台</a><ul><li><a href="https://mp.weixin.qq.com/s/416yyN5wyoEzB01ZAab9mg">如何使用「文献计量在线分析平台」</a></li></ul></li><li>简单的<a href="https://www.vosviewer.com/">VOSviewer</a></li><li>复杂的<a href="http://cluster.cis.drexel.edu/~cchen/citespace/">CiteSpace</a><ul><li><a href="https://www.youtube.com/playlist?list=PLmiSknH78BpQqEqsBT5D7REAyvHkPM7JL">官方使用教程-视频</a></li></ul></li></ul><h2 id="期刊论文推送"><a href="#期刊论文推送" class="headerlink" title="期刊论文推送"></a>期刊论文推送</h2><ul><li>RSS在线: <a href="https://feeder.co/">Feeder.co</a>(国内访问歇菜)</li><li>RSS插件: <a href="https://nodetics.com/feedbro/">Feedbro</a>(浏览器插件)</li></ul><h2 id="文献阅读"><a href="#文献阅读" class="headerlink" title="文献阅读"></a>文献阅读</h2><ul><li>英文翻译.<a href="https://www.deepl.com/home">DeepL官网</a> (<a href="https://www.deepl.com/translator">网页端使用</a>，<a href="https://www.deepl.com/app">客户端下载</a>)</li><li>英文翻译.<a href="https://fanyi.qukaa.com/">趣卡(PDF)翻译</a></li><li>英文翻译.<a href="https://www.aidatrans.com/translate">金山文档翻译</a></li></ul><h2 id="论文书写"><a href="#论文书写" class="headerlink" title="论文书写"></a>论文书写</h2><ul><li>截图转换数学公式<a href="https://mathpix.com/">mathpix</a></li></ul>]]></content>
     
     
       
@@ -242,7 +212,7 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
