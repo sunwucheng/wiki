@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2021-04-03T14:24:25.787Z</updated>
+  <updated>2021-04-03T14:28:38.197Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sunwucheng.com/wiki/20210328220000/"/>
     <id>https://sunwucheng.com/wiki/20210328220000/</id>
     <published>2021-03-28T14:00:00.000Z</published>
-    <updated>2021-04-03T14:24:25.787Z</updated>
+    <updated>2021-04-03T14:28:38.197Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning</a></p><p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0263436821000627-ga1_lrg.jpg" alt="Graphical abstract"></p><blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.</p></blockquote>]]></content>
     
@@ -34,6 +34,8 @@
     
     
     <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
+    
+    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Research/Project/"/>
     
     
   </entry>
@@ -74,14 +76,14 @@
     <link href="https://sunwucheng.com/wiki/20210306120000/"/>
     <id>https://sunwucheng.com/wiki/20210306120000/</id>
     <published>2021-03-06T04:00:00.000Z</published>
-    <updated>2021-04-03T14:26:05.804Z</updated>
+    <updated>2021-04-03T14:29:11.219Z</updated>
     
-    <content type="html"><![CDATA[<p>‘CS&amp;EE’ involves notes about Computer Science and Electronic Engineering (nonprofessional)<br>‘English’ involves notes about English learning<br>‘Research’ involves files during the undergraduate, notes about the specialty and ongoing research<br>‘THE MYTH’ involves things interesting and fantastic to be followed and studied</p>]]></content>
+    <content type="html"><![CDATA[<p><strong><em>‘CS&amp;EE’ involves notes about Computer Science and Electronic Engineering (nonprofessional)<br>‘English’ involves notes about English learning<br>‘Research’ involves files during the undergraduate, notes about the specialty and ongoing research<br>‘THE MYTH’ involves things interesting and fantastic to be followed and studied</em></strong></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;‘CS&amp;amp;EE’ involves notes about Computer Science and Electronic Engineering (nonprofessional)&lt;br&gt;‘English’ involves notes about English </summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;‘CS&amp;amp;EE’ involves notes about Computer Science and Electronic Engineering (nonprofessional)&lt;br&gt;‘English’ involves notes ab</summary>
       
     
     
