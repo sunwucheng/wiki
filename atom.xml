@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2021-04-09T10:18:12.694Z</updated>
+  <updated>2021-04-09T12:21:12.438Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://sunwucheng.com/wiki/20210409152642/"/>
-    <id>https://sunwucheng.com/wiki/20210409152642/</id>
-    <published>2021-04-09T07:26:42.008Z</published>
-    <updated>2021-04-09T10:18:12.694Z</updated>
+    <title>ML</title>
+    <link href="https://sunwucheng.com/wiki/20210409202020/"/>
+    <id>https://sunwucheng.com/wiki/20210409202020/</id>
+    <published>2021-04-09T12:20:20.000Z</published>
+    <updated>2021-04-09T12:21:12.438Z</updated>
     
     <content type="html"><![CDATA[<p><strong>机器学习-李宏毅2021:  <a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.html">课程来源</a>、<a href="https://github.com/Fafa-DL/Lhy_Machine_Learning">参考笔记</a></strong></p><h1 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1 Introduction"></a>1 Introduction</h1><p>Machine Learning ≈ Looking for Function （机器学习约等于找函式）</p><table><thead><tr><th align="center">Different types of Functions</th><th align="center">函式分类/三大机器学习的任务</th></tr></thead><tbody><tr><td align="center">Regression（回归问题）</td><td align="center">The function outputs a scalar</td></tr><tr><td align="center">Classification（分类问题）</td><td align="center">Given options (classes), the function outputs the correct one</td></tr><tr><td align="center">Structured Learning</td><td align="center">create something with structure (image, document)</td></tr></tbody></table><h1 id="1-1-Case-study"><a href="#1-1-Case-study" class="headerlink" title="1.1 Case study"></a>1.1 Case study</h1><p>频道订阅人数预测</p><ul><li>Input = Youtube后台资料</li><li>Output = 频道隔天订阅人数</li></ul><p>机器学习找函式的过程分为三个步骤</p><ol><li><p>写出带有未知参数的函数 based on domain knowledge：$y = b + wx_1$<br> $y$为今日订阅人数，$x_1$为昨日订阅人数，$w, b$为unknown parameters learned from data</p></li><li><p>Define Loss from Training Data<br> Loss is a function of parameters about how good a set of values is<br> $L(b, w)$,  $L=\frac{1}{N} \sum_{n} e_{n}$</p><ul><li>$e=|y-\hat{y}|$：<em>L is mean absolute error (MAE)</em></li><li>$e=(y-\hat{y})^{2}$：<em>L is mean square error (MSE)</em><br>if $y$ and $\hat{y}$ are both probability distributions -&gt;  Cross-entropy</li></ul></li><li><p>Optimization：$w^{<em>}, b^{</em>}=\arg \min _{w, b} L$</p></li></ol>]]></content>
     
