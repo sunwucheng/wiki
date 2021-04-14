@@ -218,7 +218,16 @@
                     </li> 
                      </ul> 
                     </li> 
-                     <li class="file"><a href="/wiki/20200430172927/">Research Tools</a></li>  </ul> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Research Tools
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20200430172927/">Softwares</a></li>  </ul> 
+                    </li> 
+                     </ul> 
                     </li> 
                      <li class="file"><a href="/wiki/20210306120000/">Introduction</a></li>  </ul> 
     </div>
@@ -337,7 +346,6 @@
             <h2 id="Windows下批量对文件重命名"><a href="#Windows下批量对文件重命名" class="headerlink" title="Windows下批量对文件重命名"></a><a target="_blank" rel="noopener" href="http://blog.galois21.com/archives/712">Windows下批量对文件重命名</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># renamefile.bat</span><br><span class="line">@echo off</span><br><span class="line">setlocal enabledelayedexpansion</span><br><span class="line">set n&#x3D;650057</span><br><span class="line">for &#x2F;f %%i in (&#39;dir &#x2F;b *.tiff&#39;) do (</span><br><span class="line">ren &quot;%%i&quot; WC-663Cu!n!.tiff</span><br><span class="line">set &#x2F;a n+&#x3D;1)</span><br><span class="line">echo 批量重命名完成！ </span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
 <h2 id="批量删除文件名末尾的几位字符"><a href="#批量删除文件名末尾的几位字符" class="headerlink" title="批量删除文件名末尾的几位字符"></a><a target="_blank" rel="noopener" href="https://blog.csdn.net/sry5221/article/details/109203386">批量删除文件名末尾的几位字符</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">::Deep Lee</span><br><span class="line">setlocal enabledelayedexpansion</span><br><span class="line">for %%f in (*.wav) do ( </span><br><span class="line">&#x2F;&#x2F; 这里的.wav是你要指定批量处理的文件后缀名</span><br><span class="line">&#x2F;&#x2F; 可以根据不同后缀修改，例如pdf，txt，jpg等</span><br><span class="line">echo %%f</span><br><span class="line">set name&#x3D;%%f</span><br><span class="line">ren !name! !name:~0,9%!.wav</span><br><span class="line">&#x2F;&#x2F; 如果将9改为-5，则是从右向左删除5位，如果将9改为-6，则是从右向左删除6位，以此类推</span><br><span class="line">&#x2F;&#x2F;此处的.wav算4个字符，这里算是默认自动补齐了，实际上是先删后加的</span><br><span class="line">)</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
 <h2 id="Hexo博客mac部署推送"><a href="#Hexo博客mac部署推送" class="headerlink" title="Hexo博客mac部署推送"></a>Hexo博客mac部署推送</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># hexopush.command</span><br><span class="line">#! &#x2F;bin&#x2F;bash</span><br><span class="line">cd &#x2F;Users&#x2F;myth&#x2F;sunwucheng.github.io</span><br><span class="line">hexo clean</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;automatic push&quot;</span><br><span class="line">git push origin hexo</span><br><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br><span class="line">hexo clean</span><br><span class="line">osascript -e &#39;tell application &quot;Terminal&quot; to quit&#39; &amp;</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
-
 
             </div>
         
