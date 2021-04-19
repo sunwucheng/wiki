@@ -36,9 +36,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -63,9 +63,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -90,9 +90,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -117,9 +117,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -144,9 +144,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -156,9 +156,9 @@
     <link href="https://sunwucheng.com/wiki/20210414010000/"/>
     <id>https://sunwucheng.com/wiki/20210414010000/</id>
     <published>2021-04-13T17:00:00.000Z</published>
-    <updated>2021-04-17T01:47:56.275Z</updated>
+    <updated>2021-04-19T09:15:07.944Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>来源：<a href="https://book.douban.com/subject/1225949/">声发射检测</a></strong></p><h1 id="1-声发射技术概论"><a href="#1-声发射技术概论" class="headerlink" title="1 声发射技术概论"></a>1 声发射技术概论</h1><p>声发射(Acoustic Emission, AE)/应力波发射：材料局部因能量的快速释放而发出瞬态弹性波的现象<br>声发射技术：动态无损检测技术，涉及声发射源、波的传播、声电转换、信号处理、数据显示与记录、解释与评定<br>传统意义/典型声发射源：直接与变形和断裂机制有关的源，如材料在应力作用下的变形与裂纹扩展导致结构失效<br>其他/二次声发射源：与变形和断裂机制无直接关系的弹性波源，如流体泄漏、摩擦、撞击、燃烧<br>声发射波的频率范围很宽，从次声频、声频直到超声频，可包括数Hz到数MHz；其幅度从微观的位错运动到大规模宏观断裂，在很大范围内变化，按传感器输出可包括数μV到数百mV。<br>声发射源发出的弹性波，经介质传播到达被检物体表面，引起表面的机械振动；经声发射传感器将表面的瞬态位移转换成电信号；声发射信号再经放大、处理后，形成其特征参数，并被记录与显示；最后经数据解释，评定出声发射源的特性。<br>声发射检测必须有外部条件的作用，如力、电磁、温度等因素的作用，使材料或构件发声；这些因素作用使材料内部结构发生变化，如晶体结构的变化、滑移变形、裂纹扩展等。<br>发声是在材料内部结构变化的过程中产生的，也只有内部结构的变化，才能引起能量释放，才能发声。固声发射检测是一种动态无损检测方法：使构件或材料的内部结构、缺陷或潜在缺陷处于运动变化的过程中进行无损检测。<br>由于材料变形、裂纹扩展等不可逆特性，声发射也有不可逆性。因此要进行声发射检测，必须知道材料的受力历史，或者在构件第一次受力时进行检测。<br>利用多通道声发射装置，可以确定缺陷所在的位置。<br>声发射检测到的是一些电信号，根据这些电信号来解释结构内部的缺陷变化；声发射检测环境常有强的噪声干扰。<br>凯塞(Kaiser)效应：材料在重新加载期间，在应力值达到上次加载最大应力之前不产生声发射信号</p><h1 id="2-声发射检测物理基础"><a href="#2-声发射检测物理基础" class="headerlink" title="2 声发射检测物理基础"></a>2 声发射检测物理基础</h1><h1 id="2-1-声发射的产生"><a href="#2-1-声发射的产生" class="headerlink" title="2.1 声发射的产生"></a>2.1 声发射的产生</h1><p>声发射事件：引发声发射的材料局部变化</p><p>声发射源：声发射事件的物理源点或发生声发射波的机制源</p><ul><li>结晶材料源<ul><li>塑形变形<ul><li>位错运动</li><li>滑移</li><li>孪晶变形</li></ul></li><li>相变<ul><li>马氏体相变</li></ul></li><li>夹杂物或析出物破坏<ul><li>开裂</li><li>界面分离</li></ul></li><li>亚临界裂纹扩展<ul><li>升载时裂纹扩展</li><li>恒载时裂纹扩展</li><li>疲劳裂纹扩展</li><li>应力腐蚀裂纹扩展</li><li>氢脆裂纹扩展</li></ul></li></ul></li><li>复合材料源<ul><li>纤维断裂</li><li>基材开裂</li><li>纤维/基材分离</li><li>分层扩展</li><li>纤维抽出</li><li>界面分离</li></ul></li><li>非金属材料源<ul><li>微观开裂</li><li>细观开裂</li><li>宏观开裂</li></ul></li><li>其他源<ul><li>压力泄漏</li><li>摩擦及磨损</li><li>裂纹面闭合与摩擦</li><li>撞击</li><li>磁畴壁运动</li><li>燃烧</li><li>沸腾</li><li>凝固与融化</li><li>氧化膜、锈皮和熔渣开裂</li></ul></li></ul><h1 id="2-2-声发射波的传播"><a href="#2-2-声发射波的传播" class="headerlink" title="2.2 声发射波的传播"></a>2.2 声发射波的传播</h1><p>波源处的声发射波形，一般为宽频带尖脉冲，包含波源的定量信息。然而，所测得信号波形，由于介质的传播特性和传感器频响特性之影响而变得非常复杂，与原波形有很大不同，从而淡化了所测波形特性参数的物理意义。</p><h3 id="2-2-1-波的传播模式"><a href="#2-2-1-波的传播模式" class="headerlink" title="2.2.1 波的传播模式"></a>2.2.1 波的传播模式</h3><p>声发射波在介质中的传播，根据质点的振动方向和传播方向的不同，可构成纵波、横波、表面波、板波等不同传播模式。 </p><ul><li>纵波：质点的振动方向与传播方向平行</li><li>横波：质点的振动方向与波的传播方向垂直</li><li>表面波/瑞利波：在半无限大固体介质与气体介质的交界面上可产生瑞利波</li><li>板波：固体物质的尺寸受限而成为板状，当其厚小到某一程度，只能产生各种类型的板波。狭义指兰姆波</li></ul><h3 id="2-2-2-波的传播速度"><a href="#2-2-2-波的传播速度" class="headerlink" title="2.2.2 波的传播速度"></a>2.2.2 波的传播速度</h3><p>在均匀介质中，纵波与横波的速度分别可用下式表示：</p><p>$v_{1}=\sqrt{\frac{E}{P} \frac{1-\sigma}{(1+\sigma)}(1-2 \sigma)}$<br>$v_{\mathrm{t}}=\sqrt{\frac{E}{\rho} \frac{1}{2(1+\sigma)}}=\sqrt{\frac{G}{\rho}}$</p><p>$v_{1}：纵波速度；v_{t}：横波速度；σ：介质的泊松比；E：介质的弹性模量；G：介质的切变模量；ρ：介质的密度$</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>来源：<a href="https://book.douban.com/subject/1225949/">声发射检测</a></strong></p><h1 id="1-声发射技术概论"><a href="#1-声发射技术概论" class="headerlink" title="1 声发射技术概论"></a>1 声发射技术概论</h1><p>声发射(Acoustic Emission, AE)/应力波发射：材料局部因能量的快速释放而发出瞬态弹性波的现象<br>声发射技术：动态无损检测技术，涉及声发射源、波的传播、声电转换、信号处理、数据显示与记录、解释与评定<br>传统意义/典型声发射源：直接与变形和断裂机制有关的源，如材料在应力作用下的变形与裂纹扩展导致结构失效<br>其他/二次声发射源：与变形和断裂机制无直接关系的弹性波源，如流体泄漏、摩擦、撞击、燃烧<br>声发射波的频率范围很宽，从次声频、声频直到超声频，可包括数Hz到数MHz；其幅度从微观的位错运动到大规模宏观断裂，在很大范围内变化，按传感器输出可包括数μV到数百mV。<br>声发射源发出的弹性波，经介质传播到达被检物体表面，引起表面的机械振动；经声发射传感器将表面的瞬态位移转换成电信号；声发射信号再经放大、处理后，形成其特征参数，并被记录与显示；最后经数据解释，评定出声发射源的特性。<br>声发射检测必须有外部条件的作用，如力、电磁、温度等因素的作用，使材料或构件发声；这些因素作用使材料内部结构发生变化，如晶体结构的变化、滑移变形、裂纹扩展等。<br>发声是在材料内部结构变化的过程中产生的，也只有内部结构的变化，才能引起能量释放，才能发声。固声发射检测是一种动态无损检测方法：使构件或材料的内部结构、缺陷或潜在缺陷处于运动变化的过程中进行无损检测。<br>由于材料变形、裂纹扩展等不可逆特性，声发射也有不可逆性。因此要进行声发射检测，必须知道材料的受力历史，或者在构件第一次受力时进行检测。<br>利用多通道声发射装置，可以确定缺陷所在的位置。<br>声发射检测到的是一些电信号，根据这些电信号来解释结构内部的缺陷变化；声发射检测环境常有强的噪声干扰。<br>凯塞(Kaiser)效应：材料在重新加载期间，在应力值达到上次加载最大应力之前不产生声发射信号</p><h1 id="2-声发射检测物理基础"><a href="#2-声发射检测物理基础" class="headerlink" title="2 声发射检测物理基础"></a>2 声发射检测物理基础</h1><h2 id="2-1-声发射的产生"><a href="#2-1-声发射的产生" class="headerlink" title="2.1 声发射的产生"></a>2.1 声发射的产生</h2><p>声发射事件：引发声发射的材料局部变化</p><p>声发射源：声发射事件的物理源点或发生声发射波的机制源</p><ul><li>结晶材料源<ul><li>塑形变形<ul><li>位错运动</li><li>滑移</li><li>孪晶变形</li></ul></li><li>相变<ul><li>马氏体相变</li></ul></li><li>夹杂物或析出物破坏<ul><li>开裂</li><li>界面分离</li></ul></li><li>亚临界裂纹扩展<ul><li>升载时裂纹扩展</li><li>恒载时裂纹扩展</li><li>疲劳裂纹扩展</li><li>应力腐蚀裂纹扩展</li><li>氢脆裂纹扩展</li></ul></li></ul></li><li>复合材料源<ul><li>纤维断裂</li><li>基材开裂</li><li>纤维/基材分离</li><li>分层扩展</li><li>纤维抽出</li><li>界面分离</li></ul></li><li>非金属材料源<ul><li>微观开裂</li><li>细观开裂</li><li>宏观开裂</li></ul></li><li>其他源<ul><li>压力泄漏</li><li>摩擦及磨损</li><li>裂纹面闭合与摩擦</li><li>撞击</li><li>磁畴壁运动</li><li>燃烧</li><li>沸腾</li><li>凝固与融化</li><li>氧化膜、锈皮和熔渣开裂</li></ul></li></ul><h2 id="2-2-声发射波的传播"><a href="#2-2-声发射波的传播" class="headerlink" title="2.2 声发射波的传播"></a>2.2 声发射波的传播</h2><p>波源处的声发射波形，一般为宽频带尖脉冲，包含波源的定量信息。然而，所测得信号波形，由于介质的传播特性和传感器频响特性之影响而变得非常复杂，与原波形有很大不同，从而淡化了所测波形特性参数的物理意义。</p><h3 id="2-2-1-波的传播模式"><a href="#2-2-1-波的传播模式" class="headerlink" title="2.2.1 波的传播模式"></a>2.2.1 波的传播模式</h3><p>声发射波在介质中的传播，根据质点的振动方向和传播方向的不同，可构成纵波、横波、表面波、板波等不同传播模式。 </p><ul><li>纵波：质点的振动方向与传播方向平行</li><li>横波：质点的振动方向与波的传播方向垂直</li><li>表面波/瑞利波：在半无限大固体介质与气体介质的交界面上可产生瑞利波</li><li>板波：固体物质的尺寸受限而成为板状，当其厚小到某一程度，只能产生各种类型的板波。狭义指兰姆波</li></ul><h3 id="2-2-2-波的传播速度"><a href="#2-2-2-波的传播速度" class="headerlink" title="2.2.2 波的传播速度"></a>2.2.2 波的传播速度</h3><p>在均匀介质中，纵波与横波的速度分别可用下式表示：</p><p>$v_{1}=\sqrt{\frac{E}{P} \frac{1-\sigma}{(1+\sigma)}(1-2 \sigma)}$<br>$v_{\mathrm{t}}=\sqrt{\frac{E}{\rho} \frac{1}{2(1+\sigma)}}=\sqrt{\frac{G}{\rho}}$</p><p>$v_{1}：纵波速度；v_{t}：横波速度；σ：介质的泊松比；E：介质的弹性模量；G：介质的切变模量；ρ：介质的密度$</p><h2 id="2-4-凯塞效应和费利西蒂效应"><a href="#2-4-凯塞效应和费利西蒂效应" class="headerlink" title="2.4 凯塞效应和费利西蒂效应"></a>2.4 凯塞效应和费利西蒂效应</h2><p>凯塞效应：材料的受载历史，对重复加载声发射特性有重要影响，重复载荷到达原先所加最大载荷以前不发生明显声发射<br>费利西蒂(Felicity)效应/反凯塞效应：材料重复加载时，重复载荷到达原先所加最大载荷前发生明显声发射的现象。<br>费利西蒂比：重复加载时的声发射起始载荷对原先所加最大载荷之比 $P_{\mathrm{AE}} / P_{\max }$，作为凯塞效应失效程度的量度</p><h1 id="4-声发射信号采集系统"><a href="#4-声发射信号采集系统" class="headerlink" title="4 声发射信号采集系统"></a>4 声发射信号采集系统</h1><h2 id="4-1-声发射检测仪器的类型"><a href="#4-1-声发射检测仪器的类型" class="headerlink" title="4.1 声发射检测仪器的类型"></a>4.1 声发射检测仪器的类型</h2><p>单（双）通道系统、多通道系统、全数字化系统、工业专用系统</p><h2 id="4-2-声发射检测仪器的组成"><a href="#4-2-声发射检测仪器的组成" class="headerlink" title="4.2 声发射检测仪器的组成"></a>4.2 声发射检测仪器的组成</h2><p>典型的单通道声发射检测仪器的基本组成：</p><ul><li>传感器单元</li><li>前置放大器单元</li><li>主放大器单元</li><li>信号参数测量单元</li><li>数据分析单元</li><li>记录与显示单元</li></ul><h2 id="4-3-声发射传感器"><a href="#4-3-声发射传感器" class="headerlink" title="4.3 声发射传感器"></a>4.3 声发射传感器</h2><p>压电效应：某些晶体受力产生变形时，其表面出现电荷，而又在电场的作用下，晶片发生弹性变形的现象<br>常用声发射传感器的工作原理，基于晶体元件的压电效应，将声发射波所引起的被检件表面振动转换成电压信号，送入信号处理器，完成信号处理过程。</p><h1 id="5-声发射信号分析"><a href="#5-声发射信号分析" class="headerlink" title="5 声发射信号分析"></a>5 声发射信号分析</h1><h2 id="5-1-声发射信号的类型"><a href="#5-1-声发射信号的类型" class="headerlink" title="5.1 声发射信号的类型"></a>5.1 声发射信号的类型</h2><p>两种基本类型：</p><ul><li>突发型：指在时域上可分离的波形</li><li>连续型：声发射频度高达时域上不可分离的程度时，以连续型信号显示出来</li></ul><h2 id="5-2-信号特性参数"><a href="#5-2-信号特性参数" class="headerlink" title="5.2 信号特性参数"></a>5.2 信号特性参数</h2><p>超过门槛的声发射信号由特征提取电路变换为几个信号特性参数</p><ul><li>连续信号参数：振铃次数、平均信号电平、有效值电压</li><li>突发信号参数：撞击（事件）计数、振铃计数、幅度、能量计数、上升时间、持续时间、时差</li></ul><p>声发射信号参数</p><ul><li>声发射事件：一个声发射时间指一个或几个撞击所鉴别出来的一次材料局部变化<ul><li>声发射事件计数(event count)：检测系统对鉴别出的声发射事件的累计结果，可分为总计数和计数率两种</li></ul></li><li>撞击(hit)：指通过门槛并导致一个系统通道累计数据的任一声发射信号<ul><li>撞击计数(hits)：系统对撞击的累计次数，可分为总计数和计数率<ul><li>计数率：指单位时间的累计个数</li></ul></li></ul></li><li>振铃计数(count, ring-down count)：越过门槛信号的振荡次数，可分为总计数和计数率</li><li>幅度(Amplitude)</li><li>有效值电压(RMS)：采样时间内信号电平的均方根，以V表示</li><li>平均信号电平(ASL)：采样时间内信号电平的均值，以dB表示</li><li>持续时间(Duration)：事件信号第一次越过门槛至最终降至门槛所历程的时间间隔，以μs表示</li><li>能量计数(Energy)：事件信号检测包络线下的面积，可分为总计数和计数率</li><li>其他声发射参数<ul><li>上升时间(Risetion)：事件信号第一次越过门槛至最大振幅所历程的时间间隔，以μs表示</li><li>时差：同一声发射波到达各传感器的时间差，以μs表示</li><li>外变量：试验过程外加变量，包括历程时间、载荷、位移、温度及疲劳周次等（不属于信号参数，但属于撞击信号参数的数据集，可用于声发射活动性分析）</li></ul></li></ul><table><thead><tr><th align="center">参数</th><th align="center">含义</th><th align="center">特点和用途</th></tr></thead><tbody><tr><td align="center">撞击(Hit)和撞击计数</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">事件计数</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">振铃计数</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">幅度</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">能量计数</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">持续时间</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">上升时间</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">有效值电压(RMS)</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">平均信号电平(ASL)</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">时差</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">外变量</td><td align="center"></td><td align="center"></td></tr></tbody></table><h2 id="5-3-信号波形特征"><a href="#5-3-信号波形特征" class="headerlink" title="5.3 信号波形特征"></a>5.3 信号波形特征</h2><p>波形：声发射传感器输出电压随时间变化的曲线（可以用示波器从前置放大器或主放大器的输出观察到，也可以从瞬态记录仪或波形记录装置上记录下来）<br>频谱</p><ul><li>频谱分布曲线几种，质心比较明显，表明信号包含的频率比较单纯</li><li>频谱分布曲线平坦，质心相对不明显，表明信号所包含的频率成分比较丰富，分布比较宽</li></ul><h2 id="5-4-数据显示"><a href="#5-4-数据显示" class="headerlink" title="5.4 数据显示"></a>5.4 数据显示</h2><p>（1）声发射历程图：指信号参数随外变量变化的图形，可分为线图、直方图、点图三种模式</p><ul><li>横轴：时间、载荷等外变量</li><li>纵轴：事件计数、撞击计数、振铃计数、能量计数、幅度、持续时间、RMS、ASL等信号参数</li></ul><p>（2）声发射分布显示图：表示事件计数随信号参数值的统计分布</p><ul><li>横轴：表示信号参数，如幅度、能量、振铃计数</li><li>纵轴：表示事件计数（幅度分布应用最广泛，可分为积分型、微分型）</li></ul><p>（3）声发射相关关系显示图：表示任意两个信号参数或外变量之间的统计关系</p><ul><li>每个显示点：对应一个事件</li><li>二位坐标轴：分别表示其两个参数值</li></ul><p>（4）声发射定位显示图：以点表示每个事件在传感器阵列中的位置</p><p>（5）声发射波形和频谱显示图</p><ul><li>声发射波形图：在提取声发射参数的过程中同时采集并记录了声发射信号波形<ul><li>横轴：表示时间</li><li>纵轴：表示信号幅度电压值</li></ul></li><li>频谱显示图：将声发射波形进行频谱分析后得到的信号频谱特性</li></ul><p>（6）声发射显示列表：指每个事件数据集中的时序排列，包括信号参数、外变量、波源的坐标</p><h2 id="5-5-声发射噪声的排除"><a href="#5-5-声发射噪声的排除" class="headerlink" title="5.5 声发射噪声的排除"></a>5.5 声发射噪声的排除</h2><table><thead><tr><th align="center">方法</th><th align="center">原理</th><th align="center">使用范围</th></tr></thead><tbody><tr><td align="center">频率鉴别</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">幅度鉴别</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">前沿鉴别</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">主副鉴别</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">符合鉴别</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">载荷控制门</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">时间门</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">数据滤波</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">其他</td><td align="center"></td><td align="center"></td></tr></tbody></table><h2 id="5-6-现代信号处理方法"><a href="#5-6-现代信号处理方法" class="headerlink" title="5.6 现代信号处理方法"></a>5.6 现代信号处理方法</h2><ul><li>研究稳定信号：理想工具是Fourier变换</li><li>研究非稳定信号：对于瞬态事件不能事先知道发生，小波分析非常适用</li></ul><p>（1）频谱分析方法</p><ul><li>经典频谱分析方法：通过对信号波形进行Fourier变换得到频域特性，以便具体分析特征信号的分裂处理，分析不同损伤的频谱特征</li><li>现代频谱分析：以非Fourier分析为基础<ul><li>参数模型法<ul><li>有理参数模型法：可用有理系统函数表示，包括回归模型、滑动平均模型、自回归滑动平均模型</li><li>特殊参数模型法：即指数模型，定义为一些指数信号的线性组合</li></ul></li><li>非参数模型法</li></ul></li></ul><p>（2）神经网络分析方法</p><ul><li>BP(Back-Propagation, 误差反传)网结构<ul><li>原理：标准的BP网由三个神经元层次组成，其中最下层称为输入层，中间层为隐层，最上层为输出层。更层次的神经元之间形成全互连接，各层次内的神经元之间没有连接</li><li>特点：BP算法很有效，它引入隐层，大大提高了网络的分类能力；但BP网由局限性，及网络的收敛速度比较慢，容易陷入局部极小值</li></ul></li><li>神经元之间Hamming网结构<ul><li>原理：先求出标准模式与输入样本之间的Hamming距离(Hamming Distance)，然后通过有抑制源连接完成的竞争学习，确定输入样本的类别</li><li>特点：网络的收敛速度比较快，需要的互连数比较少；缺点是编码比较困难</li></ul></li></ul><p>（3）小波分析方法</p><p>信噪分离与提取弱信号是小波应用于信号分析的重要方面<br>由于小波与小波包分解可以把一个信号分解为不同频段的信号，所以可以进行信噪分离</p>]]></content>
     
     
       
@@ -171,9 +171,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -220,9 +220,9 @@
     
     <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
     
-    <category term="Project" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/"/>
+    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
     
-    <category term="IDB_matrix_wear" scheme="https://sunwucheng.com/wiki/categories/Specialty/Project/IDB-matrix-wear/"/>
+    <category term="IDB_matrix_wear" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-matrix-wear/"/>
     
     
   </entry>
