@@ -109,7 +109,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2021-04-25</lastmod>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -118,50 +118,50 @@
 
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2021-04-25</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2021-04-25</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Specialty/</loc>
-    <lastmod>2021-04-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/</loc>
-    <lastmod>2021-04-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-matrix-wear/</loc>
-    <lastmod>2021-04-25</lastmod>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Tools/</loc>
-    <lastmod>2021-04-25</lastmod>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-matrix-wear/</loc>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/</loc>
-    <lastmod>2021-04-25</lastmod>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
