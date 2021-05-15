@@ -59,17 +59,19 @@
     <link href="https://sunwucheng.com/wiki/20210511093000/"/>
     <id>https://sunwucheng.com/wiki/20210511093000/</id>
     <published>2021-05-11T01:30:00.000Z</published>
-    <updated>2021-05-15T06:39:46.774Z</updated>
+    <updated>2021-05-15T07:03:25.930Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>孕镶钻头损伤图像分析🐷</li><li>1 胎体磨损电镜图像分割🐶</li><li>2 金刚石热损伤图像分析🐱</li><li>孕镶钻头磨损声发射信号研究🐱</li><li>热效应辅助深部硬岩机械钻进🐱</li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>孕镶钻头损伤图像分析🐷<ul><li>胎体磨损电镜图像分割🐶</li><li>金刚石热损伤图像分析🐱</li></ul></li><li>孕镶钻头磨损声发射信号研究🐱</li><li>热效应辅助深部硬岩机械钻进🐱</li></ol>]]></content>
     
     
       
       
     <summary type="html">&lt;ol&gt;
-&lt;li&gt;孕镶钻头损伤图像分析🐷&lt;/li&gt;
-&lt;li&gt;1 胎体磨损电镜图像分割🐶&lt;/li&gt;
-&lt;li&gt;2 金刚石热损伤图像分析🐱&lt;/li&gt;
+&lt;li&gt;孕镶钻头损伤图像分析🐷&lt;ul&gt;
+&lt;li&gt;胎体磨损电镜图像分割🐶&lt;/li&gt;
+&lt;li&gt;金刚石热损伤图像分析🐱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;孕镶钻头磨损声发射信号研究🐱&lt;/li&gt;
 &lt;li&gt;热效应辅助深部硬岩机械钻进🐱&lt;/li&gt;
 &lt;/ol&gt;
@@ -78,9 +80,7 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
-    
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
@@ -103,11 +103,9 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
-    
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Research/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -130,11 +128,9 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
-    
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Research/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -157,11 +153,9 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
-    
-    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-drilling-AE/"/>
+    <category term="IDB_drilling_AE" scheme="https://sunwucheng.com/wiki/categories/Research/IDB-drilling-AE/"/>
     
     
   </entry>
@@ -189,11 +183,11 @@
   </entry>
   
   <entry>
-    <title>Published work</title>
+    <title>IDB_matrix_wear</title>
     <link href="https://sunwucheng.com/wiki/20210328220000/"/>
     <id>https://sunwucheng.com/wiki/20210328220000/</id>
     <published>2021-03-28T14:00:00.000Z</published>
-    <updated>2021-05-15T06:42:06.036Z</updated>
+    <updated>2021-05-15T07:24:55.413Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.</p></blockquote><p><img src="/wiki/images/20210328220000-1.tif" alt="Graphical abstract"></p>]]></content>
     
@@ -206,11 +200,7 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
-    
-    <category term="Research Projects" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/"/>
-    
-    <category term="IDB_matrix_wear" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Projects/IDB-matrix-wear/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
@@ -351,11 +341,11 @@
   </entry>
   
   <entry>
-    <title>Softwares</title>
+    <title>Research_Tools</title>
     <link href="https://sunwucheng.com/wiki/20200430172927/"/>
     <id>https://sunwucheng.com/wiki/20200430172927/</id>
     <published>2020-04-30T09:29:27.000Z</published>
-    <updated>2021-04-14T02:47:53.000Z</updated>
+    <updated>2021-05-15T07:30:36.159Z</updated>
     
     <content type="html"><![CDATA[<h2 id="上网服务工具"><a href="#上网服务工具" class="headerlink" title="上网服务工具"></a>上网服务工具</h2><ul><li><a href="https://www.faststunnel.in/">https://www.faststunnel.in</a></li><li><a href="https://github.com/xhssme/tom/blob/master/FAQ.md">https://github.com/xhssme/tom/blob/master/FAQ.md</a></li><li><a href="https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit">https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit</a></li></ul><h2 id="文献管理软件"><a href="#文献管理软件" class="headerlink" title="文献管理软件"></a>文献管理软件</h2><ul><li>免费且开源的<a href="https://www.zotero.org/">Zotero</a><ul><li><a href="https://www.zotero.org/support/zh/start">Zotero官方文档</a></li><li><a href="https://zhuanlan.zhihu.com/zotero">Zotero文献生态</a></li></ul></li></ul><h2 id="文献可视化分析"><a href="#文献可视化分析" class="headerlink" title="文献可视化分析"></a>文献可视化分析</h2><ul><li>网页端<a href="https://bibliometric.com/">文献计量在线分析平台</a><ul><li><a href="https://mp.weixin.qq.com/s/416yyN5wyoEzB01ZAab9mg">如何使用「文献计量在线分析平台」</a></li></ul></li><li>简单的<a href="https://www.vosviewer.com/">VOSviewer</a></li><li>复杂的<a href="http://cluster.cis.drexel.edu/~cchen/citespace/">CiteSpace</a><ul><li><a href="https://www.youtube.com/playlist?list=PLmiSknH78BpQqEqsBT5D7REAyvHkPM7JL">官方使用教程-视频</a></li></ul></li></ul><h2 id="期刊论文推送"><a href="#期刊论文推送" class="headerlink" title="期刊论文推送"></a>期刊论文推送</h2><ul><li>RSS在线: <a href="https://feeder.co/">Feeder.co</a>(国内访问歇菜)</li><li>RSS插件: <a href="https://nodetics.com/feedbro/">Feedbro</a>(浏览器插件)</li></ul><h2 id="文献阅读辅助"><a href="#文献阅读辅助" class="headerlink" title="文献阅读辅助"></a>文献阅读辅助</h2><ul><li>英文翻译.<a href="https://www.deepl.com/home">DeepL官网</a> (<a href="https://www.deepl.com/translator">网页端使用</a>，<a href="https://www.deepl.com/app">客户端下载</a>)</li><li>英文翻译.<a href="https://fanyi.qukaa.com/">趣卡(PDF)翻译</a></li><li>英文翻译.<a href="https://www.aidatrans.com/translate">金山文档翻译</a></li></ul><h2 id="论文书写辅助"><a href="#论文书写辅助" class="headerlink" title="论文书写辅助"></a>论文书写辅助</h2><ul><li>数学公式处理: <a href="https://mathpix.com/">Mathpix 图片转公式</a></li><li>PDF文档处理: <a href="https://www.adobe.com/acrobat/online/compress-pdf.html">Adobe压缩pdf</a></li><li>图片处理工具: <a href="https://photopea.com/">PS在线</a>、<a href="https://remove.bg/">PS去图片背景</a>、<a href="https://ezgif.com/">Gif处理</a>、<a href="https://tifftojpg.com/">Tiff转Jpg</a></li></ul>]]></content>
     
@@ -368,9 +358,7 @@
     
     
     
-    <category term="Specialty" scheme="https://sunwucheng.com/wiki/categories/Specialty/"/>
-    
-    <category term="Research Tools" scheme="https://sunwucheng.com/wiki/categories/Specialty/Research-Tools/"/>
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
     
     
   </entry>
