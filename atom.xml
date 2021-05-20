@@ -174,13 +174,13 @@
   </entry>
   
   <entry>
-    <title>IDB_matrix_wear</title>
+    <title>Published_Work</title>
     <link href="https://sunwucheng.com/wiki/20210328220000/"/>
     <id>https://sunwucheng.com/wiki/20210328220000/</id>
     <published>2021-03-28T14:00:00.000Z</published>
-    <updated>2021-05-15T07:24:55.000Z</updated>
+    <updated>2021-05-20T02:09:46.852Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.</p></blockquote><p><img src="/wiki/images/20210328220000-1.tif" alt="Graphical abstract"></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.</p></blockquote><p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0263436821000627-ga1_lrg.jpg" alt="Graphical abstract"></p>]]></content>
     
     
       
@@ -192,6 +192,8 @@
     
     
     <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
+    
+    <category term="IDB_matrix_wear" scheme="https://sunwucheng.com/wiki/categories/Research/IDB-matrix-wear/"/>
     
     
   </entry>
