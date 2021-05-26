@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/20210306120000/</loc>
+    <loc>https://sunwucheng.com/wiki/20201216120536/</loc>
     
-    <lastmod>2021-05-25</lastmod>
+    <lastmod>2021-05-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/20210520090000/</loc>
+    <loc>https://sunwucheng.com/wiki/20210414010000/</loc>
     
-    <lastmod>2021-05-20</lastmod>
+    <lastmod>2021-05-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/20210306120000/</loc>
+    
+    <lastmod>2021-05-25</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>https://sunwucheng.com/wiki/20200430172927/</loc>
     
     <lastmod>2021-05-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/20201216120536/</loc>
-    
-    <lastmod>2021-05-18</lastmod>
     
   </url>
   
@@ -68,27 +68,6 @@
     <loc>https://sunwucheng.com/wiki/20210513081754/</loc>
     
     <lastmod>2021-05-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/20210414040000/</loc>
-    
-    <lastmod>2021-04-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/20210414020000/</loc>
-    
-    <lastmod>2021-04-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/20210414010000/</loc>
-    
-    <lastmod>2021-04-19</lastmod>
     
   </url>
   
@@ -130,7 +109,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2021-05-25</lastmod>
+    <lastmod>2021-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -139,43 +118,22 @@
 
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/THEMYTH/</loc>
-    <lastmod>2021-05-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2021-05-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2021-05-25</lastmod>
+    <lastmod>2021-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2021-05-25</lastmod>
+    <lastmod>2021-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/Research/IDB-drilling-AE/</loc>
-    <lastmod>2021-05-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Research/IDB-matrix-wear/</loc>
-    <lastmod>2021-05-25</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
+    <lastmod>2021-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
