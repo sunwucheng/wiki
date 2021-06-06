@@ -9,12 +9,12 @@
         <meta name="keywords" content="ML" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="机器学习-李宏毅2021:  课程来源、参考笔记 1 IntroductionMachine Learning ≈ Looking for Function （机器学习约等于找函式）     Different types of Functions 函式分类&#x2F;三大机器学习的任务     Regression（回归问题） The function outputs a scalar   Classif">
+    <meta name="description" content="机器学习-李宏毅2021:  课程来源、参考笔记 1 IntroductionMachine Learning ≈ Looking for Function （机器学习约等于找函式）    Different types of Functions 函式分类&#x2F;三大机器学习的任务    Regression（回归问题） The function outputs a scalar   Classific">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ML">
 <meta property="og:url" content="https://sunwucheng.com/wiki/20210409202020/index.html">
 <meta property="og:site_name" content="MYTH&#39;s Wiki">
-<meta property="og:description" content="机器学习-李宏毅2021:  课程来源、参考笔记 1 IntroductionMachine Learning ≈ Looking for Function （机器学习约等于找函式）     Different types of Functions 函式分类&#x2F;三大机器学习的任务     Regression（回归问题） The function outputs a scalar   Classif">
+<meta property="og:description" content="机器学习-李宏毅2021:  课程来源、参考笔记 1 IntroductionMachine Learning ≈ Looking for Function （机器学习约等于找函式）    Different types of Functions 函式分类&#x2F;三大机器学习的任务    Regression（回归问题） The function outputs a scalar   Classific">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-04-09T12:20:20.000Z">
 <meta property="article:modified_time" content="2021-04-09T12:26:55.493Z">
@@ -182,7 +182,7 @@
                             &nbsp;
                             English
                         </a>
-                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20200529085900/">Sentences</a></li>  <li class="file"><a href="/wiki/20200529111413/">CATTI</a></li>  <li class="file"><a href="/wiki/20210513081754/">IELTS</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20200529085900/">Sentences</a></li>  <li class="file"><a href="/wiki/20200529111413/">CATTI</a></li>  <li class="file"><a href="/wiki/20210606093000/">IELTS</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -309,30 +309,26 @@
         
             <p><strong>机器学习-李宏毅2021:  <a target="_blank" rel="noopener" href="https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.html">课程来源</a>、<a target="_blank" rel="noopener" href="https://github.com/Fafa-DL/Lhy_Machine_Learning">参考笔记</a></strong></p>
 <h1 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1 Introduction"></a>1 Introduction</h1><p>Machine Learning ≈ Looking for Function （机器学习约等于找函式）</p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Different types of Functions</th>
-<th style="text-align:center">函式分类/三大机器学习的任务</th>
+<th align="center">Different types of Functions</th>
+<th align="center">函式分类/三大机器学习的任务</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">Regression（回归问题）</td>
-<td style="text-align:center">The function outputs a scalar</td>
+<tbody><tr>
+<td align="center">Regression（回归问题）</td>
+<td align="center">The function outputs a scalar</td>
 </tr>
 <tr>
-<td style="text-align:center">Classification（分类问题）</td>
-<td style="text-align:center">Given options (classes), the function outputs the correct one</td>
+<td align="center">Classification（分类问题）</td>
+<td align="center">Given options (classes), the function outputs the correct one</td>
 </tr>
 <tr>
-<td style="text-align:center">Structured Learning</td>
-<td style="text-align:center">create something with structure (image, document)</td>
+<td align="center">Structured Learning</td>
+<td align="center">create something with structure (image, document)</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <h1 id="1-1-Case-study"><a href="#1-1-Case-study" class="headerlink" title="1.1 Case study"></a>1.1 Case study</h1><p>频道订阅人数预测</p>
 <ul>
 <li>Input = Youtube后台资料</li>
@@ -342,7 +338,7 @@
 <ol>
 <li><p>写出带有未知参数的函数 based on domain knowledge：$y = b + wx_1$<br> $y$为今日订阅人数，$x_1$为昨日订阅人数，$w, b$为unknown parameters learned from data</p>
 </li>
-<li><p>Define Loss from Training Data<br> Loss is a function of parameters about how good a set of values is<br> $L(b, w)$,  $L=\frac{1}{N} \sum<em>{n} e</em>{n}$</p>
+<li><p>Define Loss from Training Data<br> Loss is a function of parameters about how good a set of values is<br> $L(b, w)$,  $L=\frac{1}{N} \sum_{n} e_{n}$</p>
 <ul>
 <li>$e=|y-\hat{y}|$：<em>L is mean absolute error (MAE)</em></li>
 <li>$e=(y-\hat{y})^{2}$：<em>L is mean square error (MSE)</em><br>if $y$ and $\hat{y}$ are both probability distributions -&gt;  Cross-entropy</li>
