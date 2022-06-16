@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>ML.DL | MYTH&#39;s Wiki</title>
+    
+    
+        <meta name="keywords" content="ML.DL" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="深度学习资料 课程教学 李宏毅2021&#x2F;2022春机器学习课程：https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Wv411h7kN 跟李沐学AI：https:&#x2F;&#x2F;space.bilibili.com&#x2F;1567748478 同济子豪兄：https:&#x2F;&#x2F;space.bilibili.com&#x2F;1900783   图像分类 深度学习——VGG16模型详解 https:&#x2F;&#x2F;blog.cs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ML.DL">
+<meta property="og:url" content="https://sunwucheng.com/wiki/CS&EE/ML.DL/index.html">
+<meta property="og:site_name" content="MYTH&#39;s Wiki">
+<meta property="og:description" content="深度学习资料 课程教学 李宏毅2021&#x2F;2022春机器学习课程：https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Wv411h7kN 跟李沐学AI：https:&#x2F;&#x2F;space.bilibili.com&#x2F;1567748478 同济子豪兄：https:&#x2F;&#x2F;space.bilibili.com&#x2F;1900783   图像分类 深度学习——VGG16模型详解 https:&#x2F;&#x2F;blog.cs">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-04-30T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-06-08T07:47:29.270Z">
+<meta property="article:author" content="sunwucheng">
+<meta name="twitter:card" content="summary">
+    
+
+    
+
+    
+        <link rel="icon" href="https://sunwucheng.com/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/wiki/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/wiki/css/style.css">
+
+    
+<script src="/wiki/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/wiki/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/wiki/atom.xml" title="MYTH's Wiki" type="application/atom+xml">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/wiki/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">MYTH&#39;s Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com">MYTH</a>
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/wiki/',
+        CONTENT_URL: '/wiki/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/wiki/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com">MYTH</a></td>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-up fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" style="display: block;"> 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            CS&EE
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/CS&EE/C/">C</a></li>  <li class="file"><a href="/wiki/CS&EE/Git/">Git</a></li>  <li class="file"><a href="/wiki/CS&EE/Linux/">Linux</a></li>  <li class="file"><a href="/wiki/CS&EE/Script/">Script</a></li>  <li class="file active"><a href="/wiki/CS&EE/ML.DL/">ML.DL</a></li>  <li class="file"><a href="/wiki/CS&EE/Arduino/">Arduino</a></li>  <li class="file"><a href="/wiki/CS&EE/RaspberryPi/">RaspberryPi</a></li>  <li class="file"><a href="/wiki/CS&EE/SDR/">SDR</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            English
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/English/CATTI/">CATTI</a></li>  <li class="file"><a href="/wiki/English/IELTS/">IELTS</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Interest
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/Interest/CastAway/">CastAway</a></li>  <li class="file"><a href="/wiki/Interest/Interstellar/">Interstellar</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Research
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/Research/IDB_matrix_wear/">IDB_matrix_wear</a></li>  <li class="file"><a href="/wiki/Research/IDB_diamond_damage/">IDB_diamond_damage</a></li>  <li class="file"><a href="/wiki/Research/IDB_drilling_AE/">IDB_drilling_AE</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/index/">Introduction</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-CS&amp;EE/ML.DL" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/wiki/categories/CS-EE/">CS&EE</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/CS&EE/ML.DL/">
+            <time datetime="2020-04-30T16:00:00.000Z" itemprop="datePublished">2020-05-01</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            ML.DL
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <h1 id="深度学习资料"><a href="#深度学习资料" class="headerlink" title="深度学习资料"></a>深度学习资料</h1><ul>
+<li>课程教学<ul>
+<li>李宏毅2021/2022春机器学习课程：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Wv411h7kN">https://www.bilibili.com/video/BV1Wv411h7kN</a></li>
+<li>跟李沐学AI：<a target="_blank" rel="noopener" href="https://space.bilibili.com/1567748478">https://space.bilibili.com/1567748478</a></li>
+<li>同济子豪兄：<a target="_blank" rel="noopener" href="https://space.bilibili.com/1900783">https://space.bilibili.com/1900783</a></li>
+</ul>
+</li>
+<li>图像分类<ul>
+<li>深度学习——VGG16模型详解 <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_42012782/article/details/123222042">https://blog.csdn.net/qq_42012782/article/details/123222042</a></li>
+<li>卷积神经网络VGG16详解 <a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1667221544796169037&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1667221544796169037&amp;wfr=spider&amp;for=pc</a></li>
+<li><strong>适合小白的keras搭建VGG-16</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/ABin_203/article/details/106109501">https://blog.csdn.net/ABin_203/article/details/106109501</a></li>
+<li>keras实现VGG16模型 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43533058/article/details/109024589">https://blog.csdn.net/weixin_43533058/article/details/109024589</a></li>
+<li><strong>经典卷积神经网络—-VGG16详解</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/hgnuxc_1993/article/details/115956774">https://blog.csdn.net/hgnuxc_1993/article/details/115956774</a></li>
+<li>卷积神经网络VGG16这么简单，为什么没人能说清？  <a target="_blank" rel="noopener" href="https://www.sohu.com/a/241338315_787107">https://www.sohu.com/a/241338315_787107</a></li>
+<li><strong>【项目实战】Python基于卷积神经网络CNN模型和VGG16模型进行图片识别项目实战</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42163563/article/details/122635928">https://blog.csdn.net/weixin_42163563/article/details/122635928</a></li>
+<li>经典backbone——VGG16 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/fusheng-rextimmy/p/15452248.html">https://www.cnblogs.com/fusheng-rextimmy/p/15452248.html</a></li>
+<li><strong>基于keras+VGG-16的小数据集多分类图像识别(附代码数据集)</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/ABin_203/article/details/105713510">https://blog.csdn.net/ABin_203/article/details/105713510</a></li>
+<li>VGG16实现图像分类 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/97817577">https://zhuanlan.zhihu.com/p/97817577</a></li>
+<li>windows+TensorFlow/keras+vgg16训练自己的数据集 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42795611/article/details/91126616">https://blog.csdn.net/weixin_42795611/article/details/91126616</a></li>
+</ul>
+</li>
+<li>图像分类+迁移学习<ul>
+<li>迁移学习及实操（使用预训练的VGG16网络）详解 <a target="_blank" rel="noopener" href="http://c.biancheng.net/view/1934.html">http://c.biancheng.net/view/1934.html</a></li>
+<li>keras实现—&gt;使用预训练的卷积神经网络(VGG16) <a target="_blank" rel="noopener" href="https://www.shuzhiduo.com/A/ke5jLoejzr/">https://www.shuzhiduo.com/A/ke5jLoejzr/</a></li>
+<li>迁移学习和fine-tuning的区别 <a target="_blank" rel="noopener" href="https://blog.csdn.net/tianguiyuyu/article/details/80072238">https://blog.csdn.net/tianguiyuyu/article/details/80072238</a></li>
+<li>Keras玩耍迁移学习(VGG16) <a target="_blank" rel="noopener" href="https://muyuuuu.github.io/2019/02/17/transfer-learning/">https://muyuuuu.github.io/2019/02/17/transfer-learning/</a></li>
+<li>Keras 手动搭建 VGG 卷积神经网络识别 ImageNet 1000 种常见分类 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_37543731/article/details/101373110">https://blog.csdn.net/weixin_37543731/article/details/101373110</a></li>
+<li>利用VGG16网络模块进行迁移学习，实操（附源码） <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42216109/article/details/93195479">https://blog.csdn.net/weixin_42216109/article/details/93195479</a></li>
+</ul>
+</li>
+<li>图像回归<ul>
+<li>巨人肩膀上的迁移学习（2）—-用Python和Keras做图像回归 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1it411A7oP">https://www.bilibili.com/video/BV1it411A7oP</a></li>
+</ul>
+</li>
+<li>图像分割<ul>
+<li>基于mask r-cnn的铁路隧道裂缝检测 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1DT4y1F7yG">https://www.bilibili.com/video/BV1DT4y1F7yG</a></li>
+</ul>
+</li>
+<li>语音识别<ul>
+<li>【语音识别技术】重度鉴赏 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Km4y1Q7w7">https://www.bilibili.com/video/BV1Km4y1Q7w7</a></li>
+</ul>
+</li>
+<li>评估优化<ul>
+<li>损失函数Loss Function <a target="_blank" rel="noopener" href="https://blog.csdn.net/Frank_LJiang/article/details/104266255">https://blog.csdn.net/Frank_LJiang/article/details/104266255</a></li>
+<li>分类模型评估指标 <a target="_blank" rel="noopener" href="https://blog.csdn.net/CSDN_Arice/article/details/123590645">https://blog.csdn.net/CSDN_Arice/article/details/123590645</a> </li>
+<li>机器学习干货篇：分类模型评价指标汇总 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/378770493">https://zhuanlan.zhihu.com/p/378770493</a></li>
+<li>机器学习中的AUC-ROC曲线 <a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1671508719185457407&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1671508719185457407&amp;wfr=spider&amp;for=pc</a></li>
+<li>深度学习_损失函数(MSE、MAE、SmoothL1_loss…) <a target="_blank" rel="noopener" href="https://blog.csdn.net/Xiaobai_rabbit0/article/details/111032136">https://blog.csdn.net/Xiaobai_rabbit0/article/details/111032136</a></li>
+<li>欠拟合和过拟合+交叉检验+减轻过拟合（dropout+regularization泛化+数据增强+early stopping）+动量和学习率衰减+卷积原理+常见卷积神经网络 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_51589123/article/details/117656794">https://blog.csdn.net/weixin_51589123/article/details/117656794</a></li>
+<li>Keras model.fit()参数详解+Keras回调函数+Earlystopping <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/149712645">https://zhuanlan.zhihu.com/p/149712645</a></li>
+<li>K-Fold 交叉验证 (Cross-Validation) <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39783265/article/details/102695351">https://blog.csdn.net/qq_39783265/article/details/102695351</a></li>
+<li>K-折交叉验证（原理及实现） <a target="_blank" rel="noopener" href="https://www.freesion.com/article/42991015340/">https://www.freesion.com/article/42991015340/</a></li>
+<li>求大神通俗易懂的解释下交叉验证cross-validation？ <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/39259296">https://www.zhihu.com/question/39259296</a></li>
+<li>k折交叉验证的keras和sklearn版本通吃 <a target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_26745777/article/details/103344570">https://blog.csdn.net/sinat_26745777/article/details/103344570</a></li>
+<li>keras实现交叉验证以及K折交叉验证 <a target="_blank" rel="noopener" href="https://blog.csdn.net/webmater2320/article/details/100996865">https://blog.csdn.net/webmater2320/article/details/100996865</a></li>
+<li>深度解析 Keras 中的图片预处理：图片生成器 ImageDataGeneraor <a target="_blank" rel="noopener" href="https://blog.csdn.net/dugudaibo/article/details/87719078">https://blog.csdn.net/dugudaibo/article/details/87719078</a></li>
+</ul>
+</li>
+<li>模型可视化<ul>
+<li>巨人肩膀上的迁移学习（2）—-用Python和Keras做图像回归 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1it411A7oP">https://www.bilibili.com/video/BV1it411A7oP</a></li>
+<li>卷积网络的可视化与可解释性（资料整理） <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/36474488">https://zhuanlan.zhihu.com/p/36474488</a></li>
+<li>如何调参3：利用Grad-CAM可视化神经网络的焦点 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/100544873">https://zhuanlan.zhihu.com/p/100544873</a></li>
+<li>图像处理特征可视化方法总结（特征图、卷积核、类可视化CAM） <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/xWir4qfV6uFYejdbs7pJ3Q">https://mp.weixin.qq.com/s/xWir4qfV6uFYejdbs7pJ3Q</a></li>
+<li>使用Grad_Cam绘制预训练模型VGG16训练脑部MRI图像的类激活图 <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43327771/article/details/105440601">https://blog.csdn.net/qq_43327771/article/details/105440601</a></li>
+<li>Understanding Deep Neural Networks For Regression In Leaf Counting <a target="_blank" rel="noopener" href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVPPP/Dobrescu_Understanding_Deep_Neural_Networks_for_Regression_in_Leaf_Counting_CVPRW_2019_paper.pdf">https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVPPP/Dobrescu_Understanding_Deep_Neural_Networks_for_Regression_in_Leaf_Counting_CVPRW_2019_paper.pdf</a></li>
+<li>Grad-CAM: Visualize class activation maps with Keras, TensorFlow, and Deep Learning <a target="_blank" rel="noopener" href="https://pyimagesearch.com/2020/03/09/grad-cam-visualize-class-activation-maps-with-keras-tensorflow-and-deep-learning/">https://pyimagesearch.com/2020/03/09/grad-cam-visualize-class-activation-maps-with-keras-tensorflow-and-deep-learning/</a></li>
+<li>Grad-CAM-for-video-and-regression-task <a target="_blank" rel="noopener" href="https://github.com/UtopAIBuilder/Grad-CAM-for-video-and-regression-task">https://github.com/UtopAIBuilder/Grad-CAM-for-video-and-regression-task</a></li>
+<li>Grad-CAM: Visualize class activation maps with Keras, TensorFlow, and Deep Learning <a target="_blank" rel="noopener" href="https://pyimagesearch.com/2020/03/09/grad-cam-visualize-class-activation-maps-with-keras-tensorflow-and-deep-learning/">https://pyimagesearch.com/2020/03/09/grad-cam-visualize-class-activation-maps-with-keras-tensorflow-and-deep-learning/</a></li>
+<li>ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2103.02561.pdf">https://arxiv.org/pdf/2103.02561.pdf</a></li>
+<li>Implementing Grad-CAM in PyTorch <a target="_blank" rel="noopener" href="https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82">https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82</a></li>
+<li>Regression Activation Mapping for a given CNN <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/50369331/regression-activation-mapping-for-a-given-cnn">https://stackoverflow.com/questions/50369331/regression-activation-mapping-for-a-given-cnn</a></li>
+<li>Activation maps for deep learning models in a few lines of code <a target="_blank" rel="noopener" href="https://www.kdnuggets.com/2019/10/activation-maps-deep-learning-models-lines-code.html">https://www.kdnuggets.com/2019/10/activation-maps-deep-learning-models-lines-code.html</a></li>
+<li>Diabetic Retinopathy Detection via Deep Convolutional Networks for Discriminative Localization and Visual Explanation <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1703.10757.pdf">https://arxiv.org/pdf/1703.10757.pdf</a></li>
+<li>Estimating and understanding crop yields with explainable deep learning in the Indian Wheat Belt <a target="_blank" rel="noopener" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab68ac">https://iopscience.iop.org/article/10.1088/1748-9326/ab68ac</a></li>
+<li>pytorch-grad-cam <a target="_blank" rel="noopener" href="https://github.com/jacobgil/pytorch-grad-cam">https://github.com/jacobgil/pytorch-grad-cam</a></li>
+<li>可视化-VGG16模型 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_39294203/article/details/117331950?utm_medium=distribute.pc_aggpage_search_result.none-task-code-2~aggregatepage~first_rank_ecpm_v1~rank_aggregation-9-117331950-1.pc_agg_rank_aggregation&amp;utm_term=vgg16模型预处理&amp;spm=1000.2123.3001.4430">https://blog.csdn.net/weixin_39294203/article/details/117331950?utm_medium=distribute.pc_aggpage_search_result.none-task-code-2~aggregatepage~first_rank_ecpm_v1~rank_aggregation-9-117331950-1.pc_agg_rank_aggregation&amp;utm_term=vgg16模型预处理&amp;spm=1000.2123.3001.4430</a></li>
+<li>Grad-CAM 卷积网络中的热力图 <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/0431d6d89d8e">https://www.jianshu.com/p/0431d6d89d8e</a></li>
+<li>Keras 实现 Grad-CAM 基于 VGG16模型 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42474448/article/details/106665834">https://blog.csdn.net/weixin_42474448/article/details/106665834</a></li>
+</ul>
+</li>
+<li>绘制PCA和CM<ul>
+<li><strong>keras训练曲线,混淆矩阵,CNN层输出可视化</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/DLW__/article/details/99089178">https://blog.csdn.net/DLW__/article/details/99089178</a></li>
+<li>分类评估标准混淆矩阵（图像分类篇） <a target="_blank" rel="noopener" href="https://www.csdn.net/tags/NtzaAg5sMTM0NzItYmxvZwO0O0OO0O0O.html">https://www.csdn.net/tags/NtzaAg5sMTM0NzItYmxvZwO0O0OO0O0O.html</a></li>
+<li>Keras绘制混淆矩阵 <a target="_blank" rel="noopener" href="https://blog.csdn.net/nick_dizzy/article/details/106412785">https://blog.csdn.net/nick_dizzy/article/details/106412785</a></li>
+<li><strong>python-keras混淆矩阵的2种画法 | 附代码</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_46833029/article/details/124085134">https://blog.csdn.net/weixin_46833029/article/details/124085134</a></li>
+<li>pytorch分类模型绘制混淆矩阵及可视化 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38468077/article/details/121671139">https://blog.csdn.net/weixin_38468077/article/details/121671139</a></li>
+<li><strong>图片分类之绘制混淆矩阵+PCA降维绘图</strong> <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_28228605/article/details/103703397">https://blog.csdn.net/qq_28228605/article/details/103703397</a></li>
+<li>KERAS预测类别画出混淆矩阵 <a target="_blank" rel="noopener" href="https://www.freesion.com/article/47611441657/">https://www.freesion.com/article/47611441657/</a></li>
+</ul>
+</li>
+<li>Read it Later<ul>
+<li>GPU 计算和深度学习在药物发现中的转型作用 <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/BKNog09f2MyAT56oQFbORw">https://mp.weixin.qq.com/s/BKNog09f2MyAT56oQFbORw</a></li>
+<li>「AI配比」混凝土经Meta数据中心测试，减少40%碳排放 <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/v1W4QtzT6ItG2iiHavglaA">https://mp.weixin.qq.com/s/v1W4QtzT6ItG2iiHavglaA</a></li>
+<li>苏州大学《Nature Commun》：机器学习预测晶体结构！ <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/kJeQbJAbQFCx_3kn9KE8ug">https://mp.weixin.qq.com/s/kJeQbJAbQFCx_3kn9KE8ug</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>来源：<a target="_blank" rel="noopener" href="https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497">动手深度学习PyTorch版-李沐</a></strong></p>
+<h1 id="1-课程安排"><a href="#1-课程安排" class="headerlink" title="1 课程安排"></a>1 课程安排</h1><ul>
+<li>深度学习基础：线性神经网络</li>
+<li>卷积神经网络：LeNet, AlexNet, VGG, Inception, ResNet</li>
+<li>循环神经网络：RNN, GRU, LSTM, seq2seq</li>
+<li>注意力机制：Attention, Transformer</li>
+<li>优化算法：SGD, Momentum, Adam</li>
+<li>高性能计算：并行，多GPU，分布式</li>
+<li>计算机视觉：目标检测，语义分割</li>
+<li>自然语言处理：词嵌入，BERT</li>
+</ul>
+<h1 id="2-深度学习介绍"><a href="#2-深度学习介绍" class="headerlink" title="2 深度学习介绍"></a>2 深度学习介绍</h1><p>AI地图、图片分类、物体检测和分割、样式迁移、人脸合成、文字生成图片、文字生成、无人驾驶<br>案例研究——广告点击：预测与训练，完整的故事</p>
+<h1 id="3-本地安装（略）"><a href="#3-本地安装（略）" class="headerlink" title="3 本地安装（略）"></a>3 本地安装（略）</h1><h1 id="4-数据操作"><a href="#4-数据操作" class="headerlink" title="4 数据操作"></a>4 数据操作</h1><h2 id="4-1-N维数组"><a href="#4-1-N维数组" class="headerlink" title="4.1 N维数组"></a>4.1 N维数组</h2><p>N维数组是机器学习和神经网络的主要数据结构，样例：</p>
+<ul>
+<li>0-d（标量）：一个类别</li>
+<li>1-d（向量）：一个特征向量</li>
+<li>2-d（矩阵）：一个样本——特征矩阵</li>
+<li>3-d：RGB图片（宽×高×通道）</li>
+<li>4-d：一个RGB图片批量batch（批量大小×宽×高×通道）</li>
+<li>5-d：一个视频批量（批量大小×时间×宽×高×通道）</li>
+</ul>
+<h2 id="4-2-创建数组"><a href="#4-2-创建数组" class="headerlink" title="4.2  创建数组"></a>4.2  创建数组</h2><p>创建数组需要</p>
+<ul>
+<li>形状：例如3×4矩阵</li>
+<li>类型：每个元素的数据类型，如32位浮点数</li>
+<li>数值：每个元素的值，如全是0或随机数</li>
+</ul>
+<h2 id="4-3-访问元素"><a href="#4-3-访问元素" class="headerlink" title="4.3 访问元素"></a>4.3 访问元素</h2><p>对m×n矩阵，有第0,1,2…i,…(m-1)行、第0,1,2…j,…(n-1)列</p>
+<ul>
+<li>一个元素：[i,j]</li>
+<li>一行元素：[i,:]</li>
+<li>一列元素：[:,j]</li>
+<li>一子区域：[$i_1$:$i_2$,j:]</li>
+<li>一跳行子区域：[::i,::j]（从第0行0列元素开始，每i个数据取行、每j个数据取列访问元素）</li>
+</ul>
+<h2 id="4-4-数据操作实现"><a href="#4-4-数据操作实现" class="headerlink" title="4.4 数据操作实现"></a>4.4 数据操作实现</h2><p>张量表示一个数值组成的数组，这个数组可能有多个维度<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; torch.arrange(12)</span><br><span class="line">x</span><br></pre></td></tr></table></figure><br>可以通过张量的<code>shape</code>属性来访问张量的形状和张量中元素的总数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x.shape</span><br><span class="line">x.numel()</span><br></pre></td></tr></table></figure><br>可以调用<code>reshape</code>函数来改变一个张量的形状而不改变元素数量和元素值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; x.reshape(3,4)</span><br><span class="line">x</span><br></pre></td></tr></table></figure><br>使用全0、全1、其他常量或者从特定分布中随机采样的数字<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">torch.zeros((2,3,4))</span><br><span class="line">torch.ones((2,3,4))</span><br></pre></td></tr></table></figure><br>通过提供包含数值的Python列表（或嵌套列表）来为所需张量中的每个元素赋予确定值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">torch.tensor([[2,1,4,3],[1,2,3,4],[4,3,2,1]])</span><br></pre></td></tr></table></figure><br>常见的标准算术运算符都可以升级为按元素运算<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; torch.tensor([1.0,2,4,8])</span><br><span class="line">y &#x3D; torch.tensor([2,2,2,2])</span><br><span class="line">x+y, x-y, x*y, x&#x2F;y, x**y</span><br></pre></td></tr></table></figure><br>按元素方式应用更多的计算（指数运算）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">torch.exp(x)</span><br></pre></td></tr></table></figure><br>把多个张量连结在一起（在第0维、第1维）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">X &#x3D; torch.arange(12, dtype&#x3D;torch.float32).reshape((3,4))</span><br><span class="line">Y &#x3D; torch.tensor([[2.0,1,4,3],[1,2,3,4),[4,3,2,1]])</span><br><span class="line">tensor.cat((X,Y),dim&#x3D;0), torch.cat((X,Y),dim&#x3D;1)</span><br></pre></td></tr></table></figure><br>通过逻辑运算符构建二元张量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">X &#x3D;&#x3D; Y</span><br></pre></td></tr></table></figure><br>对张量中的所有元素进行求和会产生一个只有一个元素的张量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">X.sum()</span><br></pre></td></tr></table></figure><br>即使形状不同，仍然可以通过调用广播机制(broadcasting mechanism)来执行按元素操作<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; torch.arange(3).reshape((3,1))</span><br><span class="line">b &#x3D; torch.arange(2).reshape((1,2))</span><br><span class="line">a, b, a+b</span><br></pre></td></tr></table></figure><br>可以用<code>[-1]</code>选择最后一个元素，用<code>[1:3]</code>选择第二个和第三个元素（第1个、第2个元素）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">X[-1], Y[1:3]</span><br></pre></td></tr></table></figure><br>除读取外，还可以通过指定索引来将元素写入矩阵<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">X[1,2] &#x3D; 9</span><br></pre></td></tr></table></figure><br>为多个元素赋相同的值，只需索引所有元素然后为其赋值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X[0:2,:] &#x3D; 12</span><br><span class="line">X</span><br></pre></td></tr></table></figure><br>运行一些操作可能导致新结果分配内存<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">before &#x3D; id(Y)</span><br><span class="line">Y &#x3D; Y+X</span><br><span class="line">id(Y) &#x3D;&#x3D; before</span><br></pre></td></tr></table></figure><br>执行原地操作<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Z &#x3D; torch.zeros_like(Y)</span><br><span class="line">print(&#39;id(Z):&#39;, id(Z))</span><br><span class="line">Z[:] &#x3D; X+Y</span><br><span class="line">print(&#39;id(Z):&#39;, id(Z))</span><br></pre></td></tr></table></figure><br>若后续计算中美哟重复使用X，可以使用<code>X[:] = X+Y</code>或<code>X += Y</code>来减少操作的内存开销<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">before &#x3D; id(X)</span><br><span class="line">X +&#x3D; Y</span><br><span class="line">id(X) &#x3D;&#x3D; before</span><br></pre></td></tr></table></figure><br>转换为NumPy张量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">A &#x3D; X.numpy()</span><br><span class="line">B &#x3D; torch.tensor(A)</span><br><span class="line">type(A), type(B)</span><br></pre></td></tr></table></figure><br>将大小为1的张量转换成Python标量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; torch.tensor([3.5])</span><br><span class="line">a, a.item(), float(a), int(a)</span><br></pre></td></tr></table></figure></p>
+<h1 id="5-数据预处理"><a href="#5-数据预处理" class="headerlink" title="5 数据预处理"></a>5 数据预处理</h1><p>创建一个人工数据集，并存储在csv文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">os.makedirs(os.path.join(&#39;..&#39;, &#39;data&#39;), exist_ok&#x3D;True)</span><br><span class="line">data_file &#x3D; os.path.join(&#39;..&#39;, &#39;data&#39;, &#39;house_tiny.csv&#39;)</span><br><span class="line">with open(data_file, &#39;w&#39;) as f:</span><br><span class="line">    f.write(&#39;NumRooms,Alley,Price\n&#39;)</span><br><span class="line">    f.write(&#39;NA,Pave,127500\n&#39;)</span><br><span class="line">    f.write(&#39;2,NA,106000\n&#39;)</span><br><span class="line">    f.write(&#39;4,NA,178100\n&#39;)</span><br><span class="line">    f.write(&#39;NA,NA,140000\n&#39;)</span><br></pre></td></tr></table></figure><br>从创建的csv文件中加载原始数据集<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 如果没有安装pandas，只需取消对以下行的注释：</span><br><span class="line"># !pip install pandas</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line">data &#x3D; pd.read_csv(data_file)</span><br><span class="line">print(data)</span><br></pre></td></tr></table></figure><br>为处理缺失的数据，典型方法包括插值和删除，这里考虑差值方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">inputs, outputs &#x3D; data.iloc[:, 0:2], data.iloc[:, 2]</span><br><span class="line">inputs &#x3D; inputs.fillna(inputs.mean())</span><br><span class="line">print(inputs)</span><br></pre></td></tr></table></figure><br>对于 inputs 中的类别值或离散值，将 “NaN” 视为一个类别<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">inputs &#x3D; pd.get_dummies(inputs, dummy_na&#x3D;True)</span><br><span class="line">print(inputs)</span><br></pre></td></tr></table></figure><br>现在 inputs 和 outputs 中的所有条目都是数值类型，它们可以转换为张量格式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import torch</span><br><span class="line"></span><br><span class="line">X, y &#x3D; np.array(inputs.values), torch.tensor(outputs.values)</span><br><span class="line">X, y</span><br></pre></td></tr></table></figure><br>其他：<code>reshape</code>？？？<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; torch.arange(12)</span><br><span class="line">b &#x3D; a.reshape((3,4))</span><br><span class="line">b[:] &#x3D; 2</span><br><span class="line">a</span><br></pre></td></tr></table></figure><br>其他：<code>tensor</code>（数学概念，张量，深度学习框架作者数学不太行混用的）和<code>array</code>（计算机概念，数组，ndarray是多维数组）</p>
+<h1 id="5-线性代数"><a href="#5-线性代数" class="headerlink" title="5 线性代数"></a>5 线性代数</h1><h2 id="5-1-向量"><a href="#5-1-向量" class="headerlink" title="5.1 向量"></a>5.1 向量</h2><ul>
+<li>点乘：$a^{\top} b=\sum_{i} a_{i} b_{i}$</li>
+<li>正交：$a^{\top} b=\sum_{i} a_{i} b_{i}=0$</li>
+</ul>
+<h2 id="5-2-矩阵"><a href="#5-2-矩阵" class="headerlink" title="5.2 矩阵"></a>5.2 矩阵</h2><ul>
+<li>乘法（矩阵乘以向量）：$c=A b$ where $c_{i}=\sum_{j} A_{i j} b_{j}$</li>
+<li>乘法（矩阵乘以矩阵）：$C=A B$ where $C_{i k}=\sum_{j} A_{i j} B_{j k}$</li>
+<li>范数：$c=A \cdot b$ hence $|c| \leq|A| \cdot|b|$<ul>
+<li>矩阵范数：最小的满足上面公式的值</li>
+<li>Frobenius范数：$|A|_{\text {Frob }}=\left[\sum_{i j} A_{i j}^{2}\right]^{\frac{1}{2}}$</li>
+</ul>
+</li>
+<li>特殊矩阵<ul>
+<li>对称和反对称：$A_{i j}=A_{j i}$ and $A_{i j}=-A_{j i}$</li>
+<li>正定矩阵：$|x|^{2}=x^{\top} x \geq 0$ generalizes to $x^{\top} A x \geq 0$</li>
+<li>正交矩阵：$U U^{\top}=\mathbf{1}$</li>
+<li>置换矩阵：$P$ where $P_{i j}=1$ if and only if $j=\pi(i)$</li>
+</ul>
+</li>
+<li>特征向量和特征值：特征向量是不被矩阵改变方向的向量，对称矩阵总能找到特征向量</li>
+</ul>
+<h2 id="5-3-线性代数实现"><a href="#5-3-线性代数实现" class="headerlink" title="5.3 线性代数实现"></a>5.3 线性代数实现</h2><p>标量由只有一个元素的张量表示<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import torch</span><br><span class="line"></span><br><span class="line">x &#x3D; torch.tensor([3.0])</span><br><span class="line">y &#x3D; torch.tensor([2.0])</span><br><span class="line">x+y, x*y, x&#x2F;y, x**y</span><br></pre></td></tr></table></figure><br>可将向量视为标量值组成的列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; torch.arange(4)</span><br><span class="line">x</span><br></pre></td></tr></table></figure><br>通过张量的索引来访问任一元素<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x[3]</span><br></pre></td></tr></table></figure><br>访问张量的长度<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">len(x)</span><br></pre></td></tr></table></figure><br>只有一个轴的张量，形状只有一个元素<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x.shape</span><br></pre></td></tr></table></figure><br>通过指定两个分量m和n来创建一个形状为m×n的矩阵<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A &#x3D; torch.arange(20).reshape(5,4)</span><br><span class="line">A</span><br></pre></td></tr></table></figure><br>矩阵的转置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A.T</span><br></pre></td></tr></table></figure><br>对称矩阵(symmetric matrix)A等于其转置：$\mathbf{A}=\mathbf{A}^{\top}$<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">B &#x3D; torch.tensor([[1,2,3],[2,0,4],[3,4,5]])</span><br><span class="line">B</span><br><span class="line">B &#x3D;&#x3D; B.T</span><br></pre></td></tr></table></figure><br>构建具有更多轴的数据结构<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X &#x3D; torch.arange(24).reshape(2,3,4)</span><br><span class="line">X</span><br></pre></td></tr></table></figure><br>给定具有相同形状的任何两个张量，任何按元素二元计算的结果都将是相同形状的张量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">A &#x3D; torch.arange(20, dtype.float32).reshape(5,4)</span><br><span class="line">B &#x3D; A.clone()</span><br><span class="line">A, A+B</span><br></pre></td></tr></table></figure><br>两个矩阵的按元素乘法称为哈达玛积(Hadamard product)（数学符号<code>⊙</code>）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">A * B</span><br><span class="line">a &#x3D; 2</span><br><span class="line">X &#x3D; torch.arange(24).reshape(2,3,4)</span><br><span class="line">a+X, (a*X).shape</span><br></pre></td></tr></table></figure><br>计算其元素的和<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; torch.arange(4, dtype&#x3D;torch.float32)</span><br><span class="line">x, x.sum()</span><br></pre></td></tr></table></figure><br>表示任意形状张量的元素和<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A &#x3D; torch.arange(20*2).reshape(2,5,4)</span><br><span class="line">A.shape, A.sum()</span><br></pre></td></tr></table></figure><br>指定求和汇总张量的轴<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">A_sum_axis0 &#x3D; A.sum(axis&#x3D;0)</span><br><span class="line">A_sum_axis0, A_sum_axis0.shape</span><br><span class="line"></span><br><span class="line">A_sum_axis1 &#x3D; A.sum(axis&#x3D;1)</span><br><span class="line">A_sum_axis1, A_sum_axis1.shape</span><br><span class="line"></span><br><span class="line">A.sum(axis&#x3D;[0,1])</span><br><span class="line">A.sum(axis&#x3D;[0,1]).shape</span><br></pre></td></tr></table></figure><br>一个与求和相关的量是平均值(mean/average)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A.mean(), A.sum(), A.numel()</span><br><span class="line">A.mean(axis&#x3D;0), A.sum(axis&#x3D;0)&#x2F;A.shape[0]</span><br></pre></td></tr></table></figure><br>计算总和或均值保持轴数不变<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sum_A &#x3D; A.sum(axis&#x3D;1, keepdims&#x3D;True)</span><br><span class="line">sum_A</span><br></pre></td></tr></table></figure><br>通过广播将A除以sum_A<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A&#x2F;sum_A</span><br></pre></td></tr></table></figure><br>点积是相同位置的按元素乘积的和<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y &#x3D; torch.ones(4, dtype&#x3D;torch.float32)</span><br><span class="line">x, y, torch.dot(x,y)</span><br></pre></td></tr></table></figure><br>也可以通过执行按元素乘法，然后进行求和来表示两个向量的点积<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">torch.sum(x*y)</span><br></pre></td></tr></table></figure><br>矩阵向量积Ax是一个长度为m的列向量，其$i^{\text {th }}$元素是点积$\mathbf{a}_{i}^{\top} \mathbf{x}$<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A.shape, x.shape, torch.mv(A,x)</span><br></pre></td></tr></table></figure><br>可以将矩阵乘法AB看作是简单执行m次矩阵-向量积，然后将结果拼接在一起，形成一个n×m矩阵<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">B &#x3D; torch.ones(4,3)</span><br><span class="line">torch.mm(A,B)</span><br></pre></td></tr></table></figure><br>$L_{2}$范数是向量元素平方和的平方根：$|\mathbf{x}|_{2}=\sqrt{\sum_{i=1}^{n} x_{i}^{2}}$<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">u &#x3D; torch.tensor([3.0,-4.0])</span><br><span class="line">torch.norm(u)</span><br></pre></td></tr></table></figure><br>矩阵的弗罗贝尼乌斯范数(Frobenius norm)是矩阵元素的平方和的平方根：$|\mathbf{X}|_{F}=\sqrt{\sum_{i=1}^{m} \sum_{j=1}^{n} x_{i j}^{2}}$<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">torch.norm(torch.ones((4,9)))</span><br></pre></td></tr></table></figure><br>[补充]按特定轴求和</p>
+<ul>
+<li>shape: [5,4] i.e., axis: 0,1<ul>
+<li>axis=0, sum: [4]</li>
+<li>axis=1, sum: [5]</li>
+</ul>
+</li>
+<li>shape: [2,5,4] i.e., axis: 0,1,2<ul>
+<li>axis=1, sum: [2,4]</li>
+<li>axis=2, sum: [2,5]</li>
+<li>axis=[1,2], sum: [2]</li>
+</ul>
+</li>
+</ul>
+<p>keepdims=True</p>
+<ul>
+<li>shape: [2,5,4] i.e., axis: 0,1,2<ul>
+<li>axis=1, sum: [2,1,4]</li>
+<li>axis=[1,2], sum: [2,1,1]</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import torch</span><br><span class="line"></span><br><span class="line">a &#x3D; torch.ones((2,5,4))</span><br><span class="line">a.shape</span><br><span class="line"></span><br><span class="line">a.sum(axis&#x3D;0).shape</span><br><span class="line">a.sum(axis&#x3D;1).shape</span><br><span class="line">a.sum(axis&#x3D;[0,2]).shape</span><br><span class="line"></span><br><span class="line">a.sum(axis&#x3D;1,keepdims&#x3D;True).shape</span><br><span class="line">a.sum(axis&#x3D;[0,2],keepdims&#x3D;True).shape</span><br></pre></td></tr></table></figure>
+<p>问题：torch不区分行向量和列向量吗？<br>一个数学概念的向量对计算机来讲就是一个一维数组，可以用一个二维矩阵来区分行向量和列向量</p>
+<ul>
+<li>行向量：矩阵的行数为1，列数为n</li>
+<li>列向量：矩阵的行数为n，列数为1</li>
+</ul>
+<h1 id="6-矩阵计算"><a href="#6-矩阵计算" class="headerlink" title="6 矩阵计算"></a>6 矩阵计算</h1><h2 id="6-1-标量导数——导数是切线的斜率"><a href="#6-1-标量导数——导数是切线的斜率" class="headerlink" title="6.1 标量导数——导数是切线的斜率"></a>6.1 标量导数——导数是切线的斜率</h2><p><strong>没看/听懂</strong></p>
+<h2 id="6-2-亚导数——将导数拓展到不可微的函数"><a href="#6-2-亚导数——将导数拓展到不可微的函数" class="headerlink" title="6.2 亚导数——将导数拓展到不可微的函数"></a>6.2 亚导数——将导数拓展到不可微的函数</h2><p><strong>没看/听懂</strong></p>
+<h2 id="6-3-梯度——将导数拓展到向量"><a href="#6-3-梯度——将导数拓展到向量" class="headerlink" title="6.3 梯度——将导数拓展到向量"></a>6.3 梯度——将导数拓展到向量</h2><p><strong>没看/听懂</strong></p>
+<h2 id="6-4-拓展到矩阵"><a href="#6-4-拓展到矩阵" class="headerlink" title="6.4 拓展到矩阵"></a>6.4 拓展到矩阵</h2><p><strong>没看/听懂</strong></p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/CS&EE/Arduino/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Arduino
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/CS&EE/Script/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Script</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            sunwucheng &copy; 2022 
+             | Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>-<a target="_blank" rel="noopener" href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/wiki/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/wiki/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/wiki/js/main.js"></script>
+
+
+    </div>
+</body>
+</html>
