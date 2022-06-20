@@ -9,12 +9,12 @@
         <meta name="keywords" content="C" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="来源: C Primer Plus 1 初识C语言1.6 语言标准    1978 1989 1990 1994 2011     K&amp;R C ANSI C (C89) ISO C (C90) C99 C11     1.8 编程机制源代码文件(source code file): 文件名&#x3D;基本名(basename).扩展名(extension)C编程: 源代码(by编译) -&gt; 中">
+    <meta name="description" content="来源: C Primer Plus 1 初识C语言1.6 语言标准   1978 1989 1990 1994 2011    K&amp;R C ANSI C (C89) ISO C (C90) C99 C11   1.8 编程机制源代码文件(source code file): 文件名&#x3D;基本名(basename).扩展名(extension)C编程: 源代码(by编译) -&gt; 中间代码(">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C">
 <meta property="og:url" content="https://sunwucheng.com/wiki/CS&EE/C/index.html">
 <meta property="og:site_name" content="MYTH&#39;s Wiki">
-<meta property="og:description" content="来源: C Primer Plus 1 初识C语言1.6 语言标准    1978 1989 1990 1994 2011     K&amp;R C ANSI C (C89) ISO C (C90) C99 C11     1.8 编程机制源代码文件(source code file): 文件名&#x3D;基本名(basename).扩展名(extension)C编程: 源代码(by编译) -&gt; 中">
+<meta property="og:description" content="来源: C Primer Plus 1 初识C语言1.6 语言标准   1978 1989 1990 1994 2011    K&amp;R C ANSI C (C89) ISO C (C90) C99 C11   1.8 编程机制源代码文件(source code file): 文件名&#x3D;基本名(basename).扩展名(extension)C编程: 源代码(by编译) -&gt; 中间代码(">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2019-12-31T16:00:00.000Z">
 <meta property="article:modified_time" content="2022-03-24T01:30:46.716Z">
@@ -313,62 +313,54 @@
         
         
             <p><strong>来源: <a target="_blank" rel="noopener" href="https://book.douban.com/subject/26792521/">C Primer Plus</a></strong></p>
-<h1 id="1-初识C语言"><a href="#1-初识C语言" class="headerlink" title="1 初识C语言"></a>1 初识C语言</h1><h2 id="1-6-语言标准"><a href="#1-6-语言标准" class="headerlink" title="1.6 语言标准"></a>1.6 语言标准</h2><div class="table-container">
-<table>
+<h1 id="1-初识C语言"><a href="#1-初识C语言" class="headerlink" title="1 初识C语言"></a>1 初识C语言</h1><h2 id="1-6-语言标准"><a href="#1-6-语言标准" class="headerlink" title="1.6 语言标准"></a>1.6 语言标准</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">1978</th>
-<th style="text-align:center">1989</th>
-<th style="text-align:center">1990</th>
-<th style="text-align:center">1994</th>
-<th style="text-align:center">2011</th>
+<th align="center">1978</th>
+<th align="center">1989</th>
+<th align="center">1990</th>
+<th align="center">1994</th>
+<th align="center">2011</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">K&amp;R C</td>
-<td style="text-align:center">ANSI C (C89)</td>
-<td style="text-align:center">ISO C (C90)</td>
-<td style="text-align:center">C99</td>
-<td style="text-align:center">C11</td>
+<tbody><tr>
+<td align="center">K&amp;R C</td>
+<td align="center">ANSI C (C89)</td>
+<td align="center">ISO C (C90)</td>
+<td align="center">C99</td>
+<td align="center">C11</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <h2 id="1-8-编程机制"><a href="#1-8-编程机制" class="headerlink" title="1.8 编程机制"></a>1.8 编程机制</h2><p>源代码文件(source code file): 文件名=基本名(basename).扩展名(extension)<br>C编程: 源代码(by编译) -&gt; 中间代码(by链接: + 库代码&amp;启动代码) -&gt; 可执行代码</p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:center">编译平台</th>
-<th style="text-align:center">编译工具</th>
-<th style="text-align:left">编译命令</th>
+<th align="center">编译平台</th>
+<th align="center">编译工具</th>
+<th align="left">编译命令</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">UNIX</td>
-<td style="text-align:center"></td>
-<td style="text-align:left">cc XXX.c</td>
+<tbody><tr>
+<td align="center">UNIX</td>
+<td align="center"></td>
+<td align="left">cc XXX.c</td>
 </tr>
 <tr>
-<td style="text-align:center">GNU</td>
-<td style="text-align:center">GCC</td>
-<td style="text-align:left">gcc -std=c99/c1x/c11 XXX.c</td>
+<td align="center">GNU</td>
+<td align="center">GCC</td>
+<td align="left">gcc -std=c99/c1x/c11 XXX.c</td>
 </tr>
 <tr>
-<td style="text-align:center">LLVM</td>
-<td style="text-align:center">Clang</td>
-<td style="text-align:left">clang -std=c99/c1x/c11 XXX.c</td>
+<td align="center">LLVM</td>
+<td align="center">Clang</td>
+<td align="left">clang -std=c99/c1x/c11 XXX.c</td>
 </tr>
 <tr>
-<td style="text-align:center">Linux</td>
-<td style="text-align:center">GCC</td>
-<td style="text-align:left">gcc XXX.c</td>
+<td align="center">Linux</td>
+<td align="center">GCC</td>
+<td align="left">gcc XXX.c</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <h1 id="2-C语言概述"><a href="#2-C语言概述" class="headerlink" title="2 C语言概述"></a>2 C语言概述</h1><h2 id="2-2-结构解释"><a href="#2-2-结构解释" class="headerlink" title="2.2 结构解释"></a>2.2 结构解释</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* C程序结构 *&#x2F;</span><br><span class="line">#include        &#x2F;&#x2F;预处理指令(preprocessor directive)) -&gt; 预处理(processing)</span><br><span class="line">int main(void)  &#x2F;&#x2F;main()总是第一个被调用的函数</span><br><span class="line">function a()    &#x2F;&#x2F;组成函数的语句</span><br><span class="line">function b()    &#x2F;&#x2F;组成函数的语句</span><br></pre></td></tr></table></figure>
 <ul>
 <li>C语言元素: 关键字 标识符 运算符 数据</li>
@@ -376,8 +368,7 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* 一个简单的程序 *&#x2F; </span><br><span class="line">#include &lt;stdio.h&gt;                             &#x2F;&#x2F;头文件(header): 包含另一个文件</span><br><span class="line"></span><br><span class="line">int main(void)                                 &#x2F;&#x2F;函数头</span><br><span class="line">&#123;                                              &#x2F;&#x2F;函数体开始</span><br><span class="line">	int num;                               &#x2F;&#x2F;声明(declaration)</span><br><span class="line">	num &#x3D; 1;                               &#x2F;&#x2F;赋值表达式语句</span><br><span class="line">	printf(&quot;The number is %d.\n&quot;, num);    &#x2F;&#x2F;调用一个函数 </span><br><span class="line">	return 0;                              &#x2F;&#x2F;return语句</span><br><span class="line">&#125;                                              &#x2F;&#x2F;函数体结束</span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>头文件: 通常指C程序顶部的信息集合，经常包含编译器创建最终可执行程序要用到的信息</p>
-<ul>
+<li>头文件: 通常指C程序顶部的信息集合，经常包含编译器创建最终可执行程序要用到的信息<ul>
 <li>如定义常量或指明函数名及其如何使用，但函数的实际代码在一个预编译代码的库文件中</li>
 </ul>
 </li>
@@ -387,7 +378,27 @@
 <li>函数体: 被花括号括起来, 由一系列语句、声明组成</li>
 </ul>
 </li>
-<li>main()函数:  <code>int</code>和<code>void</code>是ANSI C定义<code>main()</code>的一部分, ANSI C之前的编译器需省略<code>void</code><br>  |                |                                      |<br>  | :——————: | :—————————————————: |<br>  | int main(void) | 标准形式写法, 移植到不同编译器不会出什么问题 |<br>  | main()         | 此形式C90勉强接受, C99和C11标准不允许这样写 |<br>  | void main()    | 此形式一些编译器允许这样写, 但所有标准都未认可 |</li>
+<li>main()函数:  <code>int</code>和<code>void</code>是ANSI C定义<code>main()</code>的一部分, ANSI C之前的编译器需省略<code>void</code><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">int main(void)</td>
+<td align="center">标准形式写法, 移植到不同编译器不会出什么问题</td>
+</tr>
+<tr>
+<td align="center">main()</td>
+<td align="center">此形式C90勉强接受, C99和C11标准不允许这样写</td>
+</tr>
+<tr>
+<td align="center">void main()</td>
+<td align="center">此形式一些编译器允许这样写, 但所有标准都未认可</td>
+</tr>
+</tbody></table>
+</li>
 <li>声明: 为变量指定变量名, 并标识该变量中储存的数据类型; C语言中所有变量须先声明才能使用<ul>
 <li>C99之前的C语言要求把变量声明在块的顶部, 其他语句不能出现在任何声明之前</li>
 <li>C99和C11遵循C++惯例, 可把声明放在块中的任何位置, 当然变量使用前还是一定要先声明</li>
@@ -425,68 +436,75 @@
 </li>
 <li>函数执行: 无论在什么地方所有C程序都从main()开始执行, 但惯例把main()放开头, 因为它提供了程序的基本框架</li>
 </ul>
-<h2 id="2-8-关键字和保留标识符"><a href="#2-8-关键字和保留标识符" class="headerlink" title="2.8 关键字和保留标识符"></a>2.8 关键字和保留标识符</h2><div class="table-container">
-<table>
+<h2 id="2-8-关键字和保留标识符"><a href="#2-8-关键字和保留标识符" class="headerlink" title="2.8 关键字和保留标识符"></a>2.8 关键字和保留标识符</h2><table>
 <thead>
 <tr>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">auto</td>
-<td style="text-align:center">break</td>
-<td style="text-align:center">case</td>
-<td style="text-align:center">char</td>
-<td style="text-align:center"><strong>const</strong></td>
-<td style="text-align:center">continue</td>
-<td style="text-align:center">default</td>
-<td style="text-align:center">do</td>
-<td style="text-align:center">double</td>
-<td style="text-align:center">else</td>
-<td style="text-align:center"><strong>enum</strong></td>
+<tbody><tr>
+<td align="center">auto</td>
+<td align="center">break</td>
+<td align="center">case</td>
+<td align="center">char</td>
+<td align="center"><strong>const</strong></td>
+<td align="center">continue</td>
+<td align="center">default</td>
+<td align="center">do</td>
+<td align="center">double</td>
+<td align="center">else</td>
+<td align="center"><strong>enum</strong></td>
 </tr>
 <tr>
-<td style="text-align:center">estern</td>
-<td style="text-align:center">float</td>
-<td style="text-align:center">for</td>
-<td style="text-align:center">goto</td>
-<td style="text-align:center">if</td>
-<td style="text-align:center"><em>inline</em></td>
-<td style="text-align:center">int</td>
-<td style="text-align:center">long</td>
-<td style="text-align:center">register</td>
-<td style="text-align:center">restrict</td>
-<td style="text-align:center">return</td>
+<td align="center">estern</td>
+<td align="center">float</td>
+<td align="center">for</td>
+<td align="center">goto</td>
+<td align="center">if</td>
+<td align="center"><em>inline</em></td>
+<td align="center">int</td>
+<td align="center">long</td>
+<td align="center">register</td>
+<td align="center">restrict</td>
+<td align="center">return</td>
 </tr>
 <tr>
-<td style="text-align:center">short</td>
-<td style="text-align:center"><strong>signed</strong></td>
-<td style="text-align:center">sizeof</td>
-<td style="text-align:center">static</td>
-<td style="text-align:center">struct</td>
-<td style="text-align:center">switch</td>
-<td style="text-align:center">typeof</td>
-<td style="text-align:center">union</td>
-<td style="text-align:center">unsigned</td>
-<td style="text-align:center">void</td>
-<td style="text-align:center"></td>
-<td><strong>volatile</strong></td>
+<td align="center">short</td>
+<td align="center"><strong>signed</strong></td>
+<td align="center">sizeof</td>
+<td align="center">static</td>
+<td align="center">struct</td>
+<td align="center">switch</td>
+<td align="center">typeof</td>
+<td align="center">union</td>
+<td align="center">unsigned</td>
+<td align="center">void</td>
+<td align="center"></td>
 </tr>
-</tbody>
-</table>
-</div>
-<p> while | <strong><em>_Alignas</em></strong> | <strong><em>_Aligof</em></strong> | <strong><em>_Atomic</em></strong> | <strong><em>_Bool</em></strong> | <strong><em>_Complex</em></strong> | <strong><em>_Generic</em></strong> | <strong><em>_Imaginary</em></strong> | <strong><em>_Noreturn</em></strong> | <strong><em>_Static_assert</em></strong> | <strong><em>_Thred_local</em></strong> |</p>
+<tr>
+<td align="center">while</td>
+<td align="center"><strong><em>_Alignas</em></strong></td>
+<td align="center"><strong><em>_Aligof</em></strong></td>
+<td align="center"><strong><em>_Atomic</em></strong></td>
+<td align="center"><strong><em>_Bool</em></strong></td>
+<td align="center"><strong><em>_Complex</em></strong></td>
+<td align="center"><strong><em>_Generic</em></strong></td>
+<td align="center"><strong><em>_Imaginary</em></strong></td>
+<td align="center"><strong><em>_Noreturn</em></strong></td>
+<td align="center"><strong><em>_Static_assert</em></strong></td>
+<td align="center"><strong><em>_Thred_local</em></strong></td>
+</tr>
+</tbody></table>
 <ul>
 <li><strong>粗体</strong> 表示C90标准新增的关键字； <em>斜体</em> 表示C99标准新增的关键字； <strong><em>粗斜体</em></strong> 表示C11标准新增的关键字</li>
 </ul>
@@ -512,30 +530,26 @@
 </ul>
 </li>
 </ul>
-<h2 id="3-3-数据-数据类型关键字"><a href="#3-3-数据-数据类型关键字" class="headerlink" title="3.3 数据: 数据类型关键字"></a>3.3 数据: 数据类型关键字</h2><div class="table-container">
-<table>
+<h2 id="3-3-数据-数据类型关键字"><a href="#3-3-数据-数据类型关键字" class="headerlink" title="3.3 数据: 数据类型关键字"></a>3.3 数据: 数据类型关键字</h2><table>
 <thead>
 <tr>
-<th style="text-align:center"></th>
-<th style="text-align:left"></th>
+<th align="center"></th>
+<th align="left"></th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">位(bit)</td>
-<td style="text-align:left">可以储存0或1</td>
+<tbody><tr>
+<td align="center">位(bit)</td>
+<td align="left">可以储存0或1</td>
 </tr>
 <tr>
-<td style="text-align:center">字节(byte)</td>
-<td style="text-align:left">char类型占用的位(bit)数, 通常1字节均为8位</td>
+<td align="center">字节(byte)</td>
+<td align="left">char类型占用的位(bit)数, 通常1字节均为8位</td>
 </tr>
 <tr>
-<td style="text-align:center">字(word)</td>
-<td style="text-align:left">设计计算机时给定的自然存储单位</td>
+<td align="center">字(word)</td>
+<td align="left">设计计算机时给定的自然存储单位</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <ul>
 <li><code>int</code> (加<code>signed</code>、<code>unsigned</code>、<code>short</code>、<code>long</code>、<code>long long</code>) 表示基本的整数类型</li>
 <li><code>char</code> 指定字母和其它字符(<code># $ % * ...</code>)，以及较小的整数</li>
@@ -559,8 +573,60 @@
 <li>声明: 为变量赋于名称并分配内存空间</li>
 <li>初始化: 为变量赋一个初始值</li>
 <li>进制表示: 通常假定整形常量为<strong>十进制</strong>，<code>0</code>前缀表示<strong>八进制</strong>，<code>0x</code>或<code>0X</code>前缀表示<strong>十六进制</strong></li>
-<li>整形常量/整形字面量:<br>| 类型 | 十六进制 | 八进制 | 十进制 |<br>| :——: |:——: |:——: |:——: |<br>| char | \0x41 | \0101 | N.A. |<br>| int | 0x41 | 0101 | 65 |<br>| unsigned int | 0x41u | 0101u | 65u |<br>| long | 0x41L | 0101L | 65L |<br>| unsigned long | 0x41UL | 0101UL | 65UL |<br>| long long | 0x41LL | 0101LL | 65LL |<br>| unsigned long long | 0x41ULL | 0101ULL | 65ULL |</li>
-<li>整型显示: <code>printf()</code>转换说明 <code>%d</code> <strong>十进制</strong>显示; <code>%(#)o</code> <strong>八进制(前缀)</strong>显示; <code>%(#)x</code> <strong>十六进制(前缀)</strong>显示</li>
+<li>整形常量/整形字面量: <table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">十六进制</th>
+<th align="center">八进制</th>
+<th align="center">十进制</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">char</td>
+<td align="center">\0x41</td>
+<td align="center">\0101</td>
+<td align="center">N.A.</td>
+</tr>
+<tr>
+<td align="center">int</td>
+<td align="center">0x41</td>
+<td align="center">0101</td>
+<td align="center">65</td>
+</tr>
+<tr>
+<td align="center">unsigned int</td>
+<td align="center">0x41u</td>
+<td align="center">0101u</td>
+<td align="center">65u</td>
+</tr>
+<tr>
+<td align="center">long</td>
+<td align="center">0x41L</td>
+<td align="center">0101L</td>
+<td align="center">65L</td>
+</tr>
+<tr>
+<td align="center">unsigned long</td>
+<td align="center">0x41UL</td>
+<td align="center">0101UL</td>
+<td align="center">65UL</td>
+</tr>
+<tr>
+<td align="center">long long</td>
+<td align="center">0x41LL</td>
+<td align="center">0101LL</td>
+<td align="center">65LL</td>
+</tr>
+<tr>
+<td align="center">unsigned long long</td>
+<td align="center">0x41ULL</td>
+<td align="center">0101ULL</td>
+<td align="center">65ULL</td>
+</tr>
+</tbody></table>
+</li>
+<li>整型显示: <code>printf()</code>转换说明 <code>%d</code> <strong>十进制</strong>显示; <code>%(#)o</code> **八进制(前缀)**显示; <code>%(#)x</code> **十六进制(前缀)**显示</li>
 <li>转换说明: printf()函数中的转换说明决定了数据的显示方式, 而不是数据的储存方式</li>
 <li>转换说明: printf()函数中转换说明的数量应与待打印值(int类型的变量/常量，值为int类型的表达式)的数量相等</li>
 <li>转换说明: C虽然允许使用大写或小写的多常量后缀, 但是在转换说明中只能用小写</li>
@@ -584,12 +650,71 @@
 </ul>
 </li>
 <li><p>转义序列(escape sequence)</p>
-<p>  | 转义序列 | 含义 |<br>  | :—-:   | :—-: |<br>  |    \a    | 警报(ANSI C) |<br>  |    \b    | 退格 |<br>  |    \f    | 换页(把活跃位置移至下一页的开始处)(打印机上) |<br>  |    \n    | 换行(把活跃位置移至下一行的开始处) |<br>  |    \r    | 回车(把活跃位置移至当前行的开始处) |<br>  |    \t    | 水平制表符(把活跃位置移至下一个水平制表点)(打印机上) |<br>  |    \v    | 垂直制表符(把活跃位置移至下一个垂直制表点) |<br>  |    \\    | 反斜杠() |<br>  |    \’    | 单引号 |<br>  |    \”    | 双引号 |<br>  |    \?    | 问号 |<br>  |    \0oo  | 八进制值(oo必须是有效的八进制数, 即每个o可表示0～7中的一个数) |<br>  |    \xhh  | 十六进制值(hh必须是有效的十六进制数, 即每个h可表示0～f中的一个数) |</p>
+<table>
+<thead>
+<tr>
+<th align="center">转义序列</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">\a</td>
+<td align="center">警报(ANSI C)</td>
+</tr>
+<tr>
+<td align="center">\b</td>
+<td align="center">退格</td>
+</tr>
+<tr>
+<td align="center">\f</td>
+<td align="center">换页(把活跃位置移至下一页的开始处)(打印机上)</td>
+</tr>
+<tr>
+<td align="center">\n</td>
+<td align="center">换行(把活跃位置移至下一行的开始处)</td>
+</tr>
+<tr>
+<td align="center">\r</td>
+<td align="center">回车(把活跃位置移至当前行的开始处)</td>
+</tr>
+<tr>
+<td align="center">\t</td>
+<td align="center">水平制表符(把活跃位置移至下一个水平制表点)(打印机上)</td>
+</tr>
+<tr>
+<td align="center">\v</td>
+<td align="center">垂直制表符(把活跃位置移至下一个垂直制表点)</td>
+</tr>
+<tr>
+<td align="center">\</td>
+<td align="center">反斜杠()</td>
+</tr>
+<tr>
+<td align="center">&#39;</td>
+<td align="center">单引号</td>
+</tr>
+<tr>
+<td align="center">&quot;</td>
+<td align="center">双引号</td>
+</tr>
+<tr>
+<td align="center">?</td>
+<td align="center">问号</td>
+</tr>
+<tr>
+<td align="center">\0oo</td>
+<td align="center">八进制值(oo必须是有效的八进制数, 即每个o可表示0～7中的一个数)</td>
+</tr>
+<tr>
+<td align="center">\xhh</td>
+<td align="center">十六进制值(hh必须是有效的十六进制数, 即每个h可表示0～f中的一个数)</td>
+</tr>
+</tbody></table>
 <p>  C标准规定警报字符不得改变活跃位置(active position), 即显示设备中下一个字符将出现的位置</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	float salary;</span><br><span class="line">	printf(&quot;\aEnter your desired monthly salary:&quot;);</span><br><span class="line">	printf(&quot; $_______\b\b\b\b\b\b\b&quot;);</span><br><span class="line">	scanf(&quot;%f&quot;, &amp;salary);</span><br><span class="line">	printf(&quot;\n\t$%.2f a month is $%.2f a year.&quot;, salary, salary * 12.0);</span><br><span class="line">	printf(&quot;\rGee!\n&quot;);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="3-4-4-Bool-类型"><a href="#3-4-4-Bool-类型" class="headerlink" title="3.4.4 _Bool 类型"></a>3.4.4 <strong><em>_Bool</em></strong> 类型</h3></li>
 </ul>
-<p>C99标准添加了<em><code>_Bool</code></em>类型，用于表示布尔值，即逻辑值true和false，原则上仅占用1位存储空间<br>C语言用值1表示true，值0表示false，所以<em><code>_Bool</code></em>类型实际也是一种整数类型</p>
+<p>C99标准添加了*<code>_Bool</code><em>类型，用于表示布尔值，即逻辑值true和false，原则上仅占用1位存储空间<br>C语言用值1表示true，值0表示false，所以</em><code>_Bool</code>*类型实际也是一种整数类型</p>
 <h3 id="3-4-5-可移植类型-stdint-h和inttypes-h"><a href="#3-4-5-可移植类型-stdint-h和inttypes-h" class="headerlink" title="3.4.5 可移植类型: stdint.h和inttypes.h"></a>3.4.5 可移植类型: stdint.h和inttypes.h</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;inttypes.h&gt;</span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	int32_t me32;</span><br><span class="line">	me32 &#x3D; 45933945;</span><br><span class="line">	printf(&quot;First, assume int32_t is int: &quot;);</span><br><span class="line">	printf(&quot;me32 &#x3D; %d\n&quot;, me32);</span><br><span class="line">	printf(&quot;Next, let&#39;s not make any assumptions.\n&quot;);</span><br><span class="line">	printf(&quot;Instead, use a \&quot;macro\&quot; from inttypes.h: &quot;);</span><br><span class="line">	printf(&quot;me32 &#x3D; %&quot; PRId32 &quot;\n&quot;, me32);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>精确宽度整数类型(exact-width integer type)</li>
@@ -650,54 +775,50 @@
 </ul>
 <h3 id="3-4-7-其他类型-由基本类型衍生-数组、指针、结构、联合"><a href="#3-4-7-其他类型-由基本类型衍生-数组、指针、结构、联合" class="headerlink" title="3.4.7 其他类型(由基本类型衍生): 数组、指针、结构、联合"></a>3.4.7 其他类型(由基本类型衍生): 数组、指针、结构、联合</h3><h1 id="4-字符串和格式化输入-输出"><a href="#4-字符串和格式化输入-输出" class="headerlink" title="4 字符串和格式化输入/输出"></a>4 字符串和格式化输入/输出</h1><h2 id="4-1-前导程序"><a href="#4-1-前导程序" class="headerlink" title="4.1 前导程序"></a>4.1 前导程序</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* talkback.c —— 演示与用户交互 *&#x2F;</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line">#define DENSITY 62.4                 &#x2F;&#x2F;用C预处理器把字符常量DENSITY定义为62.4</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	float weight, volume;</span><br><span class="line">	int size, letters;</span><br><span class="line">	char name[40];               &#x2F;&#x2F;用数组储存字符串</span><br><span class="line"></span><br><span class="line">	printf(&quot;Hi! What&#39;s your first name?\n&quot;);</span><br><span class="line">	scanf(&quot;%s&quot;, name);           &#x2F;&#x2F;name没有&amp;前缀 （使用%s转换说明来处理字符串的输入和输出）</span><br><span class="line">	printf(&quot;%s, what&#39;s your weight in pounds?\n&quot;, name);</span><br><span class="line">	scanf(&quot;%f&quot;, &amp;weight);        &#x2F;&#x2F;weight有&amp;前缀</span><br><span class="line">	size &#x3D; sizeof name;</span><br><span class="line">	letters &#x3D; strlen(name);      &#x2F;&#x2F;用C函数strlen()获取字符串的长度</span><br><span class="line">	volume &#x3D; weight &#x2F; DENSITY;</span><br><span class="line">	printf(&quot;Well, %s, your volume is %2.2f cubic feet.\n&quot;, name, volume);</span><br><span class="line">	printf(&quot;Also, your first name has %d letters,\n&quot;, letters);</span><br><span class="line">	printf(&quot;and we have %d bytes to store it.\n&quot;, size);</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="4-2-字符串简介"><a href="#4-2-字符串简介" class="headerlink" title="4.2 字符串简介"></a>4.2 字符串简介</h2><p>数组(array): 同类型数据元素的有序序列<br>字符串(character string): 一个或多个字符的序列 e.g., <code>&quot;I am your father!&quot;</code><br>双引号<code>&quot; &quot;</code>不是字符串的一部分，仅用来告知编译器它扩起来的是字符串，正如单引号’’标识单个字符<br>C语言没有专门用于储存字符串的变量类型，字符串都被储存在char类型的数组中 e.g., <code>char name[40];</code></p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-<th style="text-align:center">空字符</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center">空字符</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">I</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">a</td>
-<td style="text-align:center">m</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">y</td>
-<td style="text-align:center">o</td>
-<td style="text-align:center">u</td>
-<td style="text-align:center">r</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">f</td>
-<td style="text-align:center">a</td>
-<td style="text-align:center">t</td>
-<td style="text-align:center">h</td>
-<td style="text-align:center">e</td>
-<td style="text-align:center">r</td>
-<td style="text-align:center">!</td>
-<td style="text-align:center">\0</td>
+<tbody><tr>
+<td align="center">I</td>
+<td align="center"></td>
+<td align="center">a</td>
+<td align="center">m</td>
+<td align="center"></td>
+<td align="center">y</td>
+<td align="center">o</td>
+<td align="center">u</td>
+<td align="center">r</td>
+<td align="center"></td>
+<td align="center">f</td>
+<td align="center">a</td>
+<td align="center">t</td>
+<td align="center">h</td>
+<td align="center">e</td>
+<td align="center">r</td>
+<td align="center">!</td>
+<td align="center">\0</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <p>C语言用空字符(null character)标记字符串的结束，即字符串一定以空字符结束，占用数组最后一个储存单元<br>有40个储存单元的字符串最多能储存39个字符，故字符串的数组容量必须至少比待存储字符串的字符数多1<br>空字符不是数字0，而是非打印字符，其ASCII码值是(或等价于)0</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* sizeof运算符、strlen()函数返回的数据类型d的转换说明: %u或%lu(早期)，%zd(C99、C11新增) *&#x2F;</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line"># define PRAISE &quot;OMG U R the one.&quot;</span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	char name[40];</span><br><span class="line"></span><br><span class="line">	printf(&quot;What&#39;s your name? &quot;);</span><br><span class="line">	scanf(&quot;%s&quot;, name);</span><br><span class="line">	printf(&quot;Your name of %zd letters &quot;, strlen(name));</span><br><span class="line">	printf(&quot;occupies %zd memory cells.\n&quot;, sizeof name);</span><br><span class="line">	printf(&quot;The phrase of praise has %zd letters &quot;, strlen(PRAISE));</span><br><span class="line">	printf(&quot;and occupies %zd memory cells.\n&quot;, sizeof PRAISE);</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
@@ -706,278 +827,263 @@
 </ul>
 <h2 id="4-3-常量和C预处理器"><a href="#4-3-常量和C预处理器" class="headerlink" title="4.3 常量和C预处理器"></a>4.3 常量和C预处理器</h2><p>符号常量(symbolic constant): 符号常量名命名规则与变量相同，但习惯使用大写表示，有时表示为带<code>c_</code>或<code>k_</code>前缀<br>明示常量(manifest constant): C标准没有此概念，仅提到过<code>#define</code>最简单的用法是定义一个“明示常量”<br>编译时替换(compile-time substitution): 预处理器可用来定义常量、字符和字符串常量等，格式<code>#define NAME value</code><br>const 限定符: <code>const</code>关键字用于限定一个<strong>变量</strong>为只读，如<code>const int MONTHS = 12;</code>，用起来比<code>#define</code>更灵活</p>
 <h2 id="4-4-printf-和scanf"><a href="#4-4-printf-和scanf" class="headerlink" title="4.4 printf()和scanf()"></a>4.4 printf()和scanf()</h2><h3 id="4-4-1-printf-函数"><a href="#4-4-1-printf-函数" class="headerlink" title="4.4.1 printf()函数"></a>4.4.1 printf()函数</h3><p>printf()函数使用的是值，无论是变量、常量还是表达式的值<br>printf()函数使用%符号来标识转换说明<br>转换说明(conversion specification): printf()函数打印数据的指令(须与待打印数据的类型相匹配)<br>转换说明修饰符: 在%和转换字符之间插入修饰符可修饰基本的转换说明(插入多个应注意顺序、不是所有组合都行)</p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:center">转换说明</th>
-<th style="text-align:center">输出</th>
+<th align="center">转换说明</th>
+<th align="center">输出</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">%a</td>
-<td style="text-align:center">浮点数、十六进制数、p计数法(C99/C11)</td>
+<tbody><tr>
+<td align="center">%a</td>
+<td align="center">浮点数、十六进制数、p计数法(C99/C11)</td>
 </tr>
 <tr>
-<td style="text-align:center">%A</td>
-<td style="text-align:center">浮点数、十六进制数、p计数法(C99/C11)</td>
+<td align="center">%A</td>
+<td align="center">浮点数、十六进制数、p计数法(C99/C11)</td>
 </tr>
 <tr>
-<td style="text-align:center">%c</td>
-<td style="text-align:center">单个字符</td>
+<td align="center">%c</td>
+<td align="center">单个字符</td>
 </tr>
 <tr>
-<td style="text-align:center">%d</td>
-<td style="text-align:center">有符号的十进制整数</td>
+<td align="center">%d</td>
+<td align="center">有符号的十进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">%e</td>
-<td style="text-align:center">浮点数、e计数法</td>
+<td align="center">%e</td>
+<td align="center">浮点数、e计数法</td>
 </tr>
 <tr>
-<td style="text-align:center">%E</td>
-<td style="text-align:center">浮点数、e计数法</td>
+<td align="center">%E</td>
+<td align="center">浮点数、e计数法</td>
 </tr>
 <tr>
-<td style="text-align:center">%f</td>
-<td style="text-align:center">浮点数、十进制计数法</td>
+<td align="center">%f</td>
+<td align="center">浮点数、十进制计数法</td>
 </tr>
 <tr>
-<td style="text-align:center">%g</td>
-<td style="text-align:center">根据值的不同，自动选择%f或%e；%e格式用于指数小于-4、大于或等于精度时</td>
+<td align="center">%g</td>
+<td align="center">根据值的不同，自动选择%f或%e；%e格式用于指数小于-4、大于或等于精度时</td>
 </tr>
 <tr>
-<td style="text-align:center">%G</td>
-<td style="text-align:center">根据值的不同，自动选择%f或%e；%e格式用于指数小于-4、大于或等于精度时</td>
+<td align="center">%G</td>
+<td align="center">根据值的不同，自动选择%f或%e；%e格式用于指数小于-4、大于或等于精度时</td>
 </tr>
 <tr>
-<td style="text-align:center">%i</td>
-<td style="text-align:center">有符号十进制整数(与%d相同)</td>
+<td align="center">%i</td>
+<td align="center">有符号十进制整数(与%d相同)</td>
 </tr>
 <tr>
-<td style="text-align:center">%o</td>
-<td style="text-align:center">指针</td>
+<td align="center">%o</td>
+<td align="center">指针</td>
 </tr>
 <tr>
-<td style="text-align:center">%p</td>
-<td style="text-align:center">字符串</td>
+<td align="center">%p</td>
+<td align="center">字符串</td>
 </tr>
 <tr>
-<td style="text-align:center">%s</td>
-<td style="text-align:center">无符号八进制整数</td>
+<td align="center">%s</td>
+<td align="center">无符号八进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">%u</td>
-<td style="text-align:center">无符号十进制整数</td>
+<td align="center">%u</td>
+<td align="center">无符号十进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">%x</td>
-<td style="text-align:center">无符号十六进制整数，使用十六进制数0f</td>
+<td align="center">%x</td>
+<td align="center">无符号十六进制整数，使用十六进制数0f</td>
 </tr>
 <tr>
-<td style="text-align:center">%X</td>
-<td style="text-align:center">无符号十六进制整数，使用十六进制数0F</td>
+<td align="center">%X</td>
+<td align="center">无符号十六进制整数，使用十六进制数0F</td>
 </tr>
 <tr>
-<td style="text-align:center">%%</td>
-<td style="text-align:center">打印一个百分号</td>
+<td align="center">%%</td>
+<td align="center">打印一个百分号</td>
 </tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
+</tbody></table>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">修饰符</th>
-<th style="text-align:left">含义</th>
+<th align="center">修饰符</th>
+<th align="left">含义</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">(标记) &lt;/br&gt; -</td>
-<td style="text-align:left">待打印项左对称，即从字段的左侧开始打印该项 &lt;/br&gt; 示例：<code>&quot;%-20s&quot;</code></td>
+<tbody><tr>
+<td align="center">(标记) </br> -</td>
+<td align="left">待打印项左对称，即从字段的左侧开始打印该项 </br> 示例：<code>&quot;%-20s&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">(标记) &lt;/br&gt; +</td>
-<td style="text-align:left">有符号值若为正，则在值前面显示加号 &lt;/br&gt; 有符号值若为负，则在值前显示减号 &lt;/br&gt; 示例：<code>&quot;%+6.2f&quot;</code></td>
+<td align="center">(标记) </br> +</td>
+<td align="left">有符号值若为正，则在值前面显示加号 </br> 有符号值若为负，则在值前显示减号 </br> 示例：<code>&quot;%+6.2f&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">(标记) &lt;/br&gt; 空格</td>
-<td style="text-align:left">有符号值若为正，则在值前面显示前导空格(不显示任何符号) &lt;/br&gt; 若为负，则在值前面显示减号 &lt;/br&gt; <code>+</code>标记覆盖一个空格 &lt;/br&gt; 示例：<code>&quot;% 6.2f&quot;</code></td>
+<td align="center">(标记) </br> 空格</td>
+<td align="left">有符号值若为正，则在值前面显示前导空格(不显示任何符号) </br> 若为负，则在值前面显示减号 </br> <code>+</code>标记覆盖一个空格 </br> 示例：<code>&quot;% 6.2f&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">(标记) &lt;/br&gt; #</td>
-<td style="text-align:left">把结果转换为另一种形式： &lt;/br&gt; 若是<code>#o</code>格式，则以<code>0</code>开始 &lt;/br&gt; 若是<code>%x</code>或<code>%X</code>格式，则以<code>0x</code>或<code>0X</code>开始 &lt;/br&gt; 对所有的浮点格式，<code>#</code>保证了即使后面没有任何数字，也打印一个小数点字符 &lt;/br&gt; 对<code>%g</code>和<code>%G</code>格式，<code>#</code>防止结果后面的<code>0</code>被删除 &lt;/br&gt; 示例：<code>&quot;%#o&quot;</code>、<code>&quot;%#8.0f&quot;</code>、<code>&quot;%+#10.3e&quot;</code></td>
+<td align="center">(标记) </br> #</td>
+<td align="left">把结果转换为另一种形式： </br> 若是<code>#o</code>格式，则以<code>0</code>开始 </br> 若是<code>%x</code>或<code>%X</code>格式，则以<code>0x</code>或<code>0X</code>开始 </br> 对所有的浮点格式，<code>#</code>保证了即使后面没有任何数字，也打印一个小数点字符 </br> 对<code>%g</code>和<code>%G</code>格式，<code>#</code>防止结果后面的<code>0</code>被删除 </br> 示例：<code>&quot;%#o&quot;</code>、<code>&quot;%#8.0f&quot;</code>、<code>&quot;%+#10.3e&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">(标记) &lt;/br&gt; 0</td>
-<td style="text-align:left">对于数值格式，用前导<code>0</code>代替空格填充字段宽度 &lt;/br&gt; 对于整数格式，若出现<code>-</code>标记或指定精度，则忽略该标记 &lt;/br&gt; 示例：<code>&quot;%010d&quot;</code>、<code>&quot;%0.83f&quot;</code></td>
+<td align="center">(标记) </br> 0</td>
+<td align="left">对于数值格式，用前导<code>0</code>代替空格填充字段宽度 </br> 对于整数格式，若出现<code>-</code>标记或指定精度，则忽略该标记 </br> 示例：<code>&quot;%010d&quot;</code>、<code>&quot;%0.83f&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">数字</td>
-<td style="text-align:left">最小字段宽度：若该字段不能容纳待打印的数字或字符串，系统会使用更宽的字段 &lt;/br&gt; 示例：<code>&quot;%4d&quot;</code></td>
+<td align="center">数字</td>
+<td align="left">最小字段宽度：若该字段不能容纳待打印的数字或字符串，系统会使用更宽的字段 </br> 示例：<code>&quot;%4d&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">.数字</td>
-<td style="text-align:left">精度： &lt;/br&gt; 对于<code>%e</code>、<code>%E</code>、<code>%f</code>转换，表示小数点右边数字的位数 &lt;/br&gt; 对于<code>%g</code>、<code>G</code>，表示有效数字最大位数 &lt;/br&gt; 对于<code>%s</code>转换，表示待打印字符的最大数量 &lt;/br&gt; 对于整形转换，表示待打印数字的最小位数 &lt;/br&gt; 如有必要，使用前导<code>0</code>来达到这个位数 &lt;/br&gt; 只使用<code>.</code>表示其后跟随一个<code>0</code>，所以<code>%.f</code>和<code>%.0f</code>相同 &lt;/br&gt; 示例：<code>&quot;%5.2f&quot;</code>打印一个浮点数，字段宽度为5字符，其中小数点后有两位数字</td>
+<td align="center">.数字</td>
+<td align="left">精度： </br> 对于<code>%e</code>、<code>%E</code>、<code>%f</code>转换，表示小数点右边数字的位数 </br> 对于<code>%g</code>、<code>G</code>，表示有效数字最大位数 </br> 对于<code>%s</code>转换，表示待打印字符的最大数量 </br> 对于整形转换，表示待打印数字的最小位数 </br> 如有必要，使用前导<code>0</code>来达到这个位数 </br> 只使用<code>.</code>表示其后跟随一个<code>0</code>，所以<code>%.f</code>和<code>%.0f</code>相同 </br> 示例：<code>&quot;%5.2f&quot;</code>打印一个浮点数，字段宽度为5字符，其中小数点后有两位数字</td>
 </tr>
 <tr>
-<td style="text-align:center">h</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>short int</code>或<code>unsigned short int</code>类型的值 &lt;/br&gt; 示例：<code>&quot;%hu&quot;</code>、<code>&quot;%hx&quot;</code>、<code>&quot;%6.4hd&quot;</code></td>
+<td align="center">h</td>
+<td align="left">和整形转换说明一起使用，表示<code>short int</code>或<code>unsigned short int</code>类型的值 </br> 示例：<code>&quot;%hu&quot;</code>、<code>&quot;%hx&quot;</code>、<code>&quot;%6.4hd&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">hh</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>signed char</code>或<code>unsigned char</code>类型的值 &lt;/br&gt; 示例：<code>&quot;%hhu&quot;</code>、<code>&quot;%hhx&quot;</code>、<code>&quot;%6.4hhd&quot;</code></td>
+<td align="center">hh</td>
+<td align="left">和整形转换说明一起使用，表示<code>signed char</code>或<code>unsigned char</code>类型的值 </br> 示例：<code>&quot;%hhu&quot;</code>、<code>&quot;%hhx&quot;</code>、<code>&quot;%6.4hhd&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">j</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>intmax_t</code>或<code>uintmax_t</code>类型的值(这些类型定义在<code>stdint.h</code>中) &lt;/br&gt; 示例：<code>&quot;%jd&quot;</code>、<code>&quot;%8jx&quot;</code></td>
+<td align="center">j</td>
+<td align="left">和整形转换说明一起使用，表示<code>intmax_t</code>或<code>uintmax_t</code>类型的值(这些类型定义在<code>stdint.h</code>中) </br> 示例：<code>&quot;%jd&quot;</code>、<code>&quot;%8jx&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">l</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>long int</code>或<code>unsigned long int</code>类型的值 &lt;/br&gt; 示例：<code>&quot;%ld&quot;</code>、<code>&quot;%8lu&quot;</code></td>
+<td align="center">l</td>
+<td align="left">和整形转换说明一起使用，表示<code>long int</code>或<code>unsigned long int</code>类型的值 </br> 示例：<code>&quot;%ld&quot;</code>、<code>&quot;%8lu&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">ll</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>long long int</code>或<code>unsigned long long int</code>类型的值(C99) &lt;/br&gt; 示例：<code>&quot;%lld&quot;</code>、<code>&quot;%8llu&quot;</code></td>
+<td align="center">ll</td>
+<td align="left">和整形转换说明一起使用，表示<code>long long int</code>或<code>unsigned long long int</code>类型的值(C99) </br> 示例：<code>&quot;%lld&quot;</code>、<code>&quot;%8llu&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">L</td>
-<td style="text-align:left">和浮点转换说明一起使用，表示<code>long double</code>类型的值 &lt;/br&gt; 示例：<code>&quot;%Lf&quot;</code>、<code>&quot;%10.4Le&quot;</code></td>
+<td align="center">L</td>
+<td align="left">和浮点转换说明一起使用，表示<code>long double</code>类型的值 </br> 示例：<code>&quot;%Lf&quot;</code>、<code>&quot;%10.4Le&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">t</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>ptrdiff_t</code>类型的值，<code>ptrdiff_t</code>是两个指针差值的类型(C99) &lt;/br&gt; 示例：<code>&quot;%td&quot;</code>、<code>&quot;%12ti&quot;</code></td>
+<td align="center">t</td>
+<td align="left">和整形转换说明一起使用，表示<code>ptrdiff_t</code>类型的值，<code>ptrdiff_t</code>是两个指针差值的类型(C99) </br> 示例：<code>&quot;%td&quot;</code>、<code>&quot;%12ti&quot;</code></td>
 </tr>
 <tr>
-<td style="text-align:center">z</td>
-<td style="text-align:left">和整形转换说明一起使用，表示<code>size_t</code>类型的值，<code>size_t</code>是<code>sizeof</code>返回的类型(C99) &lt;/br&gt; 示例：<code>&quot;%zd&quot;</code>、<code>&quot;%12zd&quot;</code></td>
+<td align="center">z</td>
+<td align="left">和整形转换说明一起使用，表示<code>size_t</code>类型的值，<code>size_t</code>是<code>sizeof</code>返回的类型(C99) </br> 示例：<code>&quot;%zd&quot;</code>、<code>&quot;%12zd&quot;</code></td>
 </tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
+</tbody></table>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">整数类型/type</th>
-<th style="text-align:center">十进制/dec</th>
-<th style="text-align:center">八进制/octal</th>
-<th style="text-align:center">十六进制/hex</th>
-<th style="text-align:center"></th>
+<th align="center">整数类型/type</th>
+<th align="center">十进制/dec</th>
+<th align="center">八进制/octal</th>
+<th align="center">十六进制/hex</th>
+<th align="center"></th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>(signed) short (int)</code></td>
-<td style="text-align:center">%hd</td>
-<td style="text-align:center">%(#)ho</td>
-<td style="text-align:center">%(#)hx</td>
-<td style="text-align:center">有符号类型</td>
+<tbody><tr>
+<td align="center"><code>(signed) short (int)</code></td>
+<td align="center">%hd</td>
+<td align="center">%(#)ho</td>
+<td align="center">%(#)hx</td>
+<td align="center">有符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>(signed) int</code></td>
-<td style="text-align:center">%d</td>
-<td style="text-align:center">%(#)o</td>
-<td style="text-align:center">%(#)x</td>
-<td style="text-align:center">有符号类型</td>
+<td align="center"><code>(signed) int</code></td>
+<td align="center">%d</td>
+<td align="center">%(#)o</td>
+<td align="center">%(#)x</td>
+<td align="center">有符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>(signed) long (int)</code></td>
-<td style="text-align:center">%ld</td>
-<td style="text-align:center">%(#)lo</td>
-<td style="text-align:center">%(#)lx</td>
-<td style="text-align:center">有符号类型</td>
+<td align="center"><code>(signed) long (int)</code></td>
+<td align="center">%ld</td>
+<td align="center">%(#)lo</td>
+<td align="center">%(#)lx</td>
+<td align="center">有符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>(signed) long long (int)</code></td>
-<td style="text-align:center">%lld</td>
-<td style="text-align:center">%(#)llo</td>
-<td style="text-align:center">%(#)llx</td>
-<td style="text-align:center">有符号类型</td>
+<td align="center"><code>(signed) long long (int)</code></td>
+<td align="center">%lld</td>
+<td align="center">%(#)llo</td>
+<td align="center">%(#)llx</td>
+<td align="center">有符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>unsigned short (int)</code></td>
-<td style="text-align:center">%hu</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">无符号类型</td>
+<td align="center"><code>unsigned short (int)</code></td>
+<td align="center">%hu</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">无符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>unsigned (int)</code></td>
-<td style="text-align:center">%u</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">无符号类型</td>
+<td align="center"><code>unsigned (int)</code></td>
+<td align="center">%u</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">无符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>unsigned long (int)</code></td>
-<td style="text-align:center">%lu</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">无符号类型</td>
+<td align="center"><code>unsigned long (int)</code></td>
+<td align="center">%lu</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">无符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>unsigned long long (int)</code></td>
-<td style="text-align:center">%llu</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">无符号类型</td>
+<td align="center"><code>unsigned long long (int)</code></td>
+<td align="center">%llu</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">无符号类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>(signed)/unsigned char</code></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td align="center"><code>(signed)/unsigned char</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>(signed) _Bool</code></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td align="center"><code>(signed) _Bool</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
+</tbody></table>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">浮点数类型/type</th>
-<th style="text-align:center">十进制/dec</th>
-<th style="text-align:center">指数/e计数法</th>
-<th style="text-align:center">十六进制/hex</th>
-<th style="text-align:center"></th>
+<th align="center">浮点数类型/type</th>
+<th align="center">十进制/dec</th>
+<th align="center">指数/e计数法</th>
+<th align="center">十六进制/hex</th>
+<th align="center"></th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>float</code></td>
-<td style="text-align:center">%f</td>
-<td style="text-align:center">%e</td>
-<td style="text-align:center">%a或%A</td>
-<td style="text-align:center">至少能表达6位有效数字</td>
+<tbody><tr>
+<td align="center"><code>float</code></td>
+<td align="center">%f</td>
+<td align="center">%e</td>
+<td align="center">%a或%A</td>
+<td align="center">至少能表达6位有效数字</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>double</code></td>
-<td style="text-align:center">%f</td>
-<td style="text-align:center">%e</td>
-<td style="text-align:center">%a或%A</td>
-<td style="text-align:center">至少能表达10位有效数字</td>
+<td align="center"><code>double</code></td>
+<td align="center">%f</td>
+<td align="center">%e</td>
+<td align="center">%a或%A</td>
+<td align="center">至少能表达10位有效数字</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>long double</code></td>
-<td style="text-align:center">%Lf</td>
-<td style="text-align:center">%Le</td>
-<td style="text-align:center">%La</td>
-<td style="text-align:center">至少能表达10位有效数字</td>
+<td align="center"><code>long double</code></td>
+<td align="center">%Lf</td>
+<td align="center">%Le</td>
+<td align="center">%La</td>
+<td align="center">至少能表达10位有效数字</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <h3 id="4-4-2-参数传递"><a href="#4-4-2-参数传递" class="headerlink" title="4.4.2 参数传递"></a>4.4.2 参数传递</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">float n1;</span><br><span class="line">double n2;</span><br><span class="line">long n3, n4;</span><br><span class="line">...</span><br><span class="line">printf(&quot;%ld %ld %ld %ld\n&quot;, n1, n2, n3, n4);</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
 <p>这是一种常见的参数传递方式，但是printf()函数读错了字节<br>首先，程序把传入的值放入被称为栈/stack的内存区域，计算机根据变量类型而不是转换说明把这些值放入栈中<br>然后，控制转到printf()函数，函数根据转换说明而不是变量类型从栈中读取值<br>结果，所读取值为n1的前半部分、n1的后半部分、n2的前半部分、n2的后半部分</p>
 <h3 id="4-4-3-scanf-函数"><a href="#4-4-3-scanf-函数" class="headerlink" title="4.4.3 scanf()函数"></a>4.4.3 scanf()函数</h3><p>scanf()把输入的字符串转换成整数、浮点数、字符、字符串<br>printf()把整数、浮点数、字符、字符串转换成显示在屏幕上的文本</p>
@@ -987,54 +1093,98 @@
 <li>scanf()函数的参数列表使用指向变量的指针<ul>
 <li>若用scanf()函数读取基本变量类型的值，在变量名前加上一个<code>&amp;</code></li>
 <li>若用scanf()函数把字符串读入字符数组中，不要使用<code>&amp;</code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* input.c —— 何时使用&amp; *&#x2F;</span><br><span class="line"></span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	int age;</span><br><span class="line">	float assets;</span><br><span class="line">	char pet[30];</span><br><span class="line">	printf(&quot;%d $%.2f %s\n&quot;, age, assets, pet);</span><br><span class="line">	scanf(&quot;%d %f&quot;, &amp;age, &amp;assets);               &#x2F;&#x2F;基本变量类型要用&amp;</span><br><span class="line">	scanf(&quot;%s&quot;, pet);                            &#x2F;&#x2F;字符数组不要使用&amp;</span><br><span class="line">&#125;</span><br><span class="line">return 0;</span><br></pre></td></tr></table></figure>
-| 转换说明 | 含义   |<br>| :—: | :—: |<br>| %c | 把输入解释成字符 |<br>| %d | 把输入解释成有符号十进制整数 |<br>| %e %f %g %a | 把输入解释成浮点数 (C99标准新增%a) |<br>| %E %F %G %A | 把输入解释成浮点数 (C99标准新增%A) |<br>| %i | 把输入解释成有符号十进制整数 |<br>| %o | 把输入解释成有符号八进制整数 |<br>| %p | 把输入解释成指针 (地址) |<br>| %s | 把输入解释成字符串: 从第1个非空白字符开始到下一个空白字符之前的所有字符都是输入 |<br>| %u | 把输入解释成无符号十进制整数 |<br>| %x %X | 把输入解释成有符号十六进制整数 |</li>
-</ul>
-</li>
-</ul>
-<div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:center">修饰符</th>
-<th style="text-align:left">含义</th>
+<th align="center">转换说明</th>
+<th align="center">含义</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">*</td>
-<td style="text-align:left">抑制赋值 ; 示例: <code>%*d</code></td>
+<tbody><tr>
+<td align="center">%c</td>
+<td align="center">把输入解释成字符</td>
 </tr>
 <tr>
-<td style="text-align:center">数字</td>
-<td style="text-align:left">最大字段宽度: 输入达到最大字段宽度处，或第1次遇到空白字符时停止 ; 示例: <code>%10s</code></td>
+<td align="center">%d</td>
+<td align="center">把输入解释成有符号十进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">hh</td>
-<td style="text-align:left">把整数作为<code>signed char</code>或等价于<code>unsigned char</code>类型读取 ; 示例: <code>%hhd</code> <code>%hhu</code></td>
+<td align="center">%e %f %g %a</td>
+<td align="center">把输入解释成浮点数 (C99标准新增%a)</td>
 </tr>
 <tr>
-<td style="text-align:center">ll</td>
-<td style="text-align:left">把整数作为<code>long long</code>或<code>unsigned long long</code>类型读取 (C99) ; 示例: <code>%lld</code> <code>%llu</code></td>
+<td align="center">%E %F %G %A</td>
+<td align="center">把输入解释成浮点数 (C99标准新增%A)</td>
 </tr>
 <tr>
-<td style="text-align:center">h l L</td>
-<td style="text-align:left"><code>&quot;%hd&quot;</code>、<code>&quot;%hi&quot;</code>表明把对应的值储存为<code>short int</code>类型 <br> <code>&quot;%ho&quot;</code>、<code>&quot;%hx&quot;</code>、<code>&quot;%hu&quot;</code>表明把对应的值储存为<code>unsigned short int</code>类型 <br> <code>&quot;ld&quot;</code>、<code>&quot;li&quot;</code>表明把对应的值储存为<code>long</code>类型 <br> <code>&quot;%lo&quot;</code>、<code>&quot;%lx&quot;</code>、<code>&quot;%lu&quot;</code>表明把对应的值储存为<code>unsigned long</code>类型 <br> <code>&quot;%le&quot;</code>、<code>&quot;%lf&quot;</code>、<code>&quot;%lg&quot;</code>表明把对应的值储存为<code>double</code>类型 <br> 在e、f、g前面使用L而不是l，表明把对应的值储存为<code>long double</code>类型 <br> 若无修饰符，d、i、o、x表明对应的值应被储存为<code>int</code>类型，f、g表明把对应的值储存为<code>float</code>类型</td>
+<td align="center">%i</td>
+<td align="center">把输入解释成有符号十进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">j</td>
-<td style="text-align:left">在整型转换说明后面时，表明使用intmax_t或uintmax_t类型 （C99) ; 示例: <code>%jd</code> <code>%ju</code></td>
+<td align="center">%o</td>
+<td align="center">把输入解释成有符号八进制整数</td>
 </tr>
 <tr>
-<td style="text-align:center">z</td>
-<td style="text-align:left">在整型转换说明后面时，表明使用sizeof的返回类型 (C99) ; 示例: <code>%zd</code> <code>%zo</code></td>
+<td align="center">%p</td>
+<td align="center">把输入解释成指针 (地址)</td>
 </tr>
 <tr>
-<td style="text-align:center">t</td>
-<td style="text-align:left">在整型转换说明后面时，表明使用表示两个指针差值的类型 (C99) ; 示例: <code>%td</code> <code>%tx</code></td>
+<td align="center">%s</td>
+<td align="center">把输入解释成字符串: 从第1个非空白字符开始到下一个空白字符之前的所有字符都是输入</td>
 </tr>
-</tbody>
-</table>
-</div>
+<tr>
+<td align="center">%u</td>
+<td align="center">把输入解释成无符号十进制整数</td>
+</tr>
+<tr>
+<td align="center">%x %X</td>
+<td align="center">把输入解释成有符号十六进制整数</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">修饰符</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">*</td>
+<td align="left">抑制赋值 ; 示例: <code>%*d</code></td>
+</tr>
+<tr>
+<td align="center">数字</td>
+<td align="left">最大字段宽度: 输入达到最大字段宽度处，或第1次遇到空白字符时停止 ; 示例: <code>%10s</code></td>
+</tr>
+<tr>
+<td align="center">hh</td>
+<td align="left">把整数作为<code>signed char</code>或等价于<code>unsigned char</code>类型读取 ; 示例: <code>%hhd</code> <code>%hhu</code></td>
+</tr>
+<tr>
+<td align="center">ll</td>
+<td align="left">把整数作为<code>long long</code>或<code>unsigned long long</code>类型读取 (C99) ; 示例: <code>%lld</code> <code>%llu</code></td>
+</tr>
+<tr>
+<td align="center">h l L</td>
+<td align="left"><code>&quot;%hd&quot;</code>、<code>&quot;%hi&quot;</code>表明把对应的值储存为<code>short int</code>类型 <br> <code>&quot;%ho&quot;</code>、<code>&quot;%hx&quot;</code>、<code>&quot;%hu&quot;</code>表明把对应的值储存为<code>unsigned short int</code>类型 <br> <code>&quot;ld&quot;</code>、<code>&quot;li&quot;</code>表明把对应的值储存为<code>long</code>类型 <br> <code>&quot;%lo&quot;</code>、<code>&quot;%lx&quot;</code>、<code>&quot;%lu&quot;</code>表明把对应的值储存为<code>unsigned long</code>类型 <br> <code>&quot;%le&quot;</code>、<code>&quot;%lf&quot;</code>、<code>&quot;%lg&quot;</code>表明把对应的值储存为<code>double</code>类型 <br> 在e、f、g前面使用L而不是l，表明把对应的值储存为<code>long double</code>类型 <br> 若无修饰符，d、i、o、x表明对应的值应被储存为<code>int</code>类型，f、g表明把对应的值储存为<code>float</code>类型</td>
+</tr>
+<tr>
+<td align="center">j</td>
+<td align="left">在整型转换说明后面时，表明使用intmax_t或uintmax_t类型 （C99) ; 示例: <code>%jd</code> <code>%ju</code></td>
+</tr>
+<tr>
+<td align="center">z</td>
+<td align="left">在整型转换说明后面时，表明使用sizeof的返回类型 (C99) ; 示例: <code>%zd</code> <code>%zo</code></td>
+</tr>
+<tr>
+<td align="center">t</td>
+<td align="left">在整型转换说明后面时，表明使用表示两个指针差值的类型 (C99) ; 示例: <code>%td</code> <code>%tx</code></td>
+</tr>
+</tbody></table>
 <h1 id="5-运算符、表达式和语句"><a href="#5-运算符、表达式和语句" class="headerlink" title="5 运算符、表达式和语句"></a>5 运算符、表达式和语句</h1><h1 id="6-C控制语句：循环"><a href="#6-C控制语句：循环" class="headerlink" title="6 C控制语句：循环"></a>6 C控制语句：循环</h1><h1 id="7-C控制语句：分支和跳转"><a href="#7-C控制语句：分支和跳转" class="headerlink" title="7 C控制语句：分支和跳转"></a>7 C控制语句：分支和跳转</h1><h1 id="8-字符输入-输出和输入验证"><a href="#8-字符输入-输出和输入验证" class="headerlink" title="8 字符输入/输出和输入验证"></a>8 字符输入/输出和输入验证</h1><h1 id="9-函数"><a href="#9-函数" class="headerlink" title="9 函数"></a>9 函数</h1><h1 id="10-数组和指针"><a href="#10-数组和指针" class="headerlink" title="10 数组和指针"></a>10 数组和指针</h1><h1 id="11-字符串和字符串函数"><a href="#11-字符串和字符串函数" class="headerlink" title="11 字符串和字符串函数"></a>11 字符串和字符串函数</h1><h1 id="12-存储类别、链接和内存管理"><a href="#12-存储类别、链接和内存管理" class="headerlink" title="12 存储类别、链接和内存管理"></a>12 存储类别、链接和内存管理</h1><h1 id="13-文件输入-输出"><a href="#13-文件输入-输出" class="headerlink" title="13 文件输入/输出"></a>13 文件输入/输出</h1><h1 id="14-结构和其他数据形式"><a href="#14-结构和其他数据形式" class="headerlink" title="14 结构和其他数据形式"></a>14 结构和其他数据形式</h1><h1 id="15-位操作"><a href="#15-位操作" class="headerlink" title="15 位操作"></a>15 位操作</h1><h1 id="16-C预处理器和C库"><a href="#16-C预处理器和C库" class="headerlink" title="16 C预处理器和C库"></a>16 C预处理器和C库</h1><h1 id="17-高级数据表示"><a href="#17-高级数据表示" class="headerlink" title="17 高级数据表示"></a>17 高级数据表示</h1>
             </div>
         
