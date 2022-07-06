@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Git | MYTH&#39;s Wiki</title>
+    
+    
+        <meta name="keywords" content="Git" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="来源: Git教程 - 廖雪峰的官方网站 安装Git12&#x2F;* Ubuntu上安装 *&#x2F;$ sudo apt-get install git 创建版本库&#x2F;仓库版本库&#x2F;仓库相当于一个目录, 目录中所有文件修改、删除都可被Git追踪和管理工作区working directory ⊃ 版本库repository ⊃ 暂存区stage + 分支master(⊃HEAD)1234$ mkd">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git">
+<meta property="og:url" content="https://sunwucheng.com/wiki/20200201/index.html">
+<meta property="og:site_name" content="MYTH&#39;s Wiki">
+<meta property="og:description" content="来源: Git教程 - 廖雪峰的官方网站 安装Git12&#x2F;* Ubuntu上安装 *&#x2F;$ sudo apt-get install git 创建版本库&#x2F;仓库版本库&#x2F;仓库相当于一个目录, 目录中所有文件修改、删除都可被Git追踪和管理工作区working directory ⊃ 版本库repository ⊃ 暂存区stage + 分支master(⊃HEAD)1234$ mkd">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-01-31T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-24T02:21:31.000Z">
+<meta property="article:author" content="sunwucheng">
+<meta name="twitter:card" content="summary">
+    
+
+    
+
+    
+        <link rel="icon" href="https://sunwucheng.com/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/wiki/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/wiki/css/style.css">
+
+    
+<script src="/wiki/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/wiki/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/wiki/atom.xml" title="MYTH's Wiki" type="application/atom+xml">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/wiki/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">MYTH&#39;s Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com">MYTH</a>
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/wiki/',
+        CONTENT_URL: '/wiki/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/wiki/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com">MYTH</a></td>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-up fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" style="display: block;"> 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            CS&EE
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20200101/">C</a></li>  <li class="file active"><a href="/wiki/20200201/">Git</a></li>  <li class="file"><a href="/wiki/20200301/">Linux</a></li>  <li class="file"><a href="/wiki/20200401/">Script</a></li>  <li class="file"><a href="/wiki/20200501/">ML.DL</a></li>  <li class="file"><a href="/wiki/20200601/">Arduino</a></li>  <li class="file"><a href="/wiki/20200701/">RaspberryPi</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            English
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20201101/">CATTI</a></li>  <li class="file"><a href="/wiki/20201201/">IELTS</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Research
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20220101/">IDB_matrix_wear</a></li>  <li class="file"><a href="/wiki/20220201/">IDB_diamond_damage</a></li>  <li class="file"><a href="/wiki/20220301/">IDB_drilling_AE</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/20201001/">Introduction</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-CS&amp;EE/Git" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/wiki/categories/CS-EE/">CS&EE</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/20200201/">
+            <time datetime="2020-01-31T16:00:00.000Z" itemprop="datePublished">2020-02-01</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Git
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p><strong>来源: <a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a></strong></p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* Ubuntu上安装 *&#x2F;</span><br><span class="line">$ sudo apt-get install git</span><br></pre></td></tr></table></figure>
+<h2 id="创建版本库-仓库"><a href="#创建版本库-仓库" class="headerlink" title="创建版本库/仓库"></a>创建版本库/仓库</h2><p>版本库/仓库相当于一个目录, 目录中所有文件修改、删除都可被Git追踪和管理<br>工作区working directory ⊃ 版本库repository ⊃ 暂存区stage + 分支master(⊃HEAD)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir git-repository       &#x2F;&#x2F;创建版本库</span><br><span class="line">$ cd git-repository          &#x2F;&#x2F;转到版本库</span><br><span class="line">$ git init                   &#x2F;&#x2F;初始化版本库</span><br><span class="line">&#x2F;* 初始化后, 目录中生成了一个.git目录, 它用来跟踪管理此版本库 *&#x2F;</span><br></pre></td></tr></table></figure></p>
+<h2 id="版本库文件操作"><a href="#版本库文件操作" class="headerlink" title="版本库文件操作"></a>版本库文件操作</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">$ vim XXX.txt                &#x2F;&#x2F;创建并编辑文件</span><br><span class="line">$ git add XXX.txt            &#x2F;&#x2F;添加文件到仓库</span><br><span class="line">$ git commit -m &quot;add XXX&quot;    &#x2F;&#x2F;提交添加到仓库(加备注说明)</span><br><span class="line">$ git status                 &#x2F;&#x2F;查看仓库当前状态</span><br><span class="line"></span><br><span class="line">$ touch XXX.txt</span><br><span class="line">$ vim XXX.txt              </span><br><span class="line">$ git status               </span><br><span class="line">&#x2F;* &#96;Changes not staged for commit&#96;         &#x3D; 工作区文件有修改待添加 *&#x2F;    </span><br><span class="line">$ git add XXX.txt          </span><br><span class="line">$ git status               </span><br><span class="line">&#x2F;* &#96;Changes to be committed:&#96;              &#x3D; 缓冲区文件有添加待提交 *&#x2F;</span><br><span class="line">$ git commit -m &quot;add XXX&quot;  </span><br><span class="line">$ git status</span><br><span class="line">&#x2F;* &#96;nothing to commit, working tree clean&#96; &#x3D; 仓库目录干净 *&#x2F;</span><br><span class="line"></span><br><span class="line">$ rm XXX.txt</span><br><span class="line">$ git status</span><br><span class="line">&#x2F;* &#96;Changes not staged for commit&#96;         &#x3D; 工作区文件有修改待添加 *&#x2F;</span><br><span class="line">$ git rm或add XXX.txt</span><br><span class="line">$ git commit -m &quot;remove XXX.txt&quot;</span><br><span class="line"></span><br><span class="line">$ vim XXX.txt </span><br><span class="line">$ git checkout -- XXX.txt    &#x2F;&#x2F;丢弃工作区的修改, 回到最近一次commit或add时的状态</span><br><span class="line">$ vim XXX.txt </span><br><span class="line">$ git add XXX.txt</span><br><span class="line">$ git reset HEAD XXX.txt     &#x2F;&#x2F;撤销(unstage)暂存区的修改, 重新放回工作区</span><br><span class="line"></span><br><span class="line">$ git diff XXX.txt           &#x2F;&#x2F;查看文件的修改</span><br><span class="line">$ git diff HEAD -- XXX.txt   &#x2F;&#x2F;查看工作区和版本库里面最新版本的区别</span><br><span class="line"></span><br><span class="line">$ git log                    &#x2F;&#x2F;显示从最近到最远的提交日志</span><br><span class="line">$ git log --pretty&#x3D;oneline   &#x2F;&#x2F;显示从最近到最远的简要提交日志</span><br><span class="line">$ git reset --hard HEAD^     &#x2F;&#x2F;回退到上一个版本</span><br><span class="line">$ git reset --hard HEAD~n    &#x2F;&#x2F;往上回退n个版本</span><br><span class="line">$ git reset --hard &lt;commit&gt;  &#x2F;&#x2F;指定回到某个版本(根据版本号)</span><br><span class="line">$ git reflog                 &#x2F;&#x2F;查看记录的每一次命令</span><br></pre></td></tr></table></figure>
+<h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;  &#x2F;&#x2F;-t(加密方式); -C(备注信息)</span><br><span class="line">$ cat &#x2F;Users&#x2F;$USER&#x2F;.ssh&#x2F;id_rsa.pub</span><br><span class="line">&#x2F;* Github -&gt; Account settings -&gt; Add SSH Key -&gt; Ctrl+V *&#x2F;</span><br><span class="line"></span><br><span class="line">$ cd git-repository</span><br><span class="line">$ git remote add origin git@server-name:path&#x2F;repo-name.git</span><br><span class="line">$ git push -u origin master                     &#x2F;&#x2F;-u(关联本地与远程的分支)</span><br><span class="line">$ vim XXX.txt;</span><br><span class="line">$ git add XXX.txt</span><br><span class="line">$ git commit -m &quot;add XXX&quot;</span><br><span class="line">$ git push origin master                        </span><br><span class="line"></span><br><span class="line">$ mkdir git-newrepository</span><br><span class="line">$ cd git-newrepository</span><br><span class="line">$ git clone git@server-name:path&#x2F;repo-name.git</span><br></pre></td></tr></table></figure>
+<h2 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line">step1: $ git branch dev             &#x2F;&#x2F;创建dev分支</span><br><span class="line">step2: $ git checkout dev           &#x2F;&#x2F;转到dev分支</span><br><span class="line">equal: $ git checkout -b dev        &#x2F;&#x2F;创建并切换到新分支</span><br><span class="line">equal: $ git switch -c dev          &#x2F;&#x2F;创建并切换到新分支(新版本git提供switch切换命令)</span><br><span class="line"></span><br><span class="line">$ git branch                        &#x2F;&#x2F;查看当前分支</span><br><span class="line">$ vim XXX.txt</span><br><span class="line">$ git checkout或switch master       &#x2F;&#x2F;转到已有master分支(新版本git提供switch切换命令)</span><br><span class="line">$ cat XXX.txt</span><br><span class="line">$ git merge (--no-ff -m &quot;...&quot;) dev  &#x2F;&#x2F;(非快速)合并指定分支到当前分支</span><br><span class="line">$ cat XXX.txt</span><br><span class="line">$ git branch -d dev                 &#x2F;&#x2F;删除dev分支(快速模式在删除分支后分支信息会丢失)</span><br><span class="line"></span><br><span class="line">$ git switch -c dev</span><br><span class="line">$ vim XXX.txt</span><br><span class="line">$ git add XXX.txt</span><br><span class="line">$ git commit -m &quot;in n line&quot;         &#x2F;&#x2F;修改XXX文件dev分支第n行</span><br><span class="line">$ git switch master</span><br><span class="line">$ vim XXX.txt</span><br><span class="line">$ git add XXX.txt</span><br><span class="line">$ git commit -m &quot;in n line&quot;         &#x2F;&#x2F;修改XXX文件master分支第n行</span><br><span class="line">$ git merge dev                     &#x2F;&#x2F;合并dev分支到master分支: 无法快速合并</span><br><span class="line">$ cat XXX.txt                       &#x2F;&#x2F;可直接查看冲突内容</span><br><span class="line">$ vim XXX.txt                       &#x2F;&#x2F;修改好冲突内容</span><br><span class="line">$ git add XXX.txt</span><br><span class="line">$ git log --graph --pretty&#x3D;oneline --abbrev-commit  &#x2F;&#x2F;查看分支合并情况(合并图)</span><br><span class="line">$ git branch -d dev                 &#x2F;&#x2F;删除dev分支</span><br><span class="line">$ git commit -m &quot;conflict fixed&quot;    &#x2F;&#x2F;合并完成</span><br><span class="line"></span><br><span class="line">$ git branch dev</span><br><span class="line">$ vim XXX.txt</span><br><span class="line">$ git status</span><br><span class="line">$ git stash                         &#x2F;&#x2F;把当前工作现场&quot;储藏&quot;起来</span><br><span class="line">$ git checkout master</span><br><span class="line">$ git checkout -b issue-101</span><br><span class="line">$ vim readme.txt</span><br><span class="line">$ git add readme.txt</span><br><span class="line">$ git commit -m &quot;fix bug 101&quot;</span><br><span class="line">$ git switch master</span><br><span class="line">$ git merge --no-ff -m &quot;merge bug fix 101&quot;</span><br><span class="line">$ git switch dev</span><br><span class="line">$ git status</span><br><span class="line">$ git stash list                    &#x2F;&#x2F;查看&quot;储藏&quot;的工作现场</span><br><span class="line">$ git stash pop </span><br><span class="line">&#x2F;* &#x3D; $ git stash apply + $ git stash drop; $ git stash apply stash@&#123;0&#125; *&#x2F;</span><br><span class="line">$ git stash list</span><br><span class="line">$ git branch</span><br><span class="line">$ git cherry-pick &lt;commit&gt;</span><br><span class="line"></span><br><span class="line">$ git switch -c feature             &#x2F;&#x2F;添加新功能分支</span><br><span class="line">$ git add valcan.py</span><br><span class="line">$ git status</span><br><span class="line">$ git commit -m &quot;add feature vulcan&quot;</span><br><span class="line">$ git switch dev</span><br><span class="line">$ git branch -d feature</span><br><span class="line">$ git branch -D feature</span><br><span class="line"></span><br><span class="line">$ cd &#x2F;original-git</span><br><span class="line">$ git remote (-v)</span><br><span class="line">$ git push origin master</span><br><span class="line">$ git push origin dev</span><br><span class="line">$ cd &#x2F;another-git                   &#x2F;&#x2F;多用户分支</span><br><span class="line">$ git clone git@server-name:path&#x2F;repo-name.git</span><br><span class="line">$ git branch</span><br><span class="line">$ git checkout -b dev origin&#x2F;dev</span><br><span class="line">$ git add env.txt</span><br><span class="line">$ git commit -m &quot;add env&quot;</span><br><span class="line">$ git push origin dev</span><br><span class="line">$ cd &#x2F;original-git</span><br><span class="line">$ git add env.txt</span><br><span class="line">$ git commit -m &quot;add new env&quot;</span><br><span class="line">$ git push origin dev</span><br><span class="line">$ git pull</span><br><span class="line">$ git branch --set-upstream-to&#x3D;origin&#x2F;dev dev</span><br><span class="line">$ git pull</span><br><span class="line">$ git commit -m &quot;fix env conflict&quot;</span><br><span class="line"></span><br><span class="line">$ git rebase                        &#x2F;&#x2F;把本地未push的分叉提交历史整理成直线</span><br></pre></td></tr></table></figure>
+<h2 id="标签管理"><a href="#标签管理" class="headerlink" title="标签管理"></a>标签管理</h2><p>tag就是一个让人容易记住的有意义的名字，它跟某个commit绑在一起<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">$ git checkout master</span><br><span class="line">$ git tag &lt;tag&gt;                     &#x2F;&#x2F;添加标签</span><br><span class="line">$ git tag -a &lt;tag&gt; -m &quot;description&quot; &lt;commit&gt;</span><br><span class="line">$ git tag                           &#x2F;&#x2F;查看标签 </span><br><span class="line">$ git show &lt;tag&gt;                    &#x2F;&#x2F;查看某标签信息</span><br><span class="line">$ git tag -d &lt;tag&gt;                  &#x2F;&#x2F;删除标签</span><br><span class="line">$ git push origin &lt;tag&gt;             &#x2F;&#x2F;推送某标签到远程</span><br><span class="line">$ git push origin --tags            &#x2F;&#x2F;推送所有标签到远程</span><br><span class="line">$ git tag -d &lt;tag&gt;                  &#x2F;&#x2F;删除远程标签step1</span><br><span class="line">$ git push origin :refs&#x2F;tags&#x2F;&lt;tag&gt;  &#x2F;&#x2F;删除远程标签step2</span><br></pre></td></tr></table></figure></p>
+<h2 id="自定义git"><a href="#自定义git" class="headerlink" title="自定义git"></a>自定义git</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global color.ui true &#x2F;&#x2F;让Git显示颜色</span><br><span class="line"></span><br><span class="line">$ git touch .gitignore              </span><br><span class="line">$ vim .gitignore                    </span><br><span class="line">$ git add .gitignore</span><br><span class="line">$ git commit -m &quot;add .gitignore&quot;</span><br><span class="line">$ git status</span><br><span class="line">$ git add XXX.xxx</span><br><span class="line">$ git add -f XXX.xxx</span><br><span class="line">$ git check-ignore -v XXX.xxx</span><br><span class="line"></span><br><span class="line">$ git config (--global) alias.xxx XXX或&quot;XXX XXX&quot;</span><br><span class="line">&#x2F;* --global参数是全局参数, 加则对电脑所有Git仓库都有用, 不加则只针对当前的仓库起作用 *&#x2F;</span><br><span class="line"></span><br><span class="line">$ ssh root@xxxx.xxxx.xxxx.xxxx      &#x2F;&#x2F;搭建Git服务器</span><br><span class="line">$ sudo apt-get install git </span><br><span class="line">$ sudo adduser git</span><br><span class="line">$ vim &#x2F;home&#x2F;git&#x2F;.ssh&#x2F;authorized_keys</span><br><span class="line">$ cd &#x2F;srv</span><br><span class="line">$ sudo git init --bare sample.git</span><br><span class="line">$ sudo chown -R git:git sample.git</span><br><span class="line">$ vim &#x2F;etc&#x2F;passwd</span><br><span class="line">&#x2F;* git:x:1001:1001:,,,:&#x2F;home&#x2F;git:&#x2F;bin&#x2F;bash -&gt; ...:&#x2F;home&#x2F;git:&#x2F;usr&#x2F;bin&#x2F;git-shell *&#x2F;</span><br><span class="line">$ exit</span><br><span class="line">$ git clone git@server:&#x2F;srv&#x2F;sample.git</span><br></pre></td></tr></table></figure>
+<h2 id="使用SourceTree"><a href="#使用SourceTree" class="headerlink" title="使用SourceTree"></a>使用<a target="_blank" rel="noopener" href="https://www.sourcetreeapp.com/">SourceTree</a></h2>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/20200301/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Linux
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/20200101/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">C</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            sunwucheng &copy; 2022 
+             | Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>-<a target="_blank" rel="noopener" href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/wiki/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/wiki/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/wiki/js/main.js"></script>
+
+
+    </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

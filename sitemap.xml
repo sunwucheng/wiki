@@ -2,105 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/index/</loc>
+    <loc>https://sunwucheng.com/wiki/20220201/</loc>
     
-    <lastmod>2022-07-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/ML.DL/</loc>
+    <loc>https://sunwucheng.com/wiki/20201001/</loc>
+    
+    <lastmod>2022-07-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/20200501/</loc>
     
     <lastmod>2022-06-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/Research/IDB_diamond_damage/</loc>
+    <loc>https://sunwucheng.com/wiki/20220301/</loc>
     
     <lastmod>2022-06-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/Research/IDB_drilling_AE/</loc>
-    
-    <lastmod>2022-06-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/RaspberryPi/</loc>
+    <loc>https://sunwucheng.com/wiki/20200701/</loc>
     
     <lastmod>2022-06-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/Arduino/</loc>
+    <loc>https://sunwucheng.com/wiki/20200601/</loc>
     
     <lastmod>2022-06-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/Script/</loc>
+    <loc>https://sunwucheng.com/wiki/20200401/</loc>
     
     <lastmod>2022-06-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/Research/IDB_matrix_wear/</loc>
+    <loc>https://sunwucheng.com/wiki/20220101/</loc>
     
     <lastmod>2022-04-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/Interest/Interstellar/</loc>
-    
-    <lastmod>2022-04-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/Interest/CastAway/</loc>
-    
-    <lastmod>2022-04-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/English/CATTI/</loc>
+    <loc>https://sunwucheng.com/wiki/20201101/</loc>
     
     <lastmod>2022-03-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/Linux/</loc>
+    <loc>https://sunwucheng.com/wiki/20200301/</loc>
     
     <lastmod>2022-03-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/English/IELTS/</loc>
+    <loc>https://sunwucheng.com/wiki/20201201/</loc>
     
     <lastmod>2022-03-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/Git/</loc>
+    <loc>https://sunwucheng.com/wiki/20200201/</loc>
     
     <lastmod>2022-03-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/C/</loc>
+    <loc>https://sunwucheng.com/wiki/20200101/</loc>
     
     <lastmod>2022-03-24</lastmod>
     
@@ -109,7 +95,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2022-07-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -119,28 +105,21 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2022-07-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2022-07-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2022-07-05</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/Interest/</loc>
-    <lastmod>2022-07-05</lastmod>
+    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
