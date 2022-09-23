@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://sunwucheng.com/wiki/files/images/20220301-1.png">
 <meta property="article:published_time" content="2022-02-28T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-06-16T02:07:07.000Z">
+<meta property="article:modified_time" content="2022-09-23T02:38:55.841Z">
 <meta property="article:author" content="sunwucheng">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://sunwucheng.com/wiki/files/images/20220301-1.png">
@@ -373,7 +373,8 @@
 <li>板波：固体物质的尺寸受限而成为板状，当其厚小到某一程度，只能产生各种类型的板波。狭义指兰姆波</li>
 </ul>
 <h4 id="2-2-2-波的传播速度"><a href="#2-2-2-波的传播速度" class="headerlink" title="2.2.2 波的传播速度"></a>2.2.2 波的传播速度</h4><p>在均匀介质中，纵波与横波的速度分别可用下式表示：</p>
-<p>$v_{1}=\sqrt{\frac{E}{P} \frac{1-\sigma}{(1+\sigma)}(1-2 \sigma)}$<br>$v_{\mathrm{t}}=\sqrt{\frac{E}{\rho} \frac{1}{2(1+\sigma)}}=\sqrt{\frac{G}{\rho}}$</p>
+<p>$$v_{1}=\sqrt{\frac{E}{P} \frac{1-\sigma}{(1+\sigma)}(1-2 \sigma)}$$</p>
+<p>$$v_{\mathrm{t}}=\sqrt{\frac{E}{\rho} \frac{1}{2(1+\sigma)}}=\sqrt{\frac{G}{\rho}}$$</p>
 <p>$v_{1}：纵波速度；v_{t}：横波速度；σ：介质的泊松比；E：介质的弹性模量；G：介质的切变模量；ρ：介质的密度$</p>
 <h3 id="2-4-凯塞效应和费利西蒂效应"><a href="#2-4-凯塞效应和费利西蒂效应" class="headerlink" title="2.4 凯塞效应和费利西蒂效应"></a>2.4 凯塞效应和费利西蒂效应</h3><p>凯塞效应：材料的受载历史，对重复加载声发射特性有重要影响，重复载荷到达原先所加最大载荷以前不发生明显声发射<br>费利西蒂(Felicity)效应/反凯塞效应：材料重复加载时，重复载荷到达原先所加最大载荷前发生明显声发射的现象。<br>费利西蒂比：重复加载时的声发射起始载荷对原先所加最大载荷之比 $P_{\mathrm{AE}} / P_{\max }$，作为凯塞效应失效程度的量度</p>
 <h2 id="4-声发射信号采集系统"><a href="#4-声发射信号采集系统" class="headerlink" title="4 声发射信号采集系统"></a>4 声发射信号采集系统</h2><h3 id="4-1-声发射检测仪器的类型"><a href="#4-1-声发射检测仪器的类型" class="headerlink" title="4.1 声发射检测仪器的类型"></a>4.1 声发射检测仪器的类型</h3><p>单（双）通道系统、多通道系统、全数字化系统、工业专用系统</p>
@@ -655,13 +656,7 @@
 <td align="center">流体泄漏、摩擦、撞击、燃烧</td>
 </tr>
 </tbody></table>
-<pre class="mermaid">graph LR
-A[声发射源] -->B[声发射传感器]
-    B[声发射传感器] -->C[信号放大]
-    C[信号放大] -->D[信号处理]
-    D[信号处理] -->E[记录与显示]
-    E[记录与显示] -->F[声发射源解释与评估]</pre>
-
+<p>A[声发射源] –&gt; B[声发射传感器] –&gt; C[信号放大] –&gt;D [信号处理] –&gt; E[记录与显示] –&gt; F[声发射源解释与评估]</p>
 <h4 id="1-3-2-声发射信号采集处理系统"><a href="#1-3-2-声发射信号采集处理系统" class="headerlink" title="1.3.2 声发射信号采集处理系统"></a>1.3.2 声发射信号采集处理系统</h4><table>
 <thead>
 <tr>
@@ -703,7 +698,7 @@ A[声发射源] -->B[声发射传感器]
 </tr>
 </tbody></table>
 <h5 id="1-3-3-1-参数分析法"><a href="#1-3-3-1-参数分析法" class="headerlink" title="1.3.3.1 参数分析法"></a>1.3.3.1 参数分析法</h5><p><img src="/wiki/files/images/20220301-1.png"></p>
-<p>常用的声发射参数：幅度、能量、上升时间、持续时间、振铃技术、事件技术<br>基于参数分析法的检测标准：美国ASME标准、国家标准<a target="_blank" rel="noopener" href="http://c.gb688.cn/bzgk/gb/showGb?type=online&hcno=65CBD0321218283BCE84619687501AC6">GB/T 18182</a><br>参数分析法假设声发射信号在介质中的传播速度是恒定的，其实际传播速度为</p>
+<p>常用的声发射参数：幅度、能量、上升时间、持续时间、振铃技术、事件技术<br>基于参数分析法的检测标准：美国ASME标准、国家标准GB/T 18182<br>参数分析法假设声发射信号在介质中的传播速度是恒定的，其实际传播速度为</p>
 <p>$v_{1}=\sqrt{\frac{E(1-\sigma)}{\rho(1+\sigma)(1-2 \sigma)}}，v_{2}=\sqrt{\frac{E}{\rho(2+2 \sigma)}}=\sqrt{\frac{G}{\rho}}$</p>
 <p>$v_{1}：纵波速度；v_{2}：横波速度；σ：介质的泊松比；E：介质的杨氏弹性模量；G：介质的切变模量；ρ：介质的密度$</p>
 <h4 id="1-3-3-2-波形分析法"><a href="#1-3-3-2-波形分析法" class="headerlink" title="1.3.3.2 波形分析法"></a>1.3.3.2 波形分析法</h4><table>
