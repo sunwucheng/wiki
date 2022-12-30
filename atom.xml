@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2022-10-21T17:07:15.000Z</updated>
+  <updated>2022-12-30T02:11:08.738Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDB_diamond_matrix</title>
+    <link href="https://sunwucheng.com/wiki/20220201/"/>
+    <id>https://sunwucheng.com/wiki/20220201/</id>
+    <published>2022-01-31T16:00:00.000Z</published>
+    <updated>2022-12-30T02:11:08.738Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote></blockquote><p><img src="/wiki/files/images/20220201-1.jpg" alt="Graphical abstract"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/wiki/files/images/20220201-1.jpg&quot; alt=&quot;Graphical abstract&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>IDB_matrix_wear</title>
