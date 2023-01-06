@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2022-12-30T02:11:08.738Z</updated>
+  <updated>2023-01-06T16:53:11.762Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -21,17 +21,15 @@
     <link href="https://sunwucheng.com/wiki/20220201/"/>
     <id>https://sunwucheng.com/wiki/20220201/</id>
     <published>2022-01-31T16:00:00.000Z</published>
-    <updated>2022-12-30T02:11:08.738Z</updated>
+    <updated>2023-01-06T16:53:11.762Z</updated>
     
-    <content type="html"><![CDATA[<blockquote></blockquote><p><img src="/wiki/files/images/20220201-1.jpg" alt="Graphical abstract"></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>W., Gao, H., Chen, Y., Wang, Z., Duan, L., Tan, S., Fang, X., 2023. Thermal failure of diamond tools indicated by diamond degradation: Damage evaluation and property prediction on small image datasets. Engineering Applications of Artificial Intelligence 119, 105800. <a href="https://doi.org/10.1016/j.engappai.2022.105800">https://doi.org/10.1016/j.engappai.2022.105800</a><br><strong>Github</strong>: <em><a href="https://github.com/sunwucheng/IDB_diamond_damage">https://github.com/sunwucheng/IDB_diamond_damage</a></em><br><img src="/wiki/files/images/20220201-1.jpg" alt="Graphical abstract"></p></blockquote>]]></content>
     
     
       
       
     <summary type="html">&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/wiki/files/images/20220201-1.jpg&quot; alt=&quot;Graphical abstract&quot;&gt;&lt;/p&gt;
-</summary>
+&lt;p&gt;W., Gao, H., Chen, Y., Wang, Z., Duan, L., Tan, S., Fang, X., 2023. Thermal failure of diamond tools indicated by diamond de</summary>
       
     
     
@@ -46,9 +44,9 @@
     <link href="https://sunwucheng.com/wiki/20220101/"/>
     <id>https://sunwucheng.com/wiki/20220101/</id>
     <published>2021-12-31T16:00:00.000Z</published>
-    <updated>2022-10-21T17:07:15.000Z</updated>
+    <updated>2023-01-06T16:53:30.510Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.<br><img src="/wiki/files/images/20220101-1.jpg" alt="Graphical abstract"></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>W. Sun, H. Gao, S. Tan, Z. Wang, L. Duan, Wear detection of WC-Cu based impregnated diamond bit matrix based on SEM image and deep learning, Int. J. Refract. Met. Hard Mater. 98 (2021) 105530. <a href="https://doi.org/10.1016/j.ijrmhm.2021.105530">https://doi.org/10.1016/j.ijrmhm.2021.105530</a>.<br><strong>Github</strong>: <em><a href="https://github.com/sunwucheng/IDB_matrix_wear">https://github.com/sunwucheng/IDB_matrix_wear</a></em><br><img src="/wiki/files/images/20220101-1.jpg" alt="Graphical abstract"></p></blockquote>]]></content>
     
     
       
