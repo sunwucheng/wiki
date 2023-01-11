@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2023-01-09T04:43:07.835Z</updated>
+  <updated>2023-01-11T09:19:55.176Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDB_formula_design</title>
+    <link href="https://sunwucheng.com/wiki/20220301/"/>
+    <id>https://sunwucheng.com/wiki/20220301/</id>
+    <published>2022-02-28T16:00:00.000Z</published>
+    <updated>2023-01-11T09:19:55.176Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Learning experience (AE→VAE→CVAE)<br>Inspiration 【Accelerated Design and Deployment of Low-Carbon Concrete for Data Centers】 <a href="https://arxiv.org/abs/2204.05397">https://arxiv.org/abs/2204.05397</a><br>2023.01.10 【用Python和Keras实现压缩去噪利器—-自编码器（AutoEncoder）】 <a href="https://www.bilibili.com/video/BV1Ht411A7q2">https://www.bilibili.com/video/BV1Ht411A7q2</a><br>2023.01.10 Autoencoders代码学习案例 <a href="https://github.com/nathanhubens/Autoencoders">https://github.com/nathanhubens/Autoencoders</a><br>2023.01.11 AE→VAE（李宏毅课程） <a href="https://www.bilibili.com/video/BV1Gx411E7Ha?p=33">https://www.bilibili.com/video/BV1Gx411E7Ha?p=33</a> <a href="https://www.bilibili.com/video/BV1Gx411E7Ha?p=34">https://www.bilibili.com/video/BV1Gx411E7Ha?p=34</a> <a href="https://www.bilibili.com/video/BV1Gx411E7Ha?p=35">https://www.bilibili.com/video/BV1Gx411E7Ha?p=35</a></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Learning experience (AE→VAE→CVAE)&lt;br&gt;Inspiration 【Accelerated Design and Deployment of Low-Carbon Concrete for Data Centers】</summary>
+      
+    
+    
+    
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>IDB_diamond_matrix</title>
