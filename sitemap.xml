@@ -2,16 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/20200901/</loc>
-    
-    <lastmod>2023-01-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://sunwucheng.com/wiki/20201001/</loc>
     
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-02-01</lastmod>
     
   </url>
   
@@ -102,7 +95,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -112,28 +105,21 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2023-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Math/</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
