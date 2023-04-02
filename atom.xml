@@ -6,7 +6,7 @@
   <link href="https://sunwucheng.com/wiki/atom.xml" rel="self"/>
   
   <link href="https://sunwucheng.com/wiki/"/>
-  <updated>2023-03-06T05:59:35.327Z</updated>
+  <updated>2023-04-01T08:16:41.224Z</updated>
   <id>https://sunwucheng.com/wiki/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>IDB_formula_design</title>
-    <link href="https://sunwucheng.com/wiki/20220301/"/>
-    <id>https://sunwucheng.com/wiki/20220301/</id>
-    <published>2022-02-28T16:00:00.000Z</published>
-    <updated>2023-03-06T05:59:35.327Z</updated>
+    <link href="https://sunwucheng.com/wiki/20220401/"/>
+    <id>https://sunwucheng.com/wiki/20220401/</id>
+    <published>2022-03-31T16:00:00.000Z</published>
+    <updated>2023-04-01T08:16:41.224Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>Learning experience (AE→VAE→CVAE)</p></blockquote><p>【用Python和Keras实现压缩去噪利器—-自编码器（AutoEncoder）】 <a href="https://www.bilibili.com/video/BV1Ht411A7q2">https://www.bilibili.com/video/BV1Ht411A7q2</a><br>【AE→VAE（李宏毅课程）】 <a href="https://www.bilibili.com/video/BV1Gx411E7Ha?p=33">https://www.bilibili.com/video/BV1Gx411E7Ha?p=33</a><br>【自动编码器Autoencoders】 <a href="https://www.bilibili.com/video/BV1GG4y1v7CY">https://www.bilibili.com/video/BV1GG4y1v7CY</a><br>【变分自动编码器VAE】 <a href="https://www.bilibili.com/video/BV1KN4y1j7th">https://www.bilibili.com/video/BV1KN4y1j7th</a></p><p><a href="https://github.com/ardendertat/Applied-Deep-Learning-with-Keras/blob/master/notebooks/Part%203%20-%20Autoencoders.ipynb">https://github.com/ardendertat/Applied-Deep-Learning-with-Keras/blob/master/notebooks/Part%203%20-%20Autoencoders.ipynb</a></p><p><a href="https://github.com/nathanhubens/Autoencoders">https://github.com/nathanhubens/Autoencoders</a><br><a href="https://blog.keras.io/building-autoencoders-in-keras.html">https://blog.keras.io/building-autoencoders-in-keras.html</a> (<a href="https://stackoverflow.com/questions/73132314/how-to-fix-the-error-of-plt-scatterx-test-encoded-0-x-test-encoded-1">https://stackoverflow.com/questions/73132314/how-to-fix-the-error-of-plt-scatterx-test-encoded-0-x-test-encoded-1</a>)<br><a href="https://github.com/keras-team/keras-io/blob/master/examples/generative/ipynb/vae.ipynb">https://github.com/keras-team/keras-io/blob/master/examples/generative/ipynb/vae.ipynb</a><br><a href="https://github.com/bojone/vae">https://github.com/bojone/vae</a><br><a href="https://github.com/wiseodd/generative-models/tree/master/VAE">https://github.com/wiseodd/generative-models/tree/master/VAE</a><br><a href="https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras">https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras</a><br><a href="https://github.com/SolClover/Art049_NN_VAE/blob/main/python/VAE.ipynb">https://github.com/SolClover/Art049_NN_VAE/blob/main/python/VAE.ipynb</a> (<a href="https://towardsdatascience.com/vae-variational-autoencoders-how-to-employ-neural-networks-to-generate-new-images-bdeb216ed2c0">https://towardsdatascience.com/vae-variational-autoencoders-how-to-employ-neural-networks-to-generate-new-images-bdeb216ed2c0</a>)</p><p><a href="https://github.com/nnormandin/Conditional_VAE/blob/master/Conditional_VAE.ipynb">https://github.com/nnormandin/Conditional_VAE/blob/master/Conditional_VAE.ipynb</a><br><a href="https://github.com/wikibook/keras/blob/master/chapter8-vae/cvae-cnn-mnist-8.2.1.py">https://github.com/wikibook/keras/blob/master/chapter8-vae/cvae-cnn-mnist-8.2.1.py</a><br><a href="https://github.com/devalab/DING/blob/master/CVAE/train_generator.ipynb">https://github.com/devalab/DING/blob/master/CVAE/train_generator.ipynb</a><br><a href="https://github.com/IBM/Conditional-Variational-Autoencoder-for-Concrete-Design/blob/master/Conditional_Variational_Autoencoder_for_Concrete%20Design.ipynb">https://github.com/IBM/Conditional-Variational-Autoencoder-for-Concrete-Design/blob/master/Conditional_Variational_Autoencoder_for_Concrete%20Design.ipynb</a></p>]]></content>
     
@@ -32,6 +32,31 @@
 &lt;p&gt;Learning experience (AE→VAE→CVAE)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;【用Python和Keras实现压缩去噪利器—-自编码器（AutoEncoder）】 &lt;a href=&quot;https://www.bilib</summary>
+      
+    
+    
+    
+    <category term="Research" scheme="https://sunwucheng.com/wiki/categories/Research/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>IDB_drilling_signal</title>
+    <link href="https://sunwucheng.com/wiki/20220301/"/>
+    <id>https://sunwucheng.com/wiki/20220301/</id>
+    <published>2022-02-28T16:00:00.000Z</published>
+    <updated>2023-04-01T08:17:33.225Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>drilling signal (.mat &amp; .wav)</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;drilling signal (.mat &amp;amp; .wav)&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
       
     
     
