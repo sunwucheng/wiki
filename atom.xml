@@ -113,18 +113,18 @@
   </entry>
   
   <entry>
-    <title>HAM</title>
-    <link href="https://sunwucheng.com/wiki/20210201/"/>
-    <id>https://sunwucheng.com/wiki/20210201/</id>
-    <published>2021-01-31T16:00:00.000Z</published>
-    <updated>2023-04-11T07:05:11.560Z</updated>
+    <title>ROV</title>
+    <link href="https://sunwucheng.com/wiki/20210301/"/>
+    <id>https://sunwucheng.com/wiki/20210301/</id>
+    <published>2021-02-28T16:00:00.000Z</published>
+    <updated>2023-04-11T07:18:42.433Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Amateur-radio-ham-radio"><a href="#Amateur-radio-ham-radio" class="headerlink" title="Amateur radio (ham radio)"></a>Amateur radio (ham radio)</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROV-Remotely-Operated-Vehicle"><a href="#ROV-Remotely-Operated-Vehicle" class="headerlink" title="ROV(Remotely Operated Vehicle)"></a>ROV(Remotely Operated Vehicle)</h1><p>AI-reinforced automatic underwater ROV</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Amateur-radio-ham-radio&quot;&gt;&lt;a href=&quot;#Amateur-radio-ham-radio&quot; class=&quot;headerlink&quot; title=&quot;Amateur radio (ham radio)&quot;&gt;&lt;/a&gt;Amateur radio (</summary>
+    <summary type="html">&lt;h1 id=&quot;ROV-Remotely-Operated-Vehicle&quot;&gt;&lt;a href=&quot;#ROV-Remotely-Operated-Vehicle&quot; class=&quot;headerlink&quot; title=&quot;ROV(Remotely Operated Vehicle)&quot;&gt;&lt;/</summary>
       
     
     
@@ -136,10 +136,10 @@
   
   <entry>
     <title>FPV</title>
-    <link href="https://sunwucheng.com/wiki/20210101/"/>
-    <id>https://sunwucheng.com/wiki/20210101/</id>
-    <published>2020-12-31T16:00:00.000Z</published>
-    <updated>2023-04-11T07:03:28.811Z</updated>
+    <link href="https://sunwucheng.com/wiki/20210201/"/>
+    <id>https://sunwucheng.com/wiki/20210201/</id>
+    <published>2021-01-31T16:00:00.000Z</published>
+    <updated>2023-04-11T07:17:02.709Z</updated>
     
     <content type="html"><![CDATA[<h1 id="FPV-First-Person-View"><a href="#FPV-First-Person-View" class="headerlink" title="FPV(First Person View)"></a>FPV(First Person View)</h1><p>AI-reinforced automatic FPV drones</p>]]></content>
     
@@ -147,6 +147,28 @@
       
       
     <summary type="html">&lt;h1 id=&quot;FPV-First-Person-View&quot;&gt;&lt;a href=&quot;#FPV-First-Person-View&quot; class=&quot;headerlink&quot; title=&quot;FPV(First Person View)&quot;&gt;&lt;/a&gt;FPV(First Person View)</summary>
+      
+    
+    
+    
+    <category term="Interest" scheme="https://sunwucheng.com/wiki/categories/Interest/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HAM</title>
+    <link href="https://sunwucheng.com/wiki/20210101/"/>
+    <id>https://sunwucheng.com/wiki/20210101/</id>
+    <published>2020-12-31T16:00:00.000Z</published>
+    <updated>2023-04-11T07:16:57.909Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Amateur-radio-ham-radio"><a href="#Amateur-radio-ham-radio" class="headerlink" title="Amateur radio (ham radio)"></a>Amateur radio (ham radio)</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Amateur-radio-ham-radio&quot;&gt;&lt;a href=&quot;#Amateur-radio-ham-radio&quot; class=&quot;headerlink&quot; title=&quot;Amateur radio (ham radio)&quot;&gt;&lt;/a&gt;Amateur radio (</summary>
       
     
     
