@@ -413,7 +413,7 @@
 <td style="text-align:center">$10^{-12} m$</td>
 <td style="text-align:center">terametre</td>
 <td style="text-align:center">Tm</td>
-<td style="text-align:center">$10^12 m$</td>
+<td style="text-align:center">$10^{12} m$</td>
 </tr>
 <tr>
 <td style="text-align:center">femtometre</td>
@@ -421,7 +421,7 @@
 <td style="text-align:center">$10^{-15} m$</td>
 <td style="text-align:center">patametre</td>
 <td style="text-align:center">Pm</td>
-<td style="text-align:center">$10^15 m$</td>
+<td style="text-align:center">$10^{15} m$</td>
 </tr>
 <tr>
 <td style="text-align:center">attometre</td>
@@ -429,7 +429,7 @@
 <td style="text-align:center">$10^{-18} m$</td>
 <td style="text-align:center">exametre</td>
 <td style="text-align:center">Em</td>
-<td style="text-align:center">$10^18 m$</td>
+<td style="text-align:center">$10^{18} m$</td>
 </tr>
 <tr>
 <td style="text-align:center">zeptometre</td>
@@ -437,7 +437,7 @@
 <td style="text-align:center">$10^{-21} m$</td>
 <td style="text-align:center">zettametre</td>
 <td style="text-align:center">Zm</td>
-<td style="text-align:center">$10^21 m$</td>
+<td style="text-align:center">$10^{21} m$</td>
 </tr>
 <tr>
 <td style="text-align:center">yoctometre</td>
@@ -445,7 +445,7 @@
 <td style="text-align:center">$10^{-24} m$</td>
 <td style="text-align:center">yottametre</td>
 <td style="text-align:center">Ym</td>
-<td style="text-align:center">$10^24 m$</td>
+<td style="text-align:center">$10^{24} m$</td>
 </tr>
 <tr>
 <td style="text-align:center">Plank length</td>
@@ -453,7 +453,7 @@
 <td style="text-align:center">$10^{-35} m$</td>
 <td style="text-align:center">ronnametre</td>
 <td style="text-align:center">Qm</td>
-<td style="text-align:center">$10^27 m$</td>
+<td style="text-align:center">$10^{27} m$</td>
 </tr>
 </tbody>
 </table>
@@ -2046,5 +2046,21 @@ div.WordSection1
 
 
     </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
