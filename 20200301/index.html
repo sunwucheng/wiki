@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Linux | MYTH&#39;s Wiki</title>
+    
+    
+        <meta name="keywords" content="Linux" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="来源: Linux就该这么学 0 咱们先来谈谈学习方法和红帽系统0.3 开源共享精神  GNU GPL (GNU General Public License) BSD (Berkeley Software Distribution) Apache (Apache License Version) MPL (Mozilla Public License) MIT (Massachusetts In">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux">
+<meta property="og:url" content="https://sunwucheng.com/wiki/20200301/index.html">
+<meta property="og:site_name" content="MYTH&#39;s Wiki">
+<meta property="og:description" content="来源: Linux就该这么学 0 咱们先来谈谈学习方法和红帽系统0.3 开源共享精神  GNU GPL (GNU General Public License) BSD (Berkeley Software Distribution) Apache (Apache License Version) MPL (Mozilla Public License) MIT (Massachusetts In">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://sunwucheng.com/wiki/files/images/20200301-1.png">
+<meta property="article:published_time" content="2020-02-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-02-07T06:13:18.000Z">
+<meta property="article:author" content="sunwucheng">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sunwucheng.com/wiki/files/images/20200301-1.png">
+    
+
+    
+
+    
+        <link rel="icon" href="/wiki/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/wiki/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/wiki/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/wiki/css/style.css">
+
+    
+<script src="/wiki/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/wiki/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/wiki/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/wiki/atom.xml" title="MYTH's Wiki" type="application/atom+xml">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/wiki/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">MYTH&#39;s Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com">MYTH</a>
+                
+                    <a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/wiki/',
+        CONTENT_URL: '/wiki/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/wiki/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com">MYTH</a></td>
+                
+                    <td><a class="main-nav-link" href="https://sunwucheng.com/wiki">WIKI</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-up fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" style="display: block;"> 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            CS&EE
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20200101/">C</a></li>  <li class="file"><a href="/wiki/20200201/">Git</a></li>  <li class="file active"><a href="/wiki/20200301/">Linux</a></li>  <li class="file"><a href="/wiki/20200401/">Script</a></li>  <li class="file"><a href="/wiki/20200501/">ML.DL</a></li>  <li class="file"><a href="/wiki/20200601/">Arduino</a></li>  <li class="file"><a href="/wiki/20200701/">RaspberryPi</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            English
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20201101/">CATTI</a></li>  <li class="file"><a href="/wiki/20201201/">IELTS</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Interest
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20210101/">HAM</a></li>  <li class="file"><a href="/wiki/20210201/">UAV</a></li>  <li class="file"><a href="/wiki/20210301/">ROV</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Research
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/20220101/">IDB_matrix_wear</a></li>  <li class="file"><a href="/wiki/20220201/">IDB_diamond_damage</a></li>  <li class="file"><a href="/wiki/20220301/">IDB_drilling_signal</a></li>  <li class="file"><a href="/wiki/20220401/">IDB_formula_design</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/20201001/">Introduction</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-CS&amp;EE/Linux" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/wiki/categories/CS-EE/">CS&EE</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/20200301/">
+            <time datetime="2020-02-29T16:00:00.000Z" itemprop="datePublished">2020-03-01</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Linux
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p><strong>来源: <a target="_blank" rel="noopener" href="https://www.linuxprobe.com">Linux就该这么学</a></strong></p>
+<h1 id="0-咱们先来谈谈学习方法和红帽系统"><a href="#0-咱们先来谈谈学习方法和红帽系统" class="headerlink" title="0 咱们先来谈谈学习方法和红帽系统"></a>0 咱们先来谈谈学习方法和红帽系统</h1><h2 id="0-3-开源共享精神"><a href="#0-3-开源共享精神" class="headerlink" title="0.3 开源共享精神"></a>0.3 开源共享精神</h2><p><img src="/wiki/files/images/20200301-1.png" alt=""></p>
+<ul>
+<li>GNU GPL (GNU General Public License)</li>
+<li>BSD (Berkeley Software Distribution)</li>
+<li>Apache (Apache License Version)</li>
+<li>MPL (Mozilla Public License)</li>
+<li>MIT (Massachusetts Institute of Technology)</li>
+</ul>
+<h1 id="1-部署虚拟环境安装linux系统"><a href="#1-部署虚拟环境安装linux系统" class="headerlink" title="1 部署虚拟环境安装linux系统"></a>1 部署虚拟环境安装linux系统</h1><h2 id="1-4-重置root用户密码"><a href="#1-4-重置root用户密码" class="headerlink" title="1.4 重置root用户密码"></a>1.4 重置root用户密码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># cat &#x2F;etc&#x2F;redhat-release     &#x2F;&#x2F;确定是否为RHEL 7系统</span><br><span class="line">Red Hat Enterprise Linux Server release 7.0 (Maipo)</span><br><span class="line"># reboot                      &#x2F;&#x2F;重启系统</span><br><span class="line">e                             &#x2F;&#x2F;重启Linux系统主机并出现引导界面时，按下键盘上的e键进入内核编辑界面</span><br><span class="line">↑↓←→                          &#x2F;&#x2F;在linux16参数这行的 最后面 追加“rd.break”参数</span><br><span class="line"></span><br><span class="line">Ctrl + X                      &#x2F;&#x2F;组合键运行修改过的内核程序，大约30秒过后，进入到系统的紧急求援模式</span><br><span class="line">mount -o remount,rw &#x2F;sysroot</span><br><span class="line">chroot &#x2F;sysroot</span><br><span class="line">passwd</span><br><span class="line">touch &#x2F;.autorelabel</span><br><span class="line">exit</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
+<h2 id="1-5-RPM-Red-Hat-Package-Manager-红帽软件包管理器"><a href="#1-5-RPM-Red-Hat-Package-Manager-红帽软件包管理器" class="headerlink" title="1.5 RPM (Red-Hat Package Manager) 红帽软件包管理器"></a>1.5 RPM (Red-Hat Package Manager) 红帽软件包管理器</h2><p>RPM = 源代码 + 安装规则</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">常用命令</th>
+<th style="text-align:center">对应命令格式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">安装软件</td>
+<td style="text-align:center">rpm -ivh filename.rpm</td>
+</tr>
+<tr>
+<td style="text-align:center">升级软件</td>
+<td style="text-align:center">rpm -Uvh filename.rpm</td>
+</tr>
+<tr>
+<td style="text-align:center">卸载软件</td>
+<td style="text-align:center">rpm -e filename.rpm</td>
+</tr>
+<tr>
+<td style="text-align:center">查询软件描述信息</td>
+<td style="text-align:center">rpm -qpi filename.rpm</td>
+</tr>
+<tr>
+<td style="text-align:center">列出软件文件信息</td>
+<td style="text-align:center">rpm -qpl filename.rpm</td>
+</tr>
+<tr>
+<td style="text-align:center">查询文件属于哪个RPM</td>
+<td style="text-align:center">rpm -qf filename</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="1-6-YUM软件仓库-Yellow-dog-Updater-Modified"><a href="#1-6-YUM软件仓库-Yellow-dog-Updater-Modified" class="headerlink" title="1.6 YUM软件仓库 (Yellow dog Updater, Modified)"></a>1.6 YUM软件仓库 (Yellow dog Updater, Modified)</h2><p>YUM = (源代码 + 安装规则) * N</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">yum repolist all</td>
+<td style="text-align:center">列出所有仓库</td>
+</tr>
+<tr>
+<td style="text-align:center">yum list all</td>
+<td style="text-align:center">列出仓库中所有软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum info 软件包名称</td>
+<td style="text-align:center">查看软件包信息</td>
+</tr>
+<tr>
+<td style="text-align:center">yum install 软件包名称</td>
+<td style="text-align:center">安装软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum reinstall 软件包名称</td>
+<td style="text-align:center">重新安装软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum update 软件包名称</td>
+<td style="text-align:center">升级软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum remove 软件包名称</td>
+<td style="text-align:center">移除软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum clean all</td>
+<td style="text-align:center">清除所有仓库缓存</td>
+</tr>
+<tr>
+<td style="text-align:center">yum check-update</td>
+<td style="text-align:center">检查可更新的软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">yum grouplist</td>
+<td style="text-align:center">查看系统中已经安装的软件包组</td>
+</tr>
+<tr>
+<td style="text-align:center">yum groupinstall 软件包组</td>
+<td style="text-align:center">安装指定的软件包组</td>
+</tr>
+<tr>
+<td style="text-align:center">yum groupremove 软件包组</td>
+<td style="text-align:center">移除指定的软件包组</td>
+</tr>
+<tr>
+<td style="text-align:center">yum groupinfo 软件包组</td>
+<td style="text-align:center">查询指定的软件包组信息</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="1-7-Systemd初始化进程"><a href="#1-7-Systemd初始化进程" class="headerlink" title="1.7 Systemd初始化进程"></a>1.7 Systemd初始化进程</h2><p>Linux操作系统的开机过程: BIOS -&gt; Boot Loader -&gt; 加载系统内核 -&gt; 内核进行初始化 -&gt; 启动初始化进程<br>红帽RHEL 7系统已经替换掉了熟悉的初始化进程服务System V init，正式采用全新的systemd初始化进程服务<br>Linux系统启动时的初始化工作可看作一个个单元(Unit)，systemd用目标(target)代替System V init中运行级别的概念</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">System V init 运行级别</th>
+<th style="text-align:center">Systemd 目标名称</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">runlevel0.target, poweroff.target</td>
+<td style="text-align:center">关机</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">runlevel1.target, rescue.target</td>
+<td style="text-align:center">单用户模式</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">runlevel2.target, multi-user.target</td>
+<td style="text-align:center">等同于级别3</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">runlevel3.target, multi-user.target</td>
+<td style="text-align:center">多用户的文本界面</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">runlevel4.target, multi-user.target</td>
+<td style="text-align:center">等同于级别3</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">runlevel5.target, graphical.target</td>
+<td style="text-align:center">多用户的图形界面</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">runlevel6.target, reboot.target</td>
+<td style="text-align:center">重启</td>
+</tr>
+<tr>
+<td style="text-align:center">emergency</td>
+<td style="text-align:center">emergency.target</td>
+<td style="text-align:center">紧急Shell</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* 目录系统默认运行目标改为“多用户无图形”模式可用ln命令把多用户模式目标文件连接到&#x2F;etc&#x2F;systemd&#x2F;system&#x2F; *&#x2F;</span><br><span class="line"># ln -sf &#x2F;lib&#x2F;systemd&#x2F;system&#x2F;multi-user.target &#x2F;etc&#x2F;systemd&#x2F;system&#x2F;default.target</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">System V init (RHEL6)</th>
+<th style="text-align:center">systemctl (RHEL7)</th>
+<th style="text-align:center">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">service foo start</td>
+<td style="text-align:center"><strong>systemctl start foo.service</strong></td>
+<td style="text-align:center">启动服务</td>
+</tr>
+<tr>
+<td style="text-align:center">service foo restart</td>
+<td style="text-align:center"><strong>systemctl restart foo.service</strong></td>
+<td style="text-align:center">重启服务</td>
+</tr>
+<tr>
+<td style="text-align:center">service foo stop</td>
+<td style="text-align:center"><strong>systemctl stop foo.service</strong></td>
+<td style="text-align:center">停止服务</td>
+</tr>
+<tr>
+<td style="text-align:center">service foo reload</td>
+<td style="text-align:center">systemctl reload foo.service</td>
+<td style="text-align:center">重新加载配置文件(不终止服务)</td>
+</tr>
+<tr>
+<td style="text-align:center">service foo status</td>
+<td style="text-align:center"><strong>systemctl status foo.service</strong></td>
+<td style="text-align:center">查看服务状态</td>
+</tr>
+<tr>
+<td style="text-align:center">chkconfig foo on</td>
+<td style="text-align:center"><strong>systemctl enable foo.service</strong></td>
+<td style="text-align:center">开机自动启动</td>
+</tr>
+<tr>
+<td style="text-align:center">chkconfig foo off</td>
+<td style="text-align:center">systemctl disable foo.service</td>
+<td style="text-align:center">开机不自动启动</td>
+</tr>
+<tr>
+<td style="text-align:center">chkconfig foo</td>
+<td style="text-align:center">systemctl is-enabled foo.service</td>
+<td style="text-align:center">查看特定服务是否为开机自启动</td>
+</tr>
+<tr>
+<td style="text-align:center">chkconfig —list</td>
+<td style="text-align:center">systemctl list-unit-files —type=service</td>
+<td style="text-align:center">查看各级别下服务的启动禁用情况</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>systemd = 服务名称</li>
+<li>systemctl = 配置工具</li>
+</ul>
+<h1 id="2-新手必须掌握的Linux命令"><a href="#2-新手必须掌握的Linux命令" class="headerlink" title="2 新手必须掌握的Linux命令"></a>2 新手必须掌握的<a target="_blank" rel="noopener" href="https://www.linuxcool.com/">Linux命令</a></h1><h2 id="2-1-强大好用的SHELL"><a href="#2-1-强大好用的SHELL" class="headerlink" title="2.1 强大好用的SHELL"></a>2.1 强大好用的SHELL</h2><p>计算机硬件通常由运算器、控制器、存储器、输入/输出设备等共同组成，系统内核让各硬件设备各司其职且协同运行<br>Linux系统内核负责对硬件资源分配、调度等管理任务，建议用户基于系统调用接口开发出的程序或服务来管理计算机<br>Users ⇦<strong>Shell</strong>⇨ Procedure &amp; Service { System Call Interface [ Kernel ( Hardware ) ] }<br>Shell(终端/壳)充当人与内核/硬件之间的翻译官，主流Linux系统默认终端为<strong>Bash</strong>(Bourne-Again SHell)解释器</p>
+<h2 id="2-2-执行查看帮助命令"><a href="#2-2-执行查看帮助命令" class="headerlink" title="2.2 执行查看帮助命令"></a>2.2 执行查看帮助命令</h2><p>Linux命令的格式: 命令名称 [命令参数] [命令对象]</p>
+<ul>
+<li>命令参数: 可以用长格式(完整的选项名称<code>man --help</code>)，也可以用短格式(单个字母的缩写<code>man -h</code>)</li>
+<li>命令对象: 一般是指要处理的文件、目录、用户等资源</li>
+<li>man: <code>man [命令]</code>查看命令的帮助信息</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">按键</th>
+<th style="text-align:center">用处</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">空格键</td>
+<td style="text-align:center">向下翻一页</td>
+</tr>
+<tr>
+<td style="text-align:center">PaGe down</td>
+<td style="text-align:center">向下翻一页</td>
+</tr>
+<tr>
+<td style="text-align:center">PaGe up</td>
+<td style="text-align:center">向上翻一页</td>
+</tr>
+<tr>
+<td style="text-align:center">home</td>
+<td style="text-align:center">直接前往首页</td>
+</tr>
+<tr>
+<td style="text-align:center">end</td>
+<td style="text-align:center">直接前往尾页</td>
+</tr>
+<tr>
+<td style="text-align:center">/</td>
+<td style="text-align:center">从上至下搜索某个关键词，如<code>/linux</code></td>
+</tr>
+<tr>
+<td style="text-align:center">?</td>
+<td style="text-align:center">从下至上搜索某个关键词，如<code>?linux</code></td>
+</tr>
+<tr>
+<td style="text-align:center">n</td>
+<td style="text-align:center">定位到下一个搜索到的关键词</td>
+</tr>
+<tr>
+<td style="text-align:center">N</td>
+<td style="text-align:center">定位到上一个搜索到的关键词</td>
+</tr>
+<tr>
+<td style="text-align:center">q</td>
+<td style="text-align:center">退出帮助文档</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">结构名称</th>
+<th style="text-align:center">代表意义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">NAME</td>
+<td style="text-align:center">命令的名称</td>
+</tr>
+<tr>
+<td style="text-align:center">SYNOPSIS</td>
+<td style="text-align:center">参数的大致使用方法</td>
+</tr>
+<tr>
+<td style="text-align:center">DESCRIPTION</td>
+<td style="text-align:center">介绍说明</td>
+</tr>
+<tr>
+<td style="text-align:center">EXAMPLES</td>
+<td style="text-align:center">演示(附带简单说明)</td>
+</tr>
+<tr>
+<td style="text-align:center">OVERVIEW</td>
+<td style="text-align:center">概述</td>
+</tr>
+<tr>
+<td style="text-align:center">DEFAULTS</td>
+<td style="text-align:center">默认的功能</td>
+</tr>
+<tr>
+<td style="text-align:center">OPTIONS</td>
+<td style="text-align:center">具体的可用选项(带介绍)</td>
+</tr>
+<tr>
+<td style="text-align:center">ENVIRONMENT</td>
+<td style="text-align:center">环境变量</td>
+</tr>
+<tr>
+<td style="text-align:center">FILES</td>
+<td style="text-align:center">用到的文件</td>
+</tr>
+<tr>
+<td style="text-align:center">SEE ALSO</td>
+<td style="text-align:center">相关的资料</td>
+</tr>
+<tr>
+<td style="text-align:center">HISTORY</td>
+<td style="text-align:center">维护历史与联系方式</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-3-常用系统工作命令"><a href="#2-3-常用系统工作命令" class="headerlink" title="2.3 常用系统工作命令"></a>2.3 常用系统工作命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">echo</td>
+<td style="text-align:center">在终端输出字符串或变量提取后的值，格式为<code>echo [字符串]</code>/<code>[$变量]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">date</td>
+<td style="text-align:center">显示及设置系统的时间或日期，格式为<code>date [选项] [+指定的格式]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">reboot</td>
+<td style="text-align:center">重启系统，其格式为<code>reboot</code></td>
+</tr>
+<tr>
+<td style="text-align:center">poweroff</td>
+<td style="text-align:center">关闭系统，其格式为<code>poweroff</code></td>
+</tr>
+<tr>
+<td style="text-align:center">wget</td>
+<td style="text-align:center">在终端中下载网络文件，格式为<code>wget [参数] 下载地址</code></td>
+</tr>
+<tr>
+<td style="text-align:center">ps</td>
+<td style="text-align:center">查看系统中的进程状态，格式为<code>ps [参数]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">top</td>
+<td style="text-align:center">动态地监视进程活动与系统负载等信息，其格式为<code>top</code></td>
+</tr>
+<tr>
+<td style="text-align:center">pidof</td>
+<td style="text-align:center">查询某个指定服务进程的PID值，格式为<code>pidof [参数] [服务名称]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">kill</td>
+<td style="text-align:center">终止某个指定PID的服务进程，格式为<code>kill [参数] [进程PID]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">killall</td>
+<td style="text-align:center">终止某个指定名称的服务所对应的全部进程，格式为<code>killall [参数] [服务名称]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-4-系统状态检测命令"><a href="#2-4-系统状态检测命令" class="headerlink" title="2.4 系统状态检测命令"></a>2.4 系统状态检测命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ifconfig</td>
+<td style="text-align:center">用于获取网卡配置与网络状态等信息，格式为<code>ifconfig [网络设备] [参数]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">uname</td>
+<td style="text-align:center">查看系统内核与系统版本等信息，格式为<code>uname [-a]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">uptime</td>
+<td style="text-align:center">查看系统的负载信息，格式为<code>uptime</code></td>
+</tr>
+<tr>
+<td style="text-align:center">free</td>
+<td style="text-align:center">显示当前系统中内存的使用量信息，格式为<code>free [-h]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">who</td>
+<td style="text-align:center">查看当前登入主机的用户终端信息，格式为<code>who [参数]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">last</td>
+<td style="text-align:center">查看所有系统的登录记录，格式为<code>last [参数]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">history</td>
+<td style="text-align:center">显示历史执行过的命令，格式为<code>history [-c]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">sosreport</td>
+<td style="text-align:center">收集系统配置及架构信息并输出诊断文档，格式为<code>sosreport</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-5-工作目录切换命令"><a href="#2-5-工作目录切换命令" class="headerlink" title="2.5 工作目录切换命令"></a>2.5 工作目录切换命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">pwd</td>
+<td style="text-align:left">显示用户当前所处的工作目录，格式为<code>pwd [选项]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">cd</td>
+<td style="text-align:left">切换工作路径，格式为<code>cd [目录名称]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">ls</td>
+<td style="text-align:left">显示目录中的文件信息，格式为<code>ls [选项] [文件]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li><code>cd .</code> 切换到当前目录</li>
+<li><code>cd ..</code> 切换到上一级目录</li>
+<li><code>cd</code>或<code>cd ~</code> 切换到该用户家目录</li>
+<li><code>cd -</code> 切换到上一次目录</li>
+<li><code>ls -a</code> 看到全部文件（包括隐藏文件）</li>
+<li><code>ls -l</code> 查看文件的属性、大小等详细信息</li>
+<li><code>ls -ld [目录名称]</code> 查看目录属性信息</li>
+</ul>
+<h2 id="2-6-文本文件编辑命令"><a href="#2-6-文本文件编辑命令" class="headerlink" title="2.6 文本文件编辑命令"></a>2.6 文本文件编辑命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">cat</td>
+<td style="text-align:center">查看纯文本文件(内容较少的)，格式为<code>cat [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">more</td>
+<td style="text-align:center">查看纯文本文件(内容较多的)，格式为<code>more [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">head</td>
+<td style="text-align:center">查看纯文本文档的前N行，格式为<code>head [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">tail</td>
+<td style="text-align:center">查看纯文本文档的后N行或持续刷新内容，格式为<code>tail [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">tr</td>
+<td style="text-align:center">替换文本文件中的字符，格式为<code>tr [原始字符] [目标字符]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">wc</td>
+<td style="text-align:center">统计指定文本的行数、字数、字节数，格式为<code>wc [参数] 文本</code></td>
+</tr>
+<tr>
+<td style="text-align:center">stat</td>
+<td style="text-align:center">查看文件的具体存储信息和时间等信息，格式为<code>stat 文件名称</code></td>
+</tr>
+<tr>
+<td style="text-align:center">cut</td>
+<td style="text-align:center">按列提取文本字符，格式为<code>cut [参数] 文本</code></td>
+</tr>
+<tr>
+<td style="text-align:center">diff</td>
+<td style="text-align:center">比较多个文本文件的差异，格式为<code>diff [参数] 文件</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-7-文件目录管理命令"><a href="#2-7-文件目录管理命令" class="headerlink" title="2.7 文件目录管理命令"></a>2.7 文件目录管理命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">touch</td>
+<td style="text-align:center">创建空白文件或设置文件的时间，格式为<code>touch [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">mkdir</td>
+<td style="text-align:center">创建空白的目录，格式为<code>mkdir [选项] 目录</code></td>
+</tr>
+<tr>
+<td style="text-align:center">cp</td>
+<td style="text-align:center">复制文件或目录，格式为<code>cp [选项] 源文件 目标文件</code></td>
+</tr>
+<tr>
+<td style="text-align:center">mv</td>
+<td style="text-align:center">剪切文件或将文件重命名，格式为<code>mv [选项] 源文件 [目标路径/目标文件名]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">rm</td>
+<td style="text-align:center">删除文件或目录，格式为<code>rm [选项] 文件</code></td>
+</tr>
+<tr>
+<td style="text-align:center">dd</td>
+<td style="text-align:center">按照指定大小和个数的数据块来复制文件或转换文件，格式为<code>dd [参数]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">file</td>
+<td style="text-align:center">查看文件的类型，格式为<code>file 文件名</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-8-打包压缩与搜索命令"><a href="#2-8-打包压缩与搜索命令" class="headerlink" title="2.8 打包压缩与搜索命令"></a>2.8 打包压缩与搜索命令</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">tar</td>
+<td style="text-align:center">对文件进行打包压缩或解压，格式为<code>tar [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">grep</td>
+<td style="text-align:center">在文本中执行关键词搜索，并显示匹配的结果，格式为<code>grep [选项] [文件]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">find</td>
+<td style="text-align:center">按照指定条件来查找文件，格式为<code>find [查找路径] 寻找条件 操作</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="3-管道符、重定向与环境变量。"><a href="#3-管道符、重定向与环境变量。" class="headerlink" title="3 管道符、重定向与环境变量。"></a>3 管道符、重定向与环境变量。</h1><h1 id="4-Vim编辑器与Shell命令脚本。"><a href="#4-Vim编辑器与Shell命令脚本。" class="headerlink" title="4 Vim编辑器与Shell命令脚本。"></a>4 Vim编辑器与Shell命令脚本。</h1><h1 id="5-用户身份与文件权限。"><a href="#5-用户身份与文件权限。" class="headerlink" title="5 用户身份与文件权限。"></a>5 用户身份与文件权限。</h1><h1 id="6-存储结构与磁盘划分"><a href="#6-存储结构与磁盘划分" class="headerlink" title="6 存储结构与磁盘划分"></a>6 存储结构与磁盘划分</h1><h1 id="7-使用RAID与LVM磁盘阵列技术"><a href="#7-使用RAID与LVM磁盘阵列技术" class="headerlink" title="7 使用RAID与LVM磁盘阵列技术"></a>7 使用RAID与LVM磁盘阵列技术</h1><h1 id="8-Iptables与Firewalld防火墙"><a href="#8-Iptables与Firewalld防火墙" class="headerlink" title="8 Iptables与Firewalld防火墙"></a>8 Iptables与Firewalld防火墙</h1><h1 id="9-使用ssh服务管理远程主机"><a href="#9-使用ssh服务管理远程主机" class="headerlink" title="9 使用ssh服务管理远程主机"></a>9 使用ssh服务管理远程主机</h1><h1 id="10-使用Apache服务部署静态网站"><a href="#10-使用Apache服务部署静态网站" class="headerlink" title="10 使用Apache服务部署静态网站"></a>10 使用Apache服务部署静态网站</h1><h1 id="11-使用Vsftpd服务传输文件"><a href="#11-使用Vsftpd服务传输文件" class="headerlink" title="11 使用Vsftpd服务传输文件"></a>11 使用Vsftpd服务传输文件</h1><h1 id="12-使用Samba或NFS实现文件共享"><a href="#12-使用Samba或NFS实现文件共享" class="headerlink" title="12 使用Samba或NFS实现文件共享"></a>12 使用Samba或NFS实现文件共享</h1><h1 id="13-使用Bind提供域名解析服务"><a href="#13-使用Bind提供域名解析服务" class="headerlink" title="13 使用Bind提供域名解析服务"></a>13 使用Bind提供域名解析服务</h1><h1 id="14-使用DHCP动态管理主机地址"><a href="#14-使用DHCP动态管理主机地址" class="headerlink" title="14 使用DHCP动态管理主机地址"></a>14 使用DHCP动态管理主机地址</h1><h1 id="15-使用Postfix与Dovecot部署邮件系统"><a href="#15-使用Postfix与Dovecot部署邮件系统" class="headerlink" title="15 使用Postfix与Dovecot部署邮件系统"></a>15 使用Postfix与Dovecot部署邮件系统</h1><h1 id="16-使用Squid部署代理缓存服务"><a href="#16-使用Squid部署代理缓存服务" class="headerlink" title="16 使用Squid部署代理缓存服务"></a>16 使用Squid部署代理缓存服务</h1><h1 id="17-使用iSCSI服务部署网络存储"><a href="#17-使用iSCSI服务部署网络存储" class="headerlink" title="17 使用iSCSI服务部署网络存储"></a>17 使用iSCSI服务部署网络存储</h1><h1 id="18-使用MariaDB数据库管理系统"><a href="#18-使用MariaDB数据库管理系统" class="headerlink" title="18 使用MariaDB数据库管理系统"></a>18 使用MariaDB数据库管理系统</h1><h1 id="19-使用PXE-Kickstart无人值守安装服务"><a href="#19-使用PXE-Kickstart无人值守安装服务" class="headerlink" title="19 使用PXE+Kickstart无人值守安装服务"></a>19 使用PXE+Kickstart无人值守安装服务</h1><h1 id="20-使用LNMP架构部署动态网站环境"><a href="#20-使用LNMP架构部署动态网站环境" class="headerlink" title="20 使用LNMP架构部署动态网站环境"></a>20 使用LNMP架构部署动态网站环境</h1>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/20200401/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Script
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/20200201/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Git</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            sunwucheng &copy; 2023 
+             | Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>-<a target="_blank" rel="noopener" href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/wiki/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/wiki/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/wiki/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/wiki/js/main.js"></script>
+
+
+    </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+</html>
