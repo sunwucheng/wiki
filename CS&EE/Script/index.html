@@ -17,7 +17,7 @@
 <meta property="og:description" content="Windows上bat批处理命令bat 批量删除文件名中的空格12345@echo offSetlocal Enabledelayedexpansionset &quot;str&#x3D; &quot;for &#x2F;f &quot;delims&#x3D;&quot; %%i in (&#39;dir &#x2F;b *.*&#39;) do (set &quot;var&#x3D;%%i">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-29T02:59:40.000Z">
+<meta property="article:modified_time" content="2023-11-19T02:37:57.103Z">
 <meta property="article:author" content="sunwucheng">
 <meta name="twitter:card" content="summary">
     
@@ -169,7 +169,7 @@
                             &nbsp;
                             CS&EE
                         </a>
-                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/CS&EE/C-MYTH-Mac/">C</a></li>  <li class="file"><a href="/wiki/CS&EE/C/">C</a></li>  <li class="file"><a href="/wiki/CS&EE/Git-MYTH-Mac/">Git</a></li>  <li class="file"><a href="/wiki/CS&EE/Git/">Git</a></li>  <li class="file"><a href="/wiki/CS&EE/Linux-MYTH-Mac/">Linux</a></li>  <li class="file"><a href="/wiki/CS&EE/Linux/">Linux</a></li>  <li class="file"><a href="/wiki/CS&EE/Script-MYTH-Mac/">Script</a></li>  <li class="file active"><a href="/wiki/CS&EE/Script/">Script</a></li>  <li class="file"><a href="/wiki/CS&EE/ML.DL-MYTH-Mac/">ML.DL</a></li>  <li class="file"><a href="/wiki/CS&EE/ML.DL/">ML.DL</a></li>  <li class="file"><a href="/wiki/CS&EE/Arduino-MYTH-Mac/">Arduino</a></li>  <li class="file"><a href="/wiki/CS&EE/Arduino/">Arduino</a></li>  <li class="file"><a href="/wiki/CS&EE/RaspberryPi/">RaspberryPi</a></li>  <li class="file"><a href="/wiki/CS&EE/RaspberryPi-MYTH-Mac/">RaspberryPi</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/wiki/CS&EE/C/">C</a></li>  <li class="file"><a href="/wiki/CS&EE/Git/">Git</a></li>  <li class="file"><a href="/wiki/CS&EE/Linux/">Linux</a></li>  <li class="file active"><a href="/wiki/CS&EE/Script/">Script</a></li>  <li class="file"><a href="/wiki/CS&EE/ML.DL/">ML.DL</a></li>  <li class="file"><a href="/wiki/CS&EE/Arduino/">Arduino</a></li>  <li class="file"><a href="/wiki/CS&EE/RaspberryPi/">RaspberryPi</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -319,11 +319,6 @@
         
         
             
-                <div id="toc" class="toc-article">
-                <strong class="toc-title">Catalogue</strong>
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Windows%E4%B8%8Abat%E6%89%B9%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">Windows上bat批处理命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E7%A9%BA%E6%A0%BC"><span class="toc-number">1.1.</span> <span class="toc-text">bat 批量删除文件名中的空格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%8B%AC%E5%8F%B7"><span class="toc-number">1.2.</span> <span class="toc-text">bat 批量删除文件名中的括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7%EF%BC%88%E4%BB%A5%E4%B8%8B%E5%B0%86%E2%80%9D-%E2%80%9D%E6%94%B9%E4%B8%BA%E2%80%9D-%E2%80%9D%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">bat 批量替换文件名中的特殊符号（以下将”_”改为”.”）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E7%BB%99%E6%96%87%E4%BB%B6%E5%90%8D%E6%B7%BB%E5%8A%A0%E5%89%8D%E7%BC%80%E5%AD%97%E7%AC%A6"><span class="toc-number">1.4.</span> <span class="toc-text">bat 批量给文件名添加前缀字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%90%8D%E7%9A%84%E6%9C%AB%E5%B0%BE%E5%AD%97%E7%AC%A6"><span class="toc-number">1.5.</span> <span class="toc-text">bat 批量删除文件名的末尾字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4-%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%9F%90%E4%BA%9B%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.6.</span> <span class="toc-text">bat 批量删除&#x2F;修改文件名中的某些字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E5%AF%B9%E6%96%87%E4%BB%B6%E5%90%8D%E9%87%8D%E5%91%BD%E5%90%8D"><span class="toc-number">1.7.</span> <span class="toc-text">bat 批量对文件名重命名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bat-%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D%E7%A7%B0%E4%B8%AD%E7%9A%84%E7%A9%BA%E6%A0%BC%E4%B8%BA%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6"><span class="toc-number">1.8.</span> <span class="toc-text">bat 批量替换文件夹名称中的空格为指定字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows%E4%B8%8A%E7%94%A8bat%E9%83%A8%E7%BD%B2Hexo%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.9.</span> <span class="toc-text">Windows上用bat部署Hexo博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mac%E4%B8%8A%E7%94%A8bash%E9%83%A8%E7%BD%B2Hexo%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.10.</span> <span class="toc-text">Mac上用bash部署Hexo博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#win7%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B3%A8%E5%85%A5USB3-0%E5%92%8Cnvme%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.11.</span> <span class="toc-text">win7原版镜像注入USB3.0和nvme驱动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%AE%A9PPT%E5%AF%BC%E5%87%BA%E7%9A%84%E5%9B%BE%E7%89%87%E5%88%86%E8%BE%A8%E7%8E%87%E8%BE%BE%E5%88%B0300dpi"><span class="toc-number">1.12.</span> <span class="toc-text">如何让PPT导出的图片分辨率达到300dpi</span></a></li></ol></li></ol>
-                </div>
-            
         
         
             <h2 id="Windows上bat批处理命令"><a href="#Windows上bat批处理命令" class="headerlink" title="Windows上bat批处理命令"></a>Windows上bat批处理命令</h2><h3 id="bat-批量删除文件名中的空格"><a href="#bat-批量删除文件名中的空格" class="headerlink" title="bat 批量删除文件名中的空格"></a>bat 批量删除文件名中的空格</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">Setlocal Enabledelayedexpansion</span><br><span class="line">set &quot;str&#x3D; &quot;</span><br><span class="line">for &#x2F;f &quot;delims&#x3D;&quot; %%i in (&#39;dir &#x2F;b *.*&#39;) do (</span><br><span class="line">set &quot;var&#x3D;%%i&quot; &amp; ren &quot;%%i&quot; &quot;!var:%str%&#x3D;!&quot;)</span><br></pre></td></tr></table></figure>
@@ -348,17 +343,17 @@
     
 <nav id="article-nav">
     
-        <a href="/wiki/CS&EE/Script-MYTH-Mac/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/wiki/CS&EE/ML.DL/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
-                    Script
+                    ML.DL
                 
             </div>
         </a>
     
     
-        <a href="/wiki/CS&EE/Linux-MYTH-Mac/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/wiki/CS&EE/Linux/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Older</strong>
             <div class="article-nav-title">Linux</div>
         </a>
