@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sunwucheng.com/wiki/Interest/Geography/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/Interest/History/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sunwucheng.com/wiki/CS&EE/Script/</loc>
     
     <lastmod>2023-11-19</lastmod>
@@ -47,13 +61,6 @@
     <loc>https://sunwucheng.com/wiki/CS&EE/Arduino/</loc>
     
     <lastmod>2023-11-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/Interest/History/</loc>
-    
-    <lastmod>2023-11-09</lastmod>
     
   </url>
   
@@ -132,14 +139,14 @@
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
+    <loc>https://sunwucheng.com/wiki/categories/Interest/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/categories/Interest/</loc>
+    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
