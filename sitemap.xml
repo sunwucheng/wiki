@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/CS&EE/RaspberryPi/</loc>
-    
-    <lastmod>2024-03-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://sunwucheng.com/wiki/index/</loc>
     
     <lastmod>2024-01-11</lastmod>
@@ -123,7 +116,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2024-03-31</lastmod>
+    <lastmod>2024-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -133,35 +126,35 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
-    <lastmod>2024-03-31</lastmod>
+    <lastmod>2024-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Interest/</loc>
-    <lastmod>2024-03-31</lastmod>
+    <lastmod>2024-04-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
+    <lastmod>2024-04-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/English/</loc>
+    <lastmod>2024-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2024-03-31</lastmod>
+    <lastmod>2024-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
