@@ -139,6 +139,13 @@
   </url>
   
   <url>
+    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sunwucheng.com/wiki/categories/English/</loc>
     <lastmod>2025-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -147,13 +154,6 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2025-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
     <lastmod>2025-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
