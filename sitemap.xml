@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sunwucheng.com/wiki/Materials/Materials/</loc>
+    <loc>https://sunwucheng.com/wiki/index/</loc>
     
-    <lastmod>2024-12-07</lastmod>
+    <lastmod>2025-01-10</lastmod>
     
   </url>
   
   <url>
-    <loc>https://sunwucheng.com/wiki/index/</loc>
+    <loc>https://sunwucheng.com/wiki/Materials/Materials/</loc>
     
-    <lastmod>2024-10-22</lastmod>
+    <lastmod>2024-12-07</lastmod>
     
   </url>
   
@@ -123,7 +123,7 @@
 
   <url>
     <loc>https://sunwucheng.com/wiki</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -133,35 +133,35 @@
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/CS-EE/</loc>
-    <lastmod>2025-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/English/</loc>
-    <lastmod>2025-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://sunwucheng.com/wiki/categories/Interest/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Materials/</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sunwucheng.com/wiki/categories/Research/</loc>
+    <lastmod>2025-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
